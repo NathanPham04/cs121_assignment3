@@ -42,6 +42,8 @@ def parse_file(path: str) -> str:
 
         # TODO: handle titles and headings differently
 
+        # TODO: handle near and exact duplicates
+
         return soup.get_text()
 
 # Tokenize text into lowercase alphanumeric tokens
