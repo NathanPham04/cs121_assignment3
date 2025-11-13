@@ -8,15 +8,20 @@ from collections import defaultdict
 
 def main():
     inverted_index = defaultdict(list)
-    filepaths = get_json_files(".")
+    filepaths = get_json_files("./ANALYST")
 
     for doc_id, filepath in enumerate(filepaths):
         file_contents = parse_file(filepath)
+
+        if parse_file == "":
+            continue
 
         tokens = tokenize(file_contents)
         stems = [porter_stem(token) for token in tokens]
 
         update_index(inverted_index, doc_id, stems)
+
+    print(len(inverted_index))
 
     # write to file
     with open("tmp.txt", "w") as file:
@@ -24,7 +29,7 @@ def main():
             docs.sort()
 
             file.write(f"{stem}:{docs}\n")
-            print(f"{stem}: {docs}")
+            # print(f"{stem}: {docs}")
 
 # Retrieves all .json filenames from the given directory
 def get_json_files(dir: str) -> list[str]:
