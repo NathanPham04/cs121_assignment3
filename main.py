@@ -30,7 +30,7 @@ def get_json_files(dir: str) -> list[str]:
     pass
 
 # Use beautifulsoup to parse files in a directory and return their text content
-def parse_file(path: list[str]) -> str:
+def parse_file(path: str) -> str:
     with open(path, "r") as f:
         data = json.load(f)
 
@@ -38,7 +38,9 @@ def parse_file(path: list[str]) -> str:
         encoding = data["encoding"]
         content = data["content"]
 
-        soup = BeautifulSoup(content, "html.parser")
+        soup = BeautifulSoup(content, "lxml")
+
+        # TODO: handle titles and headings differently
 
         return soup.get_text()
 
