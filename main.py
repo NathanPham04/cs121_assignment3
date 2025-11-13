@@ -1,9 +1,9 @@
 # poop fart
-from typing import DefaultDict
+from collections import defaultdict
 
 
 def main():
-    inverted_index = DefaultDict(list)
+    inverted_index = defaultdict(list)
     file_texts = parse_files(".")
 
     for doc_id, file in enumerate(file_texts):
@@ -83,8 +83,12 @@ def porter_stem(word):
 
 # Take in list of stemmed tokens and update inverted index
 def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
+    freq_map = defaultdict(int)
     for stem in stems:
-        inverted_index[stem].append(doc_id)
+        freq_map[stem] += 1
+
+    for stem, freq in freq_map.items():
+        inverted_index[stem].append((doc_id, freq))
 
 
 if __name__ == "__main__":
