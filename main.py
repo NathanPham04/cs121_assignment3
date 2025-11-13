@@ -21,11 +21,11 @@ def main():
             print(f"{stem}: {docs}")
 
 # Use beautifulsoup to parse files in a directory and return their text content
-def parse_files(path:str) -> list[str]:
+def parse_files(path:str):
     pass
 
 # Take text and return list of tokens
-def tokenize(text:str):
+def tokenize(text:str) -> list[str]:
     # simple whitespace tokenizer
     return text.split()
 
