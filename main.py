@@ -20,16 +20,20 @@ def main():
             file.write(f"{stem}:{docs}\n")
             print(f"{stem}: {docs}")
 
+# Use beautifulsoup to parse files in a directory and return their text content
 def parse_files(path:str) -> list[str]:
     pass
 
+# Take text and return list of tokens
 def tokenize(text:str):
     # simple whitespace tokenizer
     return text.split()
 
-def stem(token:str):  # use porter stemming
+# Use porter stemming
+def stem(token:str):  
     pass
 
+# Take in list of stemmed tokens and update inverted index
 def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
     for stem in stems:
         inverted_index[stem].append(doc_id)
