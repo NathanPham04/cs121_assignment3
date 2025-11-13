@@ -42,19 +42,14 @@ def parse_file(path: list[str]) -> str:
 
         return soup.get_text()
 
-# Time: O(n) where n = number of characters in file (single pass).
-# Space: O(t) to store all tokens in a list (t = number of tokens).
-def tokenize(text: str) -> list:
-    """
-    Reads a text file and returns a list of lowercase alphanumeric tokens.  
-    Non-alphanumeric characters act as delimiters.
-    """
+# Tokenize text into lowercase alphanumeric tokens
+def tokenize(text: str) -> list[str]:
     tokens = []
     current_token = []
     
     for line in text:
         for ch in line:
-            if ch.isalnum():
+            if (ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
                 current_token.append(ch.lower())
             else:
                 if current_token:
@@ -64,6 +59,8 @@ def tokenize(text: str) -> list:
         tokens.append(''.join(current_token))
     return tokens
 
+
+# ---------------------------------------Helpers for Porter Stemming----------------------------------------
 def is_vowel(ch):
     return ch in "aeiou"
 
@@ -72,6 +69,7 @@ def contains_vowel(word):
 
 def ends_with_double_consonant(word):
     return len(word) > 1 and word[-1] == word[-2] and not is_vowel(word[-1])
+# ----------------------------------------------------------------------------------------------------------
 
 def porter_stem(word):
     w = word.lower()
