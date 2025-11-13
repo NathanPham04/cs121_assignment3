@@ -24,10 +24,27 @@ def main():
 def parse_files(path:str):
     pass
 
-# Take text and return list of tokens
-def tokenize(text:str) -> list[str]:
-    # simple whitespace tokenizer
-    return text.split()
+# Time: O(n) where n = number of characters in file (single pass).
+# Space: O(t) to store all tokens in a list (t = number of tokens).
+def tokenize(text: str) -> list:
+    """
+    Reads a text file and returns a list of lowercase alphanumeric tokens.  
+    Non-alphanumeric characters act as delimiters.
+    """
+    tokens = []
+    current_token = []
+    
+    for line in text:
+        for ch in line:
+            if ch.isalnum():
+                current_token.append(ch.lower())
+            else:
+                if current_token:
+                    tokens.append(''.join(current_token))
+                    current_token.clear()
+    if current_token:
+        tokens.append(''.join(current_token))
+    return tokens
 
 # Use porter stemming
 def stem(token:str):  
