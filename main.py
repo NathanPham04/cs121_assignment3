@@ -14,7 +14,7 @@ def main():
         file_contents = parse_file(filepath)
 
         tokens = tokenize(file_contents)
-        stems = [stem(token) for token in tokens]
+        stems = [porter_stem(token) for token in tokens]
 
         update_index(inverted_index, doc_id, stems)
 
@@ -48,6 +48,8 @@ def parse_file(path: str) -> str:
         soup = BeautifulSoup(content, "lxml")
 
         # TODO: handle titles and headings differently
+
+        # TODO: handle near and exact duplicates
 
         return soup.get_text()
 
