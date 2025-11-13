@@ -1,14 +1,19 @@
 # poop fart
+import json
+
+from bs4 import BeautifulSoup
 from collections import defaultdict
 
 
 def main():
     inverted_index = defaultdict(list)
-    file_texts = parse_files(".")
+    filepaths = get_json_files(".")
 
-    for doc_id, file in enumerate(file_texts):
-        tokens = tokenize(file)
-        stems = [porter_stem(token) for token in tokens]
+    for doc_id, filepath in enumerate(filepaths):
+        file_contents = parse_file(filepath)
+
+        tokens = tokenize(file_contents)
+        stems = [stem(token) for token in tokens]
 
         update_index(inverted_index, doc_id, stems)
 
@@ -20,9 +25,22 @@ def main():
             file.write(f"{stem}:{docs}\n")
             print(f"{stem}: {docs}")
 
-# Use beautifulsoup to parse files in a directory and return their text content
-def parse_files(path:str):
+# Retrieves all .json filenames from the given directory
+def get_json_files(dir: str) -> list[str]:
     pass
+
+# Use beautifulsoup to parse files in a directory and return their text content
+def parse_file(path: list[str]) -> str:
+    with open(path, "r") as f:
+        data = json.load(f)
+
+        url = data["url"]
+        encoding = data["encoding"]
+        content = data["content"]
+
+        soup = BeautifulSoup(content, "html.parser")
+
+        return soup.get_text()
 
 # Tokenize text into lowercase alphanumeric tokens
 def tokenize(text: str) -> list[str]:
