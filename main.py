@@ -1,4 +1,5 @@
 # poop fart
+import os
 import json
 
 from bs4 import BeautifulSoup
@@ -27,7 +28,13 @@ def main():
 
 # Retrieves all .json filenames from the given directory
 def get_json_files(dir: str) -> list[str]:
-    pass
+    json_files = []
+    for root, _, files in os.walk(dir):
+        for f in files:
+            if f.endswith('.json'):
+                json_files.append(os.path.join(root, f))
+    return json_files
+
 
 # Use beautifulsoup to parse files in a directory and return their text content
 def parse_file(path: str) -> str:
