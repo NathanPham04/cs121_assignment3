@@ -1,18 +1,19 @@
-# poop fart
 import os
 import json
-
 from bs4 import BeautifulSoup
 from collections import defaultdict
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
-# Download required NLTK data
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
 
-seen_ngram_sets = []
+seen_documents = []
+tfidf_vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
 
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
@@ -22,7 +23,7 @@ near_duplicates_skipped = 0
 def main():
     inverted_index = defaultdict(list)
     document_id_map = {}
-    filepaths = get_json_files("./DEV")
+    filepaths = get_json_files("./ANALYST")
     stemmer = PorterStemmer()
     global num_documents_indexed
     global hashed_seen_content_for_exact_duplicates
@@ -66,7 +67,7 @@ def main():
         json.dump(document_id_map, file, indent=4)
 
     # Write out the report for assignment 1
-    with open("assignment1_report.txt", "w") as report:
+    with open("assignment3_report.txt", "w") as report:
         report.write(f"Number of documents indexed: {num_documents_indexed}\n")
         report.write(f"Number of unique tokens: {len(inverted_index)}\n")
         report.write(f"Size of index on disk: {get_index_size_on_disk_in_kb('index.txt')} KB\n")
@@ -108,36 +109,32 @@ def tokenize(text: str) -> list[str]:
     return [token for token in tokens if token.isalnum()]
 
 
-# ---------------------------------------Jaccard Similarity----------------------------------------
-
-def jaccard_similarity(set1, set2):
-        """
-        adapted from https://www.geeksforgeeks.org/data-science/how-to-calculate-jaccard-similarity-in-python/
-        """
-        union = set1.union(set2)
-        if not union:
-            return 0.0
-        intersection = set1.intersection(set2)
-        return len(intersection) / len(union)
-        
-# https://medium.com/data-science/text-analysis-basics-in-python-443282942ec5
-def similar_to_seen(text: list[str], threshold:float=0.90):
-    global seen_ngram_sets
-
-    # helper for making n-grams
-    def make_ngrams(word_list, n=7):
-        return set(" ".join(word_list[i:i+n]) for i in range(len(word_list) - n + 1))
+def similar_to_seen(text: list[str], threshold: float = 0.85):
+    global seen_documents, tfidf_vectorizer
     
-    current_ngrams = make_ngrams(text)
-
-     # Compare against previously seen pages
-    for prior_ngrams in seen_ngram_sets:
-        similarity_score = jaccard_similarity(current_ngrams, prior_ngrams)
-        if similarity_score > threshold:  # similarity threshold
-            return True  
-
-    # otherwise, store this page’s n-gram set for future comparisons
-    seen_ngram_sets.append(current_ngrams)
+    current_text = " ".join(text)
+    
+    if not seen_documents:
+        seen_documents.append(current_text)
+        return False
+    
+    # Create corpus with current text and all seen documents
+    corpus = seen_documents + [current_text]
+    
+    # Compute TF-IDF vectors
+    tfidf_matrix = tfidf_vectorizer.fit_transform(corpus)
+    
+    # Get similarity between current document and all previous documents
+    current_vector = tfidf_matrix[-1]
+    previous_vectors = tfidf_matrix[:-1]
+    
+    similarities = cosine_similarity(current_vector, previous_vectors).flatten()
+    
+    # Check if any similarity exceeds threshold
+    if np.max(similarities) > threshold:
+        return True
+    
+    seen_documents.append(current_text)
     return False
 
 # Take in list of stemmed tokens and update inverted index
