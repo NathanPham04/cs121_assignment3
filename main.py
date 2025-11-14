@@ -7,12 +7,14 @@ from collections import defaultdict
 
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
+exact_duplicates_skipped = 0
 
 def main():
     inverted_index = defaultdict(list)
     filepaths = get_json_files("./ANALYST")
     global num_documents_indexed
     global hashed_seen_content_for_exact_duplicates
+    global exact_duplicates_skipped
 
     for doc_id, filepath in enumerate(filepaths):
         file_contents = parse_file(filepath)
@@ -20,6 +22,7 @@ def main():
         # Check for exact duplicates here by hashing all content
         hashed_content = hash(file_contents)
         if hashed_content in hashed_seen_content_for_exact_duplicates:
+            exact_duplicates_skipped += 1
             continue
         else:
             hashed_seen_content_for_exact_duplicates.add(hashed_content)
@@ -46,6 +49,10 @@ def main():
         report.write(f"Number of documents indexed: {num_documents_indexed}\n")
         report.write(f"Number of unique tokens: {len(inverted_index)}\n")
         report.write(f"Size of index on disk: {get_index_size_on_disk_in_kb('index.txt')} KB\n")
+
+        report.write("\n\nAdditional Statistics:\n")
+        report.write(f"Number of exact duplicate documents skipped: {exact_duplicates_skipped}\n")
+
 
 # Retrieves all .json filenames from the given directory
 def get_json_files(dir: str) -> list[str]:
