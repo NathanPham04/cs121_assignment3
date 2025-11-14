@@ -5,31 +5,47 @@ import json
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
+hashed_seen_content_for_exact_duplicates = set()
+num_documents_indexed = 0
 
 def main():
     inverted_index = defaultdict(list)
     filepaths = get_json_files("./ANALYST")
+    global num_documents_indexed
+    global hashed_seen_content_for_exact_duplicates
 
     for doc_id, filepath in enumerate(filepaths):
         file_contents = parse_file(filepath)
 
-        if parse_file == "":
+        # Check for exact duplicates here by hashing all content
+        hashed_content = hash(file_contents)
+        if hashed_content in hashed_seen_content_for_exact_duplicates:
             continue
+        else:
+            hashed_seen_content_for_exact_duplicates.add(hashed_content)
 
         tokens = tokenize(file_contents)
+
+        # Check for near duplicates here (TODO)
+
         stems = [porter_stem(token) for token in tokens]
 
         update_index(inverted_index, doc_id, stems)
+        num_documents_indexed += 1
 
-    print(len(inverted_index))
-
-    # write to file
-    with open("tmp.txt", "w") as file:
+    # write to file the index
+    with open("index.txt", "w") as file:
         for stem, docs in sorted(inverted_index.items()):
             docs.sort()
 
             file.write(f"{stem}:{docs}\n")
             # print(f"{stem}: {docs}")
+
+    # Write out the report for assignment 1
+    with open("assignment1_report.txt", "w") as report:
+        report.write(f"Number of documents indexed: {num_documents_indexed}\n")
+        report.write(f"Number of unique tokens: {len(inverted_index)}\n")
+        report.write(f"Size of index on disk: {get_index_size_on_disk_in_kb('index.txt')} KB\n")
 
 # Retrieves all .json filenames from the given directory
 def get_json_files(dir: str) -> list[str]:
@@ -139,6 +155,8 @@ def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
     for stem, freq in freq_map.items():
         inverted_index[stem].append((doc_id, freq))
 
+def get_index_size_on_disk_in_kb(index_filepath: str) -> int:
+    return os.path.getsize(index_filepath) // 1024
 
 if __name__ == "__main__":
     main()
