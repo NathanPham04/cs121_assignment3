@@ -1,22 +1,37 @@
 # poop fart
 import os
 import json
+from tqdm import tqdm
 
 from bs4 import BeautifulSoup
 from collections import defaultdict
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
+
+# Download required NLTK data
+nltk.download('punkt', quiet=True)
+
+seen_ngram_sets = []
+skipped = 0
+total_pages = 0
 
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
 exact_duplicates_skipped = 0
 
 def main():
+    global skipped
+    global total_pages
     inverted_index = defaultdict(list)
     filepaths = get_json_files("./ANALYST")
+    stemmer = PorterStemmer()
     global num_documents_indexed
     global hashed_seen_content_for_exact_duplicates
     global exact_duplicates_skipped
 
-    for doc_id, filepath in enumerate(filepaths):
+    for doc_id, filepath in tqdm(enumerate(filepaths)):
+        total_pages += 1
         file_contents = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
@@ -28,6 +43,11 @@ def main():
             hashed_seen_content_for_exact_duplicates.add(hashed_content)
 
         tokens = tokenize(file_contents)
+        stems = [stemmer.stem(token) for token in tokens]
+
+        if len(stems) > 50 and similar_to_seen(stems):
+            skipped += 1
+            continue
 
         stems = [porter_stem(token) for token in tokens]
 
@@ -66,6 +86,7 @@ def get_json_files(dir: str) -> list[str]:
 
 # Use beautifulsoup to parse files in a directory and return their text content
 def parse_file(path: str) -> str:
+    global skipped
     with open(path, "r") as f:
         data = json.load(f)
 
@@ -81,77 +102,43 @@ def parse_file(path: str) -> str:
 
         return soup.get_text()
 
-# Tokenize text into lowercase alphanumeric tokens
+# Tokenize text using NLTK
 def tokenize(text: str) -> list[str]:
-    tokens = []
-    current_token = []
+    tokens = word_tokenize(text.lower())
+    return [token for token in tokens if token.isalnum()]
+
+
+# ---------------------------------------Jaccard Similarity----------------------------------------
+
+def jaccard_similarity(set1, set2):
+        """
+        adapted from https://www.geeksforgeeks.org/data-science/how-to-calculate-jaccard-similarity-in-python/
+        """
+        union = set1.union(set2)
+        if not union:
+            return 0.0
+        intersection = set1.intersection(set2)
+        return len(intersection) / len(union)
+        
+# https://medium.com/data-science/text-analysis-basics-in-python-443282942ec5
+def similar_to_seen(text: list[str], threshold:int=0.90):
+    global seen_ngram_sets
+
+    # helper for making n-grams
+    def make_ngrams(word_list, n=7):
+        return set(" ".join(word_list[i:i+n]) for i in range(len(word_list) - n + 1))
     
-    for line in text:
-        for ch in line:
-            if (ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
-                current_token.append(ch.lower())
-            else:
-                if current_token:
-                    tokens.append(''.join(current_token))
-                    current_token.clear()
-    if current_token:
-        tokens.append(''.join(current_token))
-    return tokens
+    current_ngrams = make_ngrams(text)
 
+     # Compare against previously seen pages
+    for prior_ngrams in seen_ngram_sets:
+        similarity_score = jaccard_similarity(current_ngrams, prior_ngrams)
+        if similarity_score > threshold:  # similarity threshold
+            return True  
 
-# ---------------------------------------Helpers for Porter Stemming----------------------------------------
-def is_vowel(ch):
-    return ch in "aeiou"
-
-def contains_vowel(word):
-    return any(is_vowel(c) for c in word)
-
-def ends_with_double_consonant(word):
-    return len(word) > 1 and word[-1] == word[-2] and not is_vowel(word[-1])
-# ----------------------------------------------------------------------------------------------------------
-
-def porter_stem(word):
-    w = word.lower()
-
-    # --- Step 1a ---
-    if w.endswith("sses"):
-        w = w[:-2]                      # stresses → stress
-    elif w.endswith("ied") or w.endswith("ies"):
-        if len(w) > 4:
-            w = w[:-3] + "i"            # cries → cri, ties → tie
-        else:
-            w = w[:-3] + "ie"           # cried → crie
-    elif w.endswith("ss") or w.endswith("us"):
-        pass                            # stress → stress
-    elif w.endswith("s"):
-        stem = w[:-1]
-        if contains_vowel(stem):
-            w = stem                    # gaps → gap
-
-    # --- Step 1b ---
-    if w.endswith("eed") or w.endswith("eedly"):
-        stem = w[:-3] if w.endswith("eed") else w[:-5]
-        # Replace if there's a vowel before the last consonant cluster
-        # (simplified: just always replace)
-        w = stem + "ee"
-    else:
-        suffixes = ["ed", "edly", "ing", "ingly"]
-        for suf in suffixes:
-            if w.endswith(suf):
-                stem = w[:-len(suf)]
-                if contains_vowel(stem):
-                    w = stem
-                    # post-processing rules
-                    if w.endswith(("at", "bl", "iz")):
-                        w += "e"
-                    elif ends_with_double_consonant(w) and w[-1] not in ("l", "s", "z"):
-                        w = w[:-1]
-                    elif len(w) <= 3:    # short word rule (approx)
-                        w += "e"
-                break
-
-    return w
-
+    # otherwise, store this page’s n-gram set for future comparisons
+    seen_ngram_sets.append(current_ngrams)
+    return False
 
 # Take in list of stemmed tokens and update inverted index
 def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
@@ -167,3 +154,5 @@ def get_index_size_on_disk_in_kb(index_filepath: str) -> int:
 
 if __name__ == "__main__":
     main()
+    print(f"total pages visited: {total_pages}")
+    print(f"number of pages skipepd: {skipped}")
