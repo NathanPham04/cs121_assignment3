@@ -29,9 +29,9 @@ def main():
 
         tokens = tokenize(file_contents)
 
-        # Check for near duplicates here (TODO)
-
         stems = [porter_stem(token) for token in tokens]
+
+        # Check for near duplicates here (TODO)
 
         update_index(inverted_index, doc_id, stems)
         num_documents_indexed += 1
