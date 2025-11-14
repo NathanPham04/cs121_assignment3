@@ -1,7 +1,6 @@
 # poop fart
 import os
 import json
-from tqdm import tqdm
 
 from bs4 import BeautifulSoup
 from collections import defaultdict
@@ -11,9 +10,9 @@ from nltk.stem import PorterStemmer
 
 # Download required NLTK data
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 seen_ngram_sets = []
-skipped = 0
 
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
@@ -22,14 +21,15 @@ near_duplicates_skipped = 0
 
 def main():
     inverted_index = defaultdict(list)
-    filepaths = get_json_files("./ANALYST")
+    document_id_map = {}
+    filepaths = get_json_files("./DEV")
     stemmer = PorterStemmer()
     global num_documents_indexed
     global hashed_seen_content_for_exact_duplicates
     global exact_duplicates_skipped
     global near_duplicates_skipped
 
-    for doc_id, filepath in tqdm(enumerate(filepaths)):
+    for doc_id, filepath in enumerate(filepaths):
         file_contents = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
@@ -51,6 +51,7 @@ def main():
             continue
 
         update_index(inverted_index, doc_id, stems)
+        document_id_map[doc_id] = filepath
         num_documents_indexed += 1
 
     # write to file the index
@@ -59,6 +60,10 @@ def main():
             docs.sort()
 
             file.write(f"{stem}:{docs}\n")
+
+    # write to file the document id map
+    with open("doc_id_map.json", "w") as file:
+        json.dump(document_id_map, file, indent=4)
 
     # Write out the report for assignment 1
     with open("assignment1_report.txt", "w") as report:
@@ -69,6 +74,7 @@ def main():
         report.write("\n\nAdditional Statistics:\n")
         report.write(f"Number of exact duplicate documents skipped: {exact_duplicates_skipped}\n")
         report.write(f"Number of near duplicate documents skipped: {near_duplicates_skipped}\n")
+
 
 
 # Retrieves all .json filenames from the given directory
@@ -83,7 +89,6 @@ def get_json_files(dir: str) -> list[str]:
 
 # Use beautifulsoup to parse files in a directory and return their text content
 def parse_file(path: str) -> str:
-    global skipped
     with open(path, "r") as f:
         data = json.load(f)
 
