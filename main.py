@@ -14,24 +14,22 @@ nltk.download('punkt', quiet=True)
 
 seen_ngram_sets = []
 skipped = 0
-total_pages = 0
 
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
 exact_duplicates_skipped = 0
+near_duplicates_skipped = 0
 
 def main():
-    global skipped
-    global total_pages
     inverted_index = defaultdict(list)
     filepaths = get_json_files("./ANALYST")
     stemmer = PorterStemmer()
     global num_documents_indexed
     global hashed_seen_content_for_exact_duplicates
     global exact_duplicates_skipped
+    global near_duplicates_skipped
 
     for doc_id, filepath in tqdm(enumerate(filepaths)):
-        total_pages += 1
         file_contents = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
@@ -43,15 +41,14 @@ def main():
             hashed_seen_content_for_exact_duplicates.add(hashed_content)
 
         tokens = tokenize(file_contents)
+
+        # Porter stemming
         stems = [stemmer.stem(token) for token in tokens]
 
+        # Check for near duplicates here
         if len(stems) > 50 and similar_to_seen(stems):
-            skipped += 1
+            near_duplicates_skipped += 1
             continue
-
-        stems = [porter_stem(token) for token in tokens]
-
-        # Check for near duplicates here (TODO)
 
         update_index(inverted_index, doc_id, stems)
         num_documents_indexed += 1
@@ -62,7 +59,6 @@ def main():
             docs.sort()
 
             file.write(f"{stem}:{docs}\n")
-            # print(f"{stem}: {docs}")
 
     # Write out the report for assignment 1
     with open("assignment1_report.txt", "w") as report:
@@ -72,6 +68,7 @@ def main():
 
         report.write("\n\nAdditional Statistics:\n")
         report.write(f"Number of exact duplicate documents skipped: {exact_duplicates_skipped}\n")
+        report.write(f"Number of near duplicate documents skipped: {near_duplicates_skipped}\n")
 
 
 # Retrieves all .json filenames from the given directory
@@ -98,8 +95,6 @@ def parse_file(path: str) -> str:
 
         # TODO: handle titles and headings differently
 
-        # TODO: handle near and exact duplicates
-
         return soup.get_text()
 
 # Tokenize text using NLTK
@@ -121,7 +116,7 @@ def jaccard_similarity(set1, set2):
         return len(intersection) / len(union)
         
 # https://medium.com/data-science/text-analysis-basics-in-python-443282942ec5
-def similar_to_seen(text: list[str], threshold:int=0.90):
+def similar_to_seen(text: list[str], threshold:float=0.90):
     global seen_ngram_sets
 
     # helper for making n-grams
@@ -154,5 +149,3 @@ def get_index_size_on_disk_in_kb(index_filepath: str) -> int:
 
 if __name__ == "__main__":
     main()
-    print(f"total pages visited: {total_pages}")
-    print(f"number of pages skipepd: {skipped}")
