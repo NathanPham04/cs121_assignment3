@@ -30,7 +30,7 @@ def main():
     global near_duplicates_skipped
 
     for doc_id, filepath in enumerate(filepaths):
-        file_contents = parse_file(filepath)
+        file_contents, url = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
         hashed_content = hash(file_contents)
@@ -51,7 +51,7 @@ def main():
             continue
 
         update_index(inverted_index, doc_id, stems)
-        document_id_map[doc_id] = filepath
+        document_id_map[doc_id] = url
         num_documents_indexed += 1
 
     # write to file the index
@@ -88,7 +88,7 @@ def get_json_files(dir: str) -> list[str]:
 
 
 # Use beautifulsoup to parse files in a directory and return their text content
-def parse_file(path: str) -> str:
+def parse_file(path: str) -> tuple[str, str]:
     with open(path, "r") as f:
         data = json.load(f)
 
@@ -100,7 +100,7 @@ def parse_file(path: str) -> str:
 
         # TODO: handle titles and headings differently
 
-        return soup.get_text()
+        return (soup.get_text(), url)
 
 # Tokenize text using NLTK
 def tokenize(text: str) -> list[str]:
