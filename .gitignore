@@ -3,3 +3,6 @@ developer.zip
 /ANALYST
 /DEV
 .DS_Store
+index.txt
+full_index.json
+full_index_sorted.json
