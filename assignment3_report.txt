@@ -1,0 +1,8 @@
+Number of documents indexed: 44845
+Number of unique tokens: 736646
+Size of index on disk: 373644 KB
+
+
+Additional Statistics:
+Number of exact duplicate documents skipped: 4788
+Number of near duplicate documents skipped: 5760
