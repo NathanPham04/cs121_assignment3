@@ -84,6 +84,16 @@ def intersect_postings(posting1, posting2):
 
     return (term1, result)
 
+def score_query(query_tokens, inverted_index):
+    scores = defaultdict(float)
+
+    for token in query_tokens:
+        if token in inverted_index:
+            postings = inverted_index[token]
+            for doc_id, weight in postings:
+                scores[doc_id] += weight
+
+    return dict(scores)
 
 if __name__ == '__main__':
     search_query()

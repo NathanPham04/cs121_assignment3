@@ -214,18 +214,7 @@ def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
     for stem, freq in freq_map.items():
         # Apply log-frequency weighting
         weight = 1 + math.log10(freq)
-        inverted_index[stem].append((doc_id, freq))
-
-def score_query(query_tokens, inverted_index):
-    scores = defaultdict(float)
-
-    for token in query_tokens:
-        if token in inverted_index:
-            postings = inverted_index[token]
-            for doc_id, weight in postings:
-                scores[doc_id] += weight
-
-    return dict(scores)
+        inverted_index[stem].append((doc_id, weight))
 
 def get_index_size_on_disk_in_kb(index_filepath: str) -> int:
     return os.path.getsize(index_filepath) // 1024
