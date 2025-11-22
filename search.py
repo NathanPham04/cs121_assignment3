@@ -50,7 +50,7 @@ def get_postings_from_full_index(term: str, inverted_index) -> list[int]:
 
 # Performs a boolean AND search on the sorted postings lists and returns the dict of term: list of (doc_id, frequency) tuples and idf weights
 # Input: [(term, [(doct_id, frequency), ...]), ...]
-# Output: dict of term: list of (doc_id, frequency) tuples, dict of term: idf weight
+# Output: {term: [(doc_id, frequency), ...]}, {term: idf weight}
 def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[dict[str, list[tuple[int, int]]], dict[str, float]]:
     if not sorted_postings:
         return {}, {}
