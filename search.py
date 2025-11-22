@@ -16,7 +16,6 @@ def search_query():
         print("No documents found matching the query for boolean retrieval.")
         return
     intersected_postings, idf_dict = boolean_AND_search(sorted_postings)
-    score_query(intersected_postings, idf_dict)
     sorted_doc_scores = sorted(score_query(intersected_postings, idf_dict).items(), key=lambda x: x[1], reverse=True)
     for doc_id, score in sorted_doc_scores[:5]:
         print(f"Document ID: {doc_id}, Score: {score}")
