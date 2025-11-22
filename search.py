@@ -59,18 +59,18 @@ def get_postings_from_full_index(term: str, inverted_index) -> list[tuple[int, i
 # Output: {term: [(doc_id, frequency), ...]}, {term: idf weight}
 def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[list[tuple[str, list[tuple[int, int]]]], dict[str, float]]:
     if not sorted_postings:
-        return {}, {}
+        return [], {}
+
+    # Calculate IDF weights
+    idf_dict = dict()
+    for term, postings in sorted_postings:
+        idf_dict[term] = math.log(CORPUS_SIZE / len(postings))
 
     # Get intersect of all documents in postings
     documents = intersect_documents(sorted_postings)
 
     # Create new list with only intersected
     intersect_postings = filter_postings(sorted_postings, documents)
-
-    # Calculate IDF weights
-    idf_dict = dict()
-    for term, postings in intersect_postings:
-        idf_dict[term] = math.log(CORPUS_SIZE / len(postings))
 
     return intersect_postings, idf_dict
 
