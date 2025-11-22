@@ -1,6 +1,7 @@
 from nltk.stem import PorterStemmer
 import json
 import math
+from collections import defaultdict
 
 CORPUS_SIZE = 44845
 
@@ -84,16 +85,26 @@ def intersect_postings(posting1, posting2):
 
     return (term1, result)
 
-def score_query(query_tokens, inverted_index):
-    scores = defaultdict(float)
+def score_query(sorted_postings, idf_dict):
+    doc_scores = defaultdict(float)
 
-    for token in query_tokens:
-        if token in inverted_index:
-            postings = inverted_index[token]
-            for doc_id, weight in postings:
-                scores[doc_id] += weight
+    for term, posting_list in sorted_postings:
+        if term not in idf_dict:
+            continue
+        
+        idf_t = idf_dict[term]
 
-    return dict(scores)
+        for doc_id, tf_td in posting_list:
+            # tf weight: (1 + log(tf))
+            tf_weight = 1 + math.log(tf_td)
+
+            # w_{t,d} = (1 + log(tf)) * idf_t
+            w_t_d = tf_weight * idf_t
+
+            # accumulate doc score
+            doc_scores[doc_id] += w_t_d
+
+    return dict(doc_scores)
 
 if __name__ == '__main__':
     search_query()

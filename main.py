@@ -8,7 +8,6 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-import math
 
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
@@ -212,9 +211,7 @@ def update_index(inverted_index:dict, doc_id:int, stems:list[str]):
         freq_map[stem] += 1
 
     for stem, freq in freq_map.items():
-        # Apply log-frequency weighting
-        weight = 1 + math.log10(freq)
-        inverted_index[stem].append((doc_id, weight))
+        inverted_index[stem].append((doc_id, freq))
 
 def get_index_size_on_disk_in_kb(index_filepath: str) -> int:
     return os.path.getsize(index_filepath) // 1024
