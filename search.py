@@ -6,7 +6,7 @@ from collections import defaultdict
 CORPUS_SIZE = 44845
 
 def search_query():
-    query = input("Enter your search query: ")
+    query = input("Enter your search query: ").lower()
     stemmed_query = stem_query(query)
     print("Stemmed Query:", stemmed_query)
     sorted_postings, all_terms_found = get_postings(stemmed_query, partial_indexes=False)
