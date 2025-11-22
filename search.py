@@ -57,39 +57,43 @@ def get_postings_from_full_index(term: str, inverted_index) -> list[tuple[int, i
 # Performs a boolean AND search on the sorted postings lists and returns the dict of term: list of (doc_id, frequency) tuples and idf weights
 # Input: [(term, [(doct_id, frequency), ...]), ...]
 # Output: {term: [(doc_id, frequency), ...]}, {term: idf weight}
-def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[dict[str, list[tuple[int, int]]], dict[str, float]]:
+def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[list[tuple[str, list[tuple[int, int]]]], dict[str, float]]:
     if not sorted_postings:
         return {}, {}
 
+    # Get intersect of all documents in postings
+    documents = intersect_documents(sorted_postings)
+
+    # Create new list with only intersected
+    intersect_postings = filter_postings(sorted_postings, documents)
+
+    # Calculate IDF weights
     idf_dict = dict()
-    for term, posting in sorted_postings:
-        idf_dict[term] = math.log(CORPUS_SIZE / len(posting)) if len(posting) > 0 else 0.0
+    for term, postings in intersect_postings:
+        idf_dict[term] = math.log(CORPUS_SIZE / len(postings))
 
-    base_posting = sorted_postings[0]
-    for posting in sorted_postings[1:]:
-        base_posting = intersect_postings(base_posting, posting)
+    return intersect_postings, idf_dict
+
+def intersect_documents(indexes: list[tuple[str, list[tuple[int, int]]]]) -> set[int]:
+    if not indexes:
+        return set()
     
+    docs = set([posting[0] for posting in indexes[0][1]])
 
-    return base_posting, idf_dict
+    for _, postings in indexes[1:]:
+        term_docs = set([posting[0] for posting in postings])
+        docs &= term_docs
+    
+    return docs
 
-def intersect_postings(posting1, posting2):
-    term1, list1 = posting1
-    term2, list2 = posting2
-
-    result = []
-    i = j = 0
-
-    while i < len(list1) and j < len(list2):
-        if list1[i] == list2[j]:
-            result.append(list1[i])
-            i += 1
-            j += 1
-        elif list1[i] < list2[j]:
-            i += 1
-        else:
-            j += 1
-
-    return (term1, result)
+def filter_postings(sorted_postings: list[tuple[str, list[tuple[int, int]]]], valid_docs: set[int]) -> list[tuple[str, list[tuple[int, int]]]]:
+    filtered_postings = []
+    for term, postings in sorted_postings:
+        filtered_list = [posting for posting in postings if posting[0] in valid_docs]
+        if filtered_list:
+            filtered_postings.append((term, filtered_list))
+    return filtered_postings
+    
 
 def score_query(sorted_postings, idf_dict):
     doc_scores = defaultdict(float)
