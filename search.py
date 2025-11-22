@@ -2,12 +2,14 @@ from nltk.stem import PorterStemmer
 import json
 import math
 from collections import defaultdict
+from main import tokenize
 
 CORPUS_SIZE = 44845
 
 def search_query():
-    query = input("Enter your search query: ").lower()
-    stemmed_query = stem_query(query)
+    tokenized_query = tokenize(input("Enter your search query: "))
+    stemmer = PorterStemmer()
+    stemmed_query = [stemmer.stem(token) for token in tokenized_query]
     print("Stemmed Query:", stemmed_query)
     sorted_postings, all_terms_found = get_postings(stemmed_query, partial_indexes=False)
     if not all_terms_found:
@@ -18,11 +20,6 @@ def search_query():
     sorted_doc_scores = sorted(score_query(intersected_postings, idf_dict).items(), key=lambda x: x[1], reverse=True)
     for doc_id, score in sorted_doc_scores[:5]:
         print(f"Document ID: {doc_id}, Score: {score}")
-
-# Stems the query to work with our index
-def stem_query(query: str) -> list[str]:
-    stemmer = PorterStemmer()
-    return [stemmer.stem(word) for word in query.split()]
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
 # partial_indexes = true if we are using partial indexes
