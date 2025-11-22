@@ -13,7 +13,11 @@ def search_query():
     if not all_terms_found:
         print("No documents found matching the query for boolean retrieval.")
         return
-    print(sorted_postings)
+    intersected_postings, idf_dict = boolean_AND_search(sorted_postings)
+    score_query(intersected_postings, idf_dict)
+    sorted_doc_scores = sorted(score_query(intersected_postings, idf_dict).items(), key=lambda x: x[1], reverse=True)
+    for doc_id, score in sorted_doc_scores[:5]:
+        print(f"Document ID: {doc_id}, Score: {score}")
 
 # Stems the query to work with our index
 def stem_query(query: str) -> list[str]:
@@ -22,7 +26,7 @@ def stem_query(query: str) -> list[str]:
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
 # partial_indexes = true if we are using partial indexes
-def get_postings(stemmed_query: list[str], partial_indexes: bool) -> tuple[list[tuple[str, list[int]]], bool]:
+def get_postings(stemmed_query: list[str], partial_indexes: bool) -> tuple[list[tuple[str, list[tuple[int, int]]]], bool]:
     postings = []
     stemmed_set = set(stemmed_query)
     all_terms_found = True
