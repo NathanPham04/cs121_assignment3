@@ -17,8 +17,11 @@ def search_query():
         return
     intersected_postings, idf_dict = boolean_AND_search(sorted_postings)
     sorted_doc_scores = sorted(score_query(intersected_postings, idf_dict).items(), key=lambda x: x[1], reverse=True)
+    doc_map = None
+    with open("doc_id_map.json", "r") as file:
+        doc_map = json.load(file)
     for doc_id, score in sorted_doc_scores[:5]:
-        print(f"Document ID: {doc_id}, Score: {score}")
+        print(f"Document: {doc_map[str(doc_id)]}, Score: {score}")
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
 # partial_indexes = true if we are using partial indexes
