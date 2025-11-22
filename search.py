@@ -9,7 +9,10 @@ def search_query():
     query = input("Enter your search query: ")
     stemmed_query = stem_query(query)
     print("Stemmed Query:", stemmed_query)
-    sorted_postings = get_postings(stemmed_query, partial_indexes=False)
+    sorted_postings, all_terms_found = get_postings(stemmed_query, partial_indexes=False)
+    if not all_terms_found:
+        print("No documents found matching the query for boolean retrieval.")
+        return
     print(sorted_postings)
 
 # Stems the query to work with our index
@@ -19,10 +22,10 @@ def stem_query(query: str) -> list[str]:
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
 # partial_indexes = true if we are using partial indexes
-def get_postings(stemmed_query: list[str], partial_indexes: bool) -> list[tuple[str, list[int]]]:
+def get_postings(stemmed_query: list[str], partial_indexes: bool) -> tuple[list[tuple[str, list[int]]], bool]:
     postings = []
     stemmed_set = set(stemmed_query)
-
+    all_terms_found = True
     inverted_index = None
     if not partial_indexes:
         with open("full_index.json", "r") as file:
@@ -38,13 +41,15 @@ def get_postings(stemmed_query: list[str], partial_indexes: bool) -> list[tuple[
         # --------------------------------------------------------------------------------------------------
 
         term_postings = get_postings_from_full_index(term, inverted_index)
+        if not term_postings:
+            all_terms_found = False
         postings.append((term, term_postings))
 
     sorted_postings = sorted(postings, key=lambda x: len(x[1]))
-    return sorted_postings
+    return sorted_postings, all_terms_found
 
 # Takes in a term and returns the posting from the full index
-def get_postings_from_full_index(term: str, inverted_index) -> list[int]:
+def get_postings_from_full_index(term: str, inverted_index) -> list[tuple[int, int]]:
     if term in inverted_index:
         return inverted_index[term]
     return []
@@ -56,13 +61,14 @@ def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]])
     if not sorted_postings:
         return {}, {}
 
+    idf_dict = dict()
+    for term, posting in sorted_postings:
+        idf_dict[term] = math.log(CORPUS_SIZE / len(posting)) if len(posting) > 0 else 0.0
+
     base_posting = sorted_postings[0]
     for posting in sorted_postings[1:]:
         base_posting = intersect_postings(base_posting, posting)
     
-    idf_dict = dict()
-    for term, posting in base_posting:
-        idf_dict[term] = math.log(CORPUS_SIZE / len(posting))
 
     return base_posting, idf_dict
 
