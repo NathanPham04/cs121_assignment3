@@ -1,5 +1,8 @@
 from nltk.stem import PorterStemmer
 import json
+import math
+
+CORPUS_SIZE = 44845
 
 def search_query():
     query = input("Enter your search query: ")
@@ -46,7 +49,7 @@ def get_postings_from_full_index(term: str, inverted_index) -> list[int]:
     return []
 
 # Performs a boolean AND search on the sorted postings lists and returns the list of (doc_id, frequency) tuples
-def boolean_AND_search(sorted_postings: list[tuple[int, list[int]]]) -> list[tuple[int, int]]:
+def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> list[tuple[int, int]]:
     if not sorted_postings:
         return []
 
@@ -54,6 +57,10 @@ def boolean_AND_search(sorted_postings: list[tuple[int, list[int]]]) -> list[tup
     for posting in sorted_postings[1:]:
         base_posting = intersect_postings(base_posting, posting)
     
+    idf_dict = dict()
+    for term, posting in base_posting:
+        idf_dict[term] = math.log(CORPUS_SIZE / len(posting))
+
     return base_posting
 
 def intersect_postings(posting1, posting2):
