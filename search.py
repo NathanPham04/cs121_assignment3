@@ -48,10 +48,10 @@ def get_postings_from_full_index(term: str, inverted_index) -> list[int]:
         return inverted_index[term]
     return []
 
-# Performs a boolean AND search on the sorted postings lists and returns the list of (doc_id, frequency) tuples
-def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> list[tuple[int, int]]:
+# Performs a boolean AND search on the sorted postings lists and returns the dict of term: list of (doc_id, frequency) tuples and idf weights
+def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[dict[str, list[tuple[int, int]]], dict[str, float]]:
     if not sorted_postings:
-        return []
+        return {}, {}
 
     base_posting = sorted_postings[0]
     for posting in sorted_postings[1:]:
@@ -61,7 +61,7 @@ def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]])
     for term, posting in base_posting:
         idf_dict[term] = math.log(CORPUS_SIZE / len(posting))
 
-    return base_posting
+    return base_posting, idf_dict
 
 def intersect_postings(posting1, posting2):
     term1, list1 = posting1
