@@ -56,6 +56,25 @@ def boolean_AND_search(sorted_postings: list[tuple[int, list[int]]]) -> list[tup
     
     return base_posting
 
+def intersect_postings(posting1, posting2):
+    term1, list1 = posting1
+    term2, list2 = posting2
+
+    result = []
+    i = j = 0
+
+    while i < len(list1) and j < len(list2):
+        if list1[i] == list2[j]:
+            result.append(list1[i])
+            i += 1
+            j += 1
+        elif list1[i] < list2[j]:
+            i += 1
+        else:
+            j += 1
+
+    return (term1, result)
+
 
 if __name__ == '__main__':
     search_query()
