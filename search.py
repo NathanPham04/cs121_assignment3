@@ -2,7 +2,7 @@ from nltk.stem import PorterStemmer
 import json
 import math
 from collections import defaultdict
-from main import tokenize
+from indexer import tokenize
 
 CORPUS_SIZE = 44845
 
@@ -10,7 +10,6 @@ def search_query():
     tokenized_query = tokenize(input("Enter your search query: "))
     stemmer = PorterStemmer()
     stemmed_query = [stemmer.stem(token) for token in tokenized_query]
-    print("Stemmed Query:", stemmed_query)
     sorted_postings, all_terms_found = get_postings(stemmed_query, partial_indexes=False)
     if not all_terms_found:
         print("No documents found matching the query for boolean retrieval.")
