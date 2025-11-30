@@ -12,6 +12,7 @@ nltk.download('punkt_tab', quiet=True)
 seen_ngram_sets = []
 inverted_index = defaultdict(list)
 important_words_inverted_index = defaultdict(list)
+link_graph = defaultdict(list)
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
 exact_duplicates_skipped = 0
@@ -25,8 +26,10 @@ BATCH_SIZE = 10000  # Number of documents to process before checking index size 
 def main():
     global inverted_index
     global important_words_inverted_index
+    global link_graph
 
     document_id_map = {}
+    url_to_doc_id = {}
     filepaths = get_json_files(f"./{CORPUS}")
     stemmer = PorterStemmer()
     global num_documents_indexed
@@ -38,7 +41,7 @@ def main():
     partial_num_index_important = 0
 
     for doc_id, filepath in enumerate(filepaths):
-        file_contents, important_words, url = parse_file(filepath)
+        file_contents, important_words, url, links = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
         hashed_content = hash(file_contents)
@@ -65,6 +68,9 @@ def main():
         # Important words index update
         update_index(important_words_inverted_index, doc_id, important_stems)
 
+        # Store links for PageRank
+        link_graph[doc_id] = links
+
         # Check size of indexes and dump them if they have over 10,000 unique tokens
         if check_to_dump_index(inverted_index, BATCH_SIZE):
             partial_index_path = f"{PARTIAL_INDEX_BODY_DIR}full_index_part_{partial_num_index_body}.jsonl"
@@ -79,6 +85,7 @@ def main():
             partial_num_index_important += 1
 
         document_id_map[doc_id] = url
+        url_to_doc_id[url] = doc_id
         num_documents_indexed += 1
 
     if inverted_index:
@@ -102,6 +109,9 @@ def main():
     # write to file the document id map
     output_doc_id_map_to_file(f"{CORPUS}_TEST/doc_id_map.jsonl", document_id_map)
 
+    # Convert URLs to doc_ids in link graph and save
+    output_link_graph_to_file(f"{CORPUS}_TEST/link_graph.json", url_to_doc_id)
+
 
 
 
@@ -116,7 +126,7 @@ def get_json_files(dir: str) -> list[str]:
 
 
 # Use beautifulsoup to parse files in a directory and return their text content
-def parse_file(path: str) -> tuple[str, str, str]:
+def parse_file(path: str) -> tuple[str, str, str, list[str]]:
     with open(path, "r") as f:
         data = json.load(f)
 
@@ -132,7 +142,10 @@ def parse_file(path: str) -> tuple[str, str, str]:
             for tag in soup.find_all(['h1', 'h2', 'h3', 'strong', 'title'])
         )
 
-        return (soup.get_text(), important_words, url)
+        # Extract all links for PageRank
+        links = [a.get('href') for a in soup.find_all('a', href=True)]
+
+        return (soup.get_text(), important_words, url, links)
 
 # Tokenize text using NLTK
 def tokenize(text: str) -> list[str]:
@@ -223,6 +236,18 @@ def output_doc_id_map_to_file(path: str, document_id_map: dict):
         for doc_id, url in sorted(document_id_map.items()):
             line = json.dumps({doc_id: url})
             file.write(line + "\n")
+
+def output_link_graph_to_file(path: str, url_to_doc_id: dict):
+    global link_graph
+    ensure_dir(path)
+    # Convert URL links to doc_id links
+    doc_id_graph = {}
+    for doc_id, url_links in link_graph.items():
+        doc_id_links = [url_to_doc_id[url] for url in url_links if url in url_to_doc_id]
+        doc_id_graph[doc_id] = doc_id_links
+    
+    with open(path, "w") as file:
+        json.dump(doc_id_graph, file)
 
 def ensure_dir(path: str):
     os.makedirs(os.path.dirname(path), exist_ok=True)
