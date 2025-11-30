@@ -6,21 +6,28 @@ from indexer import tokenize
 
 CORPUS_SIZE = 44845
 
-def search_query():
-    tokenized_query = tokenize(input("Enter your search query: "))
+def search(query_text, top_k=5):
+    tokenized_query = tokenize(query_text)
     stemmer = PorterStemmer()
     stemmed_query = [stemmer.stem(token) for token in tokenized_query]
     sorted_postings, all_terms_found = get_postings(stemmed_query, partial_indexes=False)
     if not all_terms_found:
-        print("No documents found matching the query for boolean retrieval.")
-        return
+        return []
     intersected_postings, idf_dict = boolean_AND_search(sorted_postings)
     sorted_doc_scores = sorted(score_query(intersected_postings, idf_dict).items(), key=lambda x: x[1], reverse=True)
     doc_map = None
     with open("doc_id_map.json", "r") as file:
         doc_map = json.load(file)
-    for doc_id, score in sorted_doc_scores[:5]:
-        print(f"Document: {doc_map[str(doc_id)]}, Score: {score}")
+    return [(doc_map[str(doc_id)], score) for doc_id, score in sorted_doc_scores[:top_k]]
+
+def search_query():
+    query = input("Enter your search query: ")
+    results = search(query)
+    if not results:
+        print("No documents found matching the query for boolean retrieval.")
+        return
+    for url, score in results:
+        print(f"Document: {url}, Score: {score}")
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
 # partial_indexes = true if we are using partial indexes
@@ -30,7 +37,7 @@ def get_postings(stemmed_query: list[str], partial_indexes: bool) -> tuple[list[
     all_terms_found = True
     inverted_index = None
     if not partial_indexes:
-        with open("full_index.json", "r") as file:
+        with open("full_index_sorted.json", "r") as file:
             inverted_index = json.load(file)
 
     for term in stemmed_set:
