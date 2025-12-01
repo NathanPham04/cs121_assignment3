@@ -1,3 +1,7 @@
+"""
+This module contains functions to perform search queries on the indexed documents
+"""
+
 from nltk.stem import PorterStemmer
 import json
 import math

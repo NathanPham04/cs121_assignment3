@@ -1,3 +1,7 @@
+"""
+This module contains functions to merge partial index files generated during the indexing process.
+"""
+
 import os
 import json
 

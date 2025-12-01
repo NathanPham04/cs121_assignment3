@@ -1,3 +1,9 @@
+"""
+This module contains the main indexing logic for processing documents,
+building inverted indexes, handling duplicate detection, and outputting
+partial indexes to disk.
+"""
+
 import os
 import json
 from bs4 import BeautifulSoup

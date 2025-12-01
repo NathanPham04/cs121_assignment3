@@ -1,3 +1,8 @@
+"""
+This module contains functions to split merged index files into smaller partial index files
+with TF-IDF weighted postings, and to create secondary indexes for efficient searching.
+"""
+
 import os
 import json
 import math
