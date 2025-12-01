@@ -18,16 +18,50 @@ SECONDARY_INDEX_BODY = list()
 SECONDARY_INDEX_IMPORTANT = list()
 DOC_MAP = dict()
 
+STOP_WORDS = {
+    "a", "about", "above", "after", "again", "against", "all", "am", "an", "and",
+    "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being",
+    "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't",
+    "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during",
+    "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't",
+    "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here",
+    "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i",
+    "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's",
+    "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no",
+    "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our",
+    "ours", "ourselves", "out", "over", "own", "same", "shan't", "she", "she'd",
+    "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that",
+    "that's", "the", "their", "theirs", "them", "themselves", "then", "there",
+    "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this",
+    "those", "through", "to", "too", "under", "until", "up", "very", "was",
+    "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what",
+    "what's", "when", "when's", "where", "where's", "which", "while", "who",
+    "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you",
+    "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves",
+    "will", "can", "s", "d", "p", "b", "m", "j", "pp", "n", "e", "t", "o"
+}
+
 def search(query_text, top_k=5):
-    tokenized_query = tokenize(query_text)
+    removed_stop_words_query = remove_stop_words_from_query(query_text)
+    tokenized_query = tokenize(removed_stop_words_query)
     stemmer = PorterStemmer()
     stemmed_query = [stemmer.stem(token) for token in tokenized_query]
-    sorted_postings, all_terms_found = get_postings(stemmed_query)
+
+    # Get postings for the content body (THIS STILL REQUIRES ALL TERMS TO BE PRESENT IN THE CONTENT)
+    sorted_postings_body, all_terms_found = get_postings(stemmed_query, SECONDARY_INDEX_BODY, BODY_INDEX_DIR)
     if not all_terms_found:
         return []
-    intersected_postings = boolean_AND_search(sorted_postings)
-    sorted_doc_scores = sorted(score_query(intersected_postings).items(), key=lambda x: x[1], reverse=True)
+    intersected_postings, documents = boolean_AND_search(sorted_postings_body)
+
+    # Get postings for the important sections (title, headings, bold) - DOESN'T REQUIRE ALL TERMS TO BE PRESENT
+    sorted_postings_important, all_terms_found = get_postings(stemmed_query, SECONDARY_INDEX_IMPORTANT, IMPORTANT_INDEX_DIR)
+    found_important_postings = filter_postings(sorted_postings_important, documents)
+
+    sorted_doc_scores = sorted(score_query(intersected_postings, found_important_postings).items(), key=lambda x: x[1], reverse=True)
     return [(DOC_MAP[str(doc_id)], score) for doc_id, score in sorted_doc_scores[:top_k]]
+
+def remove_stop_words_from_query(query_string: str) -> str:
+    return ' '.join([word for word in query_string.split() if word.lower() not in STOP_WORDS])
 
 def search_query():
     # External data structure setup
@@ -42,13 +76,12 @@ def search_query():
         print(f"Document: {url}, Score: {score}")
 
 # Get a list of all the postings for each term and remove duplicates and sort them by length
-def get_postings(stemmed_query: list[str]) -> tuple[list[tuple[str, list[tuple[int, int]]]], bool]:
+def get_postings(stemmed_query: list[str], secondary_index: list[tuple[str, str, str]], split_index_dir: str) -> tuple[list[tuple[str, list[tuple[int, int]]]], bool]:
     postings = []
     stemmed_set = set(stemmed_query)
     all_terms_found = True
 
     for term in stemmed_set:
-        # term_postings = get_postings_from_full_index(term, inverted_index)
         term_postings = search_partial_index_for_term(SECONDARY_INDEX_BODY, BODY_INDEX_DIR, term)
         if not term_postings:
             all_terms_found = False
@@ -60,9 +93,9 @@ def get_postings(stemmed_query: list[str]) -> tuple[list[tuple[str, list[tuple[i
 # Performs a boolean AND search on the sorted postings lists and returns the dict of term: list of (doc_id, tf-idf)
 # Input: [(term, [(doct_id, tf-idf), ...]), ...]
 # Output: {term: [(doc_id, tf-idf), ...]}
-def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> list[tuple[str, list[tuple[int, int]]]]:
+def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]]) -> tuple[list[tuple[str, list[tuple[int, int]]]], set[int]]:
     if not sorted_postings:
-        return []
+        return [], set()
 
     # Get intersect of all documents in postings
     documents = intersect_documents(sorted_postings)
@@ -70,7 +103,7 @@ def boolean_AND_search(sorted_postings: list[tuple[str, list[tuple[int, int]]]])
     # Create new list with only intersected
     intersect_postings = filter_postings(sorted_postings, documents)
 
-    return intersect_postings
+    return intersect_postings, documents
 
 def intersect_documents(indexes: list[tuple[str, list[tuple[int, int]]]]) -> set[int]:
     if not indexes:
@@ -93,13 +126,18 @@ def filter_postings(sorted_postings: list[tuple[str, list[tuple[int, int]]]], va
     return filtered_postings
     
 
-def score_query(sorted_postings):
+def score_query(sorted_postings_body, sorted_postings_important) -> dict[int, float]:
     doc_scores = defaultdict(float)
 
-    for term, posting_list in sorted_postings:
+    for term, posting_list in sorted_postings_body:
         for doc_id, tf_idf_score in posting_list:
             # accumulate doc score
             doc_scores[doc_id] += tf_idf_score
+
+    for term, posting_list in sorted_postings_important:
+        for doc_id, tf_idf_score in posting_list:
+            # accumulate doc score with a higher weight for important sections
+            doc_scores[doc_id] += tf_idf_score * 1.5  # Weight factor for important sections
 
     return dict(doc_scores)
 

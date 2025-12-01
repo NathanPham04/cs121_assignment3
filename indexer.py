@@ -159,14 +159,14 @@ def tokenize(text: str) -> list[str]:
     return [token for token in tokens if token.isalnum()]
 
 def jaccard_similarity(set1, set2):
-        """
-        adapted from https://www.geeksforgeeks.org/data-science/how-to-calculate-jaccard-similarity-in-python/
-        """
-        union = set1.union(set2)
-        if not union:
-            return 0.0
-        intersection = set1.intersection(set2)
-        return len(intersection) / len(union)
+    """
+    adapted from https://www.geeksforgeeks.org/data-science/how-to-calculate-jaccard-similarity-in-python/
+    """
+    union = set1.union(set2)
+    if not union:
+        return 0.0
+    intersection = set1.intersection(set2)
+    return len(intersection) / len(union)
 
 # https://medium.com/data-science/text-analysis-basics-in-python-443282942ec5
 def similar_to_seen(text: list[str], threshold:float=0.90):
