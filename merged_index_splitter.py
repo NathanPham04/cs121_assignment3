@@ -52,6 +52,8 @@ def split_to_partial_indexes_with_tf_idf_embedding(input_dir: str, output_dir: s
             curr_file_index += 1
             curr_tokens = 0
 
+# Secondary index creation for a split index directory
+# (first_term, last_term, filename)
 def create_secondary_index_on_split_dir(input_dir: str, output_path: str):
     secondary_index = []
     for filename in os.listdir(input_dir):
