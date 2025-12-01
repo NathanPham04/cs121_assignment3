@@ -1,0 +1,1000 @@
+{"gettim": [[20040, 15.78804382910875], [31398, 19.568873382195186], [45369, 15.78804382910875], [46777, 19.568873382195186]]}
+{"gettimemeasur": [[6046, 15.410228954340964], [6261, 9.101529466118004], [6287, 9.101529466118004], [6394, 9.101529466118004], [7596, 9.101529466118004]]}
+{"gettimeofday": [[5398, 14.614443634630602], [5481, 14.614443634630602], [6394, 14.614443634630602], [7041, 14.614443634630602], [7596, 14.614443634630602], [7599, 14.614443634630602], [7629, 20.597361432388936], [38222, 14.614443634630602]]}
+{"gettimeslic": [[43403, 21.023520573173943], [45369, 10.017820197992158]]}
+{"gettimetofirstschedul": [[29959, 20.172606514672005], [45369, 16.275131918978126], [51913, 20.172606514672005]]}
+{"gettin": [[31215, 10.710967378552104]]}
+{"getting": [[15952, 10.017820197992158], [33034, 29.51159819267641]]}
+{"gettingstarteddoc": [[5456, 8.919207909324049], [5776, 8.919207909324049], [5862, 8.919207909324049], [5909, 8.919207909324049], [6311, 8.919207909324049], [6507, 8.919207909324049]]}
+{"gettkandt": [[26919, 10.710967378552104]]}
+{"getto": [[34055, 9.612355089883994], [45369, 9.612355089883994], [46777, 20.172606514672005]]}
+{"gettogeth": [[42332, 10.710967378552104]]}
+{"gettokentyp": [[25860, 10.710967378552104]]}
+{"gettokentypestr": [[25860, 10.710967378552104]]}
+{"gettoolkit": [[27287, 10.017820197992158], [30854, 10.017820197992158]]}
+{"gettooltiploc": [[30854, 10.710967378552104]]}
+{"gettooltiptext": [[30854, 18.135244218065043]]}
+{"gettopk": [[5505, 18.135244218065043]]}
+{"gettoplevelancestor": [[30854, 10.710967378552104]]}
+{"gettotalcommunicationtim": [[45369, 10.017820197992158], [51913, 21.023520573173943]]}
+{"gettotaliotim": [[45369, 10.017820197992158], [51913, 21.023520573173943]]}
+{"gettotallogs": [[5406, 10.710967378552104]]}
+{"gettotals": [[5406, 18.135244218065043]]}
+{"gettotalsynchronizationtim": [[45369, 10.017820197992158], [51913, 21.023520573173943]]}
+{"gettotask": [[45369, 10.017820197992158], [48393, 21.023520573173943]]}
+{"gettrack": [[49822, 10.710967378552104]]}
+{"gettransferhandl": [[30854, 10.710967378552104]]}
+{"gettransformerhandl": [[16934, 25.559521057577985]]}
+{"gettre": [[31108, 10.017820197992158], [37110, 21.023520573173943]]}
+{"gettreelock": [[27287, 10.017820197992158], [30854, 10.017820197992158]]}
+{"getttl": [[31108, 10.017820197992158], [44353, 21.023520573173943]]}
+{"gettupl": [[30612, 20.172606514672005], [31108, 16.275131918978126], [41494, 22.937908748072257]]}
+{"gettyp": [[5425, 37.524713926320295], [5461, 19.097316133058193], [5795, 23.575874935098742], [6099, 37.524713926320295], [7186, 8.002917177449893], [7472, 19.097316133058193], [29480, 8.002917177449893], [31057, 16.795020333789452], [31108, 16.795020333789452], [34055, 8.002917177449893], [38884, 16.795020333789452], [39739, 16.795020333789452], [42123, 16.795020333789452], [45369, 8.002917177449893], [48716, 8.002917177449893]]}
+{"gettysburg": [[25248, 9.324673017432213], [42168, 9.324673017432213], [47031, 9.324673017432213], [49940, 15.78804382910875]]}
+{"getui": [[30854, 10.710967378552104]]}
+{"getuiclassid": [[30854, 10.710967378552104]]}
+{"getup": [[49940, 22.478167764152698]]}
+{"geturl": [[29480, 10.710967378552104]]}
+{"geturlasproperti": [[16934, 18.135244218065043]]}
+{"geturlasstream": [[16934, 18.135244218065043]]}
+{"geturlisloc": [[29480, 10.710967378552104]]}
+{"geturlisxml": [[29480, 10.710967378552104]]}
+{"getusermedia": [[21989, 9.612355089883994], [22366, 9.612355089883994], [32493, 9.612355089883994]]}
+{"getval": [[49948, 10.017820197992158], [52756, 23.905467849181633]]}
+{"getvalu": [[32572, 16.961644023586896], [52434, 35.71302167799735]]}
+{"getvalueat": [[26248, 22.937908748072257], [31108, 16.275131918978126], [41494, 22.937908748072257]]}
+{"getvaluetyp": [[31108, 10.017820197992158], [31695, 21.023520573173943]]}
+{"getvectorlengthdefault": [[16934, 18.135244218065043]]}
+{"getverifyinputwhenfocustarget": [[30854, 10.710967378552104]]}
+{"getvetoablechangelisten": [[30854, 10.710967378552104]]}
+{"getvisiblerect": [[30854, 10.710967378552104]]}
+{"getweight": [[45265, 10.017820197992158], [48716, 10.017820197992158]]}
+{"getwidth": [[27287, 9.324673017432213], [29480, 9.324673017432213], [30854, 9.324673017432213], [38874, 9.324673017432213]]}
+{"getwtedavgvalcount": [[6378, 10.017820197992158], [7186, 10.017820197992158]]}
+{"getx": [[26510, 19.568873382195186], [27287, 9.324673017432213], [30854, 9.324673017432213], [39564, 9.324673017432213]]}
+{"getxdrivehttpmanag": [[16935, 10.710967378552104]]}
+{"getz": [[24085, 9.612355089883994], [32826, 9.612355089883994], [49940, 16.275131918978126]]}
+{"getzel": [[21921, 14.795282453372772], [23491, 6.200107872035254], [23605, 6.200107872035254], [23799, 6.200107872035254], [24164, 6.200107872035254], [24191, 6.200107872035254], [24721, 6.200107872035254], [24872, 6.200107872035254], [25070, 6.200107872035254], [25581, 6.200107872035254], [26350, 6.200107872035254], [26593, 6.200107872035254], [27477, 6.200107872035254], [28038, 6.200107872035254], [30127, 6.200107872035254], [30135, 6.200107872035254], [30314, 6.200107872035254], [30433, 10.497695162704012], [30765, 10.497695162704012], [30849, 10.497695162704012], [30887, 6.200107872035254], [30923, 6.200107872035254], [30992, 10.497695162704012], [31297, 10.497695162704012], [31461, 13.01162257132107], [31570, 6.200107872035254], [32186, 6.200107872035254], [33086, 10.497695162704012], [33119, 6.200107872035254], [33337, 6.200107872035254], [33903, 10.497695162704012], [34502, 6.200107872035254], [35120, 6.200107872035254], [35475, 6.200107872035254], [36019, 6.200107872035254], [36273, 10.497695162704012], [36319, 10.497695162704012], [36665, 6.200107872035254], [36707, 6.200107872035254], [37117, 19.09286974404153], [37386, 6.200107872035254], [37516, 6.200107872035254], [37782, 6.200107872035254], [38009, 10.497695162704012], [39055, 6.200107872035254], [39156, 10.497695162704012], [39182, 6.200107872035254], [39345, 6.200107872035254], [39425, 6.200107872035254], [39597, 6.200107872035254], [39786, 6.200107872035254], [39998, 6.200107872035254], [40145, 6.200107872035254], [40171, 6.200107872035254], [40647, 6.200107872035254], [40710, 17.309209861989824], [40883, 6.200107872035254], [40888, 6.200107872035254], [41168, 6.200107872035254], [41325, 6.200107872035254], [41599, 10.497695162704012], [41898, 6.200107872035254], [42041, 6.200107872035254], [42061, 10.497695162704012], [42144, 6.200107872035254], [43073, 6.200107872035254], [43686, 6.200107872035254], [45294, 13.01162257132107], [45586, 6.200107872035254], [45676, 6.200107872035254], [46287, 6.200107872035254], [46780, 6.200107872035254], [46853, 6.200107872035254], [46944, 10.497695162704012], [47341, 6.200107872035254], [48487, 6.200107872035254], [49291, 6.200107872035254], [49887, 16.178796542469907], [50029, 10.497695162704012], [50194, 6.200107872035254], [50313, 6.200107872035254], [51199, 13.01162257132107], [51240, 6.200107872035254], [51803, 6.200107872035254], [51838, 6.200107872035254], [52017, 6.200107872035254], [52577, 6.200107872035254], [52627, 6.200107872035254], [52752, 6.200107872035254], [52779, 10.497695162704012], [53418, 6.200107872035254]]}
+{"getzler": [[38736, 16.961644023586896], [50071, 43.0349213235375]]}
+{"getzoff": [[47, 10.710967378552104]]}
+{"getzvil": [[49940, 18.135244218065043]]}
+{"geula": [[46287, 10.017820197992158], [50194, 10.017820197992158]]}
+{"geulincx": [[49940, 18.135244218065043]]}
+{"geullah": [[49940, 18.135244218065043]]}
+{"geum": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"geumlek": [[50380, 10.710967378552104]]}
+{"geurt": [[114, 8.919207909324049], [266, 8.919207909324049], [477, 8.919207909324049], [1283, 8.919207909324049], [43524, 8.919207909324049], [52836, 8.919207909324049]]}
+{"geuss": [[6047, 10.710967378552104]]}
+{"gev": [[60, 10.017820197992158], [49940, 10.017820197992158]]}
+{"gevald": [[49940, 10.710967378552104]]}
+{"gevalt": [[49940, 10.710967378552104]]}
+{"gevart": [[38404, 18.135244218065043]]}
+{"gevay": [[40581, 22.478167764152698]]}
+{"gever": [[647, 10.710967378552104]]}
+{"gevirtz": [[27145, 9.324673017432213], [28949, 9.324673017432213], [44639, 28.71478545246182], [46006, 27.46964887867579]]}
+{"gevorg": [[30573, 9.101529466118004], [35043, 9.101529466118004], [40016, 9.101529466118004], [53639, 9.101529466118004], [54428, 9.101529466118004]]}
+{"gevorkyan": [[24139, 8.513742801215884], [29441, 8.513742801215884], [30117, 8.513742801215884], [32747, 8.513742801215884], [34914, 8.513742801215884], [40955, 8.513742801215884], [41826, 8.513742801215884], [44824, 8.513742801215884], [52472, 8.513742801215884]]}
+{"gewartien": [[37281, 10.710967378552104]]}
+{"geweest": [[5267, 10.710967378552104]]}
+{"gewertzman": [[27145, 10.017820197992158], [28949, 10.017820197992158]]}
+{"gewgaw": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 22.937908748072257]]}
+{"gewirtz": [[36226, 8.919207909324049], [36319, 8.919207909324049], [45671, 18.71795932369325], [46287, 23.274119267472265], [48286, 8.919207909324049], [49940, 15.10153172449998]]}
+{"gewoelb": [[41599, 10.710967378552104]]}
+{"gewurtz": [[26760, 10.017820197992158], [28100, 10.017820197992158]]}
+{"gewurz": [[45671, 26.835383343766132], [46287, 9.612355089883994], [50625, 9.612355089883994]]}
+{"gewurztramin": [[49940, 22.478167764152698]]}
+{"gey": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"geyan": [[49940, 10.710967378552104]]}
+{"geyer": [[11767, 22.251414640785285], [15299, 22.251414640785285], [19221, 19.568873382195186], [39662, 15.78804382910875]]}
+{"geyes": [[46672, 10.710967378552104]]}
+{"geyfman": [[19706, 8.919207909324049], [19721, 8.919207909324049], [26119, 15.10153172449998], [43130, 8.919207909324049], [44782, 15.10153172449998], [51425, 15.10153172449998]]}
+{"geyla": [[30992, 10.710967378552104]]}
+{"geylang": [[18250, 10.710967378552104]]}
+{"geyser": [[25211, 9.101529466118004], [32923, 9.101529466118004], [44190, 9.101529466118004], [45394, 9.101529466118004], [49940, 19.100581583270145]]}
+{"geyserit": [[49940, 22.478167764152698]]}
+{"geyservil": [[49940, 18.135244218065043]]}
+{"geza": [[26729, 9.612355089883994], [35798, 9.612355089883994], [51857, 9.612355089883994]]}
+{"gezakailo": [[24297, 18.135244218065043]]}
+{"gezang": [[34511, 10.710967378552104]]}
+{"gezel": [[42041, 21.023520573173943], [46287, 23.905467849181633]]}
+{"gezira": [[49940, 18.135244218065043]]}
+{"gezler": [[45335, 10.710967378552104]]}
+{"gezunt": [[37281, 10.710967378552104]]}
+{"ge\u00e4ndert": [[23360, 10.710967378552104]]}
+{"gf": [[6047, 8.408382285558059], [22360, 14.236628759862816], [27847, 14.236628759862816], [33686, 14.236628759862816], [35245, 8.408382285558059], [35912, 8.408382285558059], [36226, 8.408382285558059], [45397, 21.94115151817449], [52129, 8.408382285558059], [52251, 8.408382285558059]]}
+{"gf580": [[561, 10.710967378552104]]}
+{"gfa": [[2317, 10.017820197992158], [3770, 10.017820197992158]]}
+{"gfalse29f": [[46660, 10.710967378552104]]}
+{"gfalse32": [[46660, 18.135244218065043]]}
+{"gfap": [[2031, 9.612355089883994], [2233, 9.612355089883994], [3201, 9.612355089883994]]}
+{"gfather": [[45671, 18.135244218065043]]}
+{"gfci": [[49940, 10.710967378552104]]}
+{"gfer": [[1351, 8.313072105753733], [1757, 8.313072105753733], [2112, 8.313072105753733], [2233, 8.313072105753733], [2317, 8.313072105753733], [2522, 8.313072105753733], [2610, 8.313072105753733], [2789, 8.313072105753733], [3112, 14.075254597648462], [3822, 8.313072105753733], [4261, 8.313072105753733]]}
+{"gff3": [[16980, 22.478167764152698]]}
+{"gfgprotein": [[1566, 10.017820197992158], [3728, 10.017820197992158]]}
+{"gfi": [[3027, 8.919207909324049], [3029, 8.919207909324049], [3188, 8.919207909324049], [3716, 8.919207909324049], [3825, 8.919207909324049], [6047, 8.919207909324049]]}
+{"gfi1": [[1351, 8.408382285558059], [1757, 8.408382285558059], [2112, 8.408382285558059], [2170, 14.236628759862816], [2317, 8.408382285558059], [2360, 8.408382285558059], [2522, 8.408382285558059], [2610, 14.236628759862816], [2677, 8.408382285558059], [4261, 8.408382285558059]]}
+{"gfi1b": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"gfile": [[29714, 25.559521057577985]]}
+{"gfind": [[31709, 21.023520573173943], [38196, 10.017820197992158]]}
+{"gfm1": [[1566, 8.313072105753733], [1841, 17.445915277718868], [2233, 8.313072105753733], [2789, 14.075254597648462], [2799, 17.445915277718868], [2936, 14.075254597648462], [3214, 8.313072105753733], [3315, 14.075254597648462], [3770, 19.83743708954319], [3822, 8.313072105753733], [4328, 14.075254597648462]]}
+{"gfm2": [[2112, 17.64593439229139], [2170, 14.236628759862816], [2317, 20.064875234167573], [2522, 8.408382285558059], [2610, 14.236628759862816], [3112, 17.64593439229139], [3169, 8.408382285558059], [3201, 8.408382285558059], [3728, 8.408382285558059], [3822, 8.408382285558059]]}
+{"gfod1": [[1351, 9.612355089883994], [2531, 9.612355089883994], [4261, 9.612355089883994]]}
+{"gfod2": [[1351, 8.313072105753733], [1734, 8.313072105753733], [2317, 8.313072105753733], [2385, 17.445915277718868], [2522, 8.313072105753733], [2737, 14.075254597648462], [3383, 14.075254597648462], [3600, 14.075254597648462], [3670, 14.075254597648462], [3822, 8.313072105753733], [4261, 8.313072105753733]]}
+{"gfood": [[17723, 10.710967378552104]]}
+{"gforg": [[39551, 10.710967378552104]]}
+{"gforman": [[1201, 10.710967378552104]]}
+{"gfp": [[4787, 10.710967378552104]]}
+{"gfpt1": [[1351, 7.938378656312322], [1396, 23.38575025067455], [2112, 7.938378656312322], [2317, 7.938378656312322], [2522, 7.938378656312322], [2610, 13.440843440152456], [2737, 18.943308223992588], [3112, 25.38077934416303], [3383, 18.943308223992588], [3600, 18.943308223992588], [3670, 18.943308223992588], [3780, 13.440843440152456], [3822, 7.938378656312322], [3889, 27.66450856791794], [4261, 7.938378656312322], [4328, 18.943308223992588]]}
+{"gfpt2": [[1396, 25.080721324548485], [1734, 8.513742801215884], [2112, 8.513742801215884], [2317, 8.513742801215884], [2522, 8.513742801215884], [2610, 14.415019619891204], [2677, 8.513742801215884], [3112, 23.76832208386663], [3780, 8.513742801215884]]}
+{"gfra1": [[2233, 9.612355089883994], [3383, 16.275131918978126], [3600, 16.275131918978126]]}
+{"gfra2": [[1351, 9.101529466118004], [2233, 9.101529466118004], [3383, 9.101529466118004], [3600, 9.101529466118004], [4261, 9.101529466118004]]}
+{"gfra4": [[3201, 10.710967378552104]]}
+{"gfroyl": [[52591, 10.710967378552104]]}
+{"gfrp": [[2317, 10.017820197992158], [3770, 10.017820197992158]]}
+{"gfx": [[2133, 8.631525836872267], [3022, 8.631525836872267], [3027, 8.631525836872267], [3029, 8.631525836872267], [3032, 8.631525836872267], [3716, 8.631525836872267], [3825, 8.631525836872267], [4080, 8.631525836872267]]}
+{"gg": [[505, 8.631525836872267], [987, 14.614443634630602], [2288, 8.631525836872267], [22360, 8.631525836872267], [31472, 25.42769956467517], [35203, 25.42769956467517], [40581, 8.631525836872267], [46565, 8.631525836872267]]}
+{"gg15": [[32790, 10.710967378552104]]}
+{"gga": [[2288, 10.710967378552104]]}
+{"gga1": [[1351, 7.820595620655939], [1396, 13.24141942541306], [1398, 13.24141942541306], [1841, 13.24141942541306], [2112, 13.24141942541306], [2170, 13.24141942541306], [2317, 16.412398074212557], [2522, 7.820595620655939], [2610, 16.412398074212557], [2799, 13.24141942541306], [2936, 16.412398074212557], [3112, 13.24141942541306], [3201, 7.820595620655939], [3214, 7.820595620655939], [3315, 13.24141942541306], [3770, 16.412398074212557], [3822, 7.820595620655939], [4261, 7.820595620655939]]}
+{"gga2": [[1396, 14.415019619891204], [2112, 14.415019619891204], [2170, 14.415019619891204], [2317, 17.86704526519131], [2522, 8.513742801215884], [2610, 17.86704526519131], [3112, 14.415019619891204], [3169, 25.080721324548485], [3201, 17.86704526519131]]}
+{"gga3": [[2233, 8.76505722949679], [2737, 8.76505722949679], [2789, 8.76505722949679], [3201, 22.871872639303525], [3383, 18.394456812701222], [3600, 24.469931518773485], [3670, 24.469931518773485]]}
+{"ggaa": [[1599, 10.017820197992158], [2215, 10.017820197992158]]}
+{"ggaaaagggcgacgagcgccggcgcggagaacttctcgccggcgcttacaaagtagtcgtaatcgcgggg": [[4208, 10.710967378552104]]}
+{"ggaaaccttggtcgcccacggcccgagcctctatcgcacttttgccggcaatcctcgggccgcatcgacc": [[4208, 10.710967378552104]]}
+{"ggaaatccccccattcttacccgcccccccttttttcccctcagcccgccccggatgtctgggtgtttcc": [[4208, 10.710967378552104]]}
+{"ggaaattccc": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggaacacaggcgcttcatagtcgccgattcccgaaacttcatcacccccgagttcccccgggacttttgg": [[4208, 10.710967378552104]]}
+{"ggaacagcgggtggtccgtgagctcggccacggcgcgcggggagcagtaggcctccagggcggcggccgc": [[4208, 10.710967378552104]]}
+{"ggaaccggccgccatgttgggggacccccactcatacacgggagccgggcgccatgttggggcgccatgt": [[4208, 10.710967378552104]]}
+{"ggaaccggcgattggagggactcagccggtgacatacgtgcttgtccgtcgtccacagcatccaggacgc": [[4208, 10.710967378552104]]}
+{"ggaagcagcagtggagaaaaaagtgccggtggatgtcgtttatggtgagggcaaagcgtgcgaaggagcc": [[4208, 10.710967378552104]]}
+{"ggaagcgtcgggaaggccacgtcgccgtgggcgcgaatgtcgatttgggcgcgttcggggacgtacgcgt": [[4208, 10.710967378552104]]}
+{"ggaaggacgggaagtggaagtcctgatacccatcctacacccccctgccttccaccctccggccccccgc": [[4208, 10.710967378552104]]}
+{"ggaagggcggggcggtttattacagagccagtcccttgagcggggatgcgtcatagacgagatactgcgc": [[4208, 10.710967378552104]]}
+{"ggaagtgaaast": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggaagtgagcagcccgacccacccggaggcccgcggacacggagcgtgcgccaagcaccccccccgctaa": [[4208, 10.710967378552104]]}
+{"ggaat": [[1815, 10.017820197992158], [2831, 10.017820197992158]]}
+{"ggaatgt": [[1423, 10.017820197992158], [1981, 10.017820197992158]]}
+{"ggacagaacgtcgcgagggcccacatcaaatatgaggctgagaaaggacagcgacgagcgcatgcacgat": [[4208, 10.710967378552104]]}
+{"ggacagtctgtgtaacagaccccaataaacgtatgtcgctaccacacccttgtgtgtcaatggacgcctc": [[4208, 10.710967378552104]]}
+{"ggaccacggccagcacgttgtcctcgtgcgacacctgggccgccagctcgtcgcacacccccaggtgcgc": [[4208, 10.710967378552104]]}
+{"ggacccgccgacgtcccctctcgagcccgccgaaacccgccgcgtctgttgaaatggccagccgccccgc": [[4208, 10.710967378552104]]}
+{"ggacccgctcgccggcacgcgacgcgaaaaaggccccccggaggcttttccgggttcccggcccggggcc": [[4208, 10.710967378552104]]}
+{"ggacctccgtgtagtccagcaggccgctgtccttgatctcgtggcgggtgtacacctccagggggacaaa": [[4208, 10.710967378552104]]}
+{"ggacgcggggggaccggggcggggggcggagcctggcatgggcgccgcggggggcctgtggggagaggcc": [[4208, 10.710967378552104]]}
+{"ggact": [[1757, 9.612355089883994], [2317, 9.612355089883994], [3770, 9.612355089883994]]}
+{"ggactcttgcgcttgcgcccctcccgcggcgcggcggaggcggcggcggccgccagcgcgtcggcggcgt": [[4208, 10.710967378552104]]}
+{"ggag": [[1666, 18.135244218065043]]}
+{"ggagc": [[1599, 9.612355089883994], [2685, 9.612355089883994], [3346, 20.172606514672005]]}
+{"ggagcccctccggggtggggagcagacacccgccgaagatgcgccgctcgggaacgcccgcgttgtcgcc": [[4208, 10.710967378552104]]}
+{"ggagctgtatttgctttatacacagatgtcaacgccgctaccgacgctcccgccgcccgatttacagccc": [[4208, 10.710967378552104]]}
+{"ggagg": [[1599, 10.017820197992158], [2685, 10.017820197992158]]}
+{"ggaggacctggttattcagatatcctgtctgctctacgacctgtccaccaccgccctggagcacgtcctc": [[4208, 10.710967378552104]]}
+{"ggaggagccccgcgccgactctggcctcacccgcgaggaggtacgtgccgtacgtgggttccgggagcag": [[4208, 10.710967378552104]]}
+{"ggaggagcggggggaggagcggggggaggagcggggggaggagcggggggaggagcggggggaggagcgg": [[4208, 10.710967378552104]]}
+{"ggaggcagagg": [[2994, 10.710967378552104]]}
+{"ggaggccgagg": [[2994, 10.710967378552104]]}
+{"ggaggccgcatcgaacgcacacccccatccggtggtccgtgtggaggtcgtttttcagtgcccggtctcg": [[4208, 10.710967378552104]]}
+{"ggaggcggcgcacaccggccacccgggccggccccgctcggccgtgatcctcccggcgtgtgcgttcgtg": [[4208, 10.710967378552104]]}
+{"ggaggchgagg": [[2994, 18.135244218065043]]}
+{"ggaggctgagg": [[2218, 9.612355089883994], [2250, 9.612355089883994], [2994, 9.612355089883994]]}
+{"ggaggggagggttatttacgggggggtaggtcagggggtgggtcgtcaaactgccgctccttaaaacccc": [[4208, 10.710967378552104]]}
+{"ggagggggcgaggggcgggagggggcgaggggcgggagggggcgaggggcgggagggggcgaggggcggg": [[4208, 10.710967378552104]]}
+{"ggaggtcggtgtggcagcggacaaagagggccaggaactgggggtagctcatcttaaagtactttagtat": [[4208, 10.710967378552104]]}
+{"ggaggttgagg": [[2218, 10.017820197992158], [2250, 10.017820197992158]]}
+{"ggaggytgagg": [[2218, 10.017820197992158], [2250, 10.017820197992158]]}
+{"ggagtcgtgcaactgaacctggtcaacaggcgcgcggtggcttttatgccgaaggtcagcggggactccg": [[4208, 10.710967378552104]]}
+{"ggagtgg": [[1599, 10.017820197992158], [2539, 10.017820197992158]]}
+{"ggagtttgactggaccccccaggagggctcccagccctggctgtctgcggtcgtggccgataccagctcc": [[4208, 10.710967378552104]]}
+{"ggatagtcccgcgcgaagccgctcgcggaggccggatcggtggcgggacccgtgggaggagcgggagccg": [[4208, 10.710967378552104]]}
+{"ggatcacgggcggtctgtgggtcccatgctgccgtgcctggccgggcccggtgggtcgcggaaaccggtg": [[4208, 10.710967378552104]]}
+{"ggatgacggattcccctggcggtgtggcccccgcctcccccgtggaggacgcgtcggacgcgtccctcgg": [[4208, 10.710967378552104]]}
+{"ggatgcggacgacgaggacgaggacccggagtccgacgaggtcgatgacgccgatggccgccgccggccg": [[4208, 10.710967378552104]]}
+{"ggc": [[2288, 10.710967378552104]]}
+{"ggcaaaaagggtgtccgggtgggcctgcgagcgctccagaagccactcgccgaggcgtgtatacagattg": [[4208, 10.710967378552104]]}
+{"ggcac": [[4032, 10.710967378552104]]}
+{"ggcaccgacggccccgcccgaggaggcggaagcggaggaggacgcggccccggtggcggaagaggtggcc": [[4208, 10.710967378552104]]}
+{"ggcacgtgcc": [[3022, 10.710967378552104]]}
+{"ggcactcgacggccacgcggccggcctgggcgcggcgcccggcgtcggcgtcggcgtggcgggcggcgtc": [[4208, 10.710967378552104]]}
+{"ggcag": [[4032, 10.710967378552104]]}
+{"ggcaggcccaccgcggggcggccccgtccccggggaccaacccggcgcccccaaagaatatcattagcat": [[4208, 10.710967378552104]]}
+{"ggcaggccgggatcgccggacacacctacctccaggcgagcgaaaaattcaaaatgtggggggcggagcc": [[4208, 10.710967378552104]]}
+{"ggcagggcccccgttcgccgcctgggtcgcggccgcgaccccaggcgtgccgggggaactcggagccgcc": [[4208, 10.710967378552104]]}
+{"ggcaggtagcgcgtgaggccgcccgcggggacggccccggaagtctccgcgtggcgcgtcttccgggcac": [[4208, 10.710967378552104]]}
+{"ggccaaggttccgatgagggcccgggtggcagactgcgccaggaacgagtagttggagtactgcaccttg": [[4208, 10.710967378552104]]}
+{"ggccaccagcagttgcgtggtggtggttttccccatcccgtgaggaccgtctatataaacccgcagtagc": [[4208, 10.710967378552104]]}
+{"ggccaccggctgccgtgtagtggggcggcgggaaaccgggcctccgggcgtaacaccgccctccagcgtc": [[4208, 10.710967378552104]]}
+{"ggccagagggattcccgcggccgccaggcactcgctggatatgatgacgtgaaccaaagacgagggccga": [[4208, 10.710967378552104]]}
+{"ggccagccgcacgcgggccgccgggtacctggatgtgcttcttaccgttcgtctcgctcgctcccaacac": [[4208, 10.710967378552104]]}
+{"ggccataaatca": [[3027, 15.78804382910875], [3029, 15.78804382910875], [3716, 15.78804382910875], [3825, 15.78804382910875]]}
+{"ggccatgtgtaggtgttgggggtctgtatatataaagtcagggggtcacatggcgacccctaacagggcg": [[4208, 10.710967378552104]]}
+{"ggccc": [[4032, 18.135244218065043]]}
+{"ggcccaggtccacgttgacgagttttccccgcatccagaatcgcgcctcacctcgcgctaccgctcccgc": [[4208, 10.710967378552104]]}
+{"ggccccgccccc": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggccccgctggcgtttcgccggcgcctccgccaaacaacaccgactcaagttccctggtgcccggggccc": [[4208, 10.710967378552104]]}
+{"ggccccgtgtgtcgcccgtggagcaatgacaccgcgcccctggatgtttgccccgggacccccggcccgg": [[4208, 10.710967378552104]]}
+{"ggcccctccggacccagcgggcggcggaggcgcccgcgcaggccccggggcggacaaaaccgccccggaa": [[4208, 10.710967378552104]]}
+{"ggcccctgccggcgcgagggggggacgcgtggactggggggaggggttttcctggcccgacccgcgcctc": [[4208, 10.710967378552104]]}
+{"ggcccgggccccgccccctgcccgttcctcgttagcatgcggaacggaagcggaaaccgccggatcgggc": [[4208, 10.710967378552104]]}
+{"ggcccgggggattgtccggatgtgcgggcagcccggacggcgtgggttgcggactttcggcggggcggcc": [[4208, 10.710967378552104]]}
+{"ggcccgtgatcggggtacttcgccgccgcgacccgccacccggtgtgcgcgatgtttggtcagcagctgg": [[4208, 10.710967378552104]]}
+{"ggccctgaagtatgaggagttttacctaaagcgctttggcgggcactacatggagtccgtcttccagatg": [[4208, 10.710967378552104]]}
+{"ggccctgcgtatgagtcagtggggaccacgccccctaacacggcgaccccggtccctgtgtgtttgttgt": [[4208, 10.710967378552104]]}
+{"ggccctggagcggctgtttgggcgcctccggatcaccaacacgattcacggcaccgaggacatgacgccc": [[4208, 10.710967378552104]]}
+{"ggccctggcgtggcataggctatacgcgatggtcgtctgtggattggacatctcgcggtgggtagtgagt": [[4208, 10.710967378552104]]}
+{"ggccgatcccgccgtggcccgggacgacgcggaggggctttcggacccccggccacgtctgggaacgggc": [[4208, 10.710967378552104]]}
+{"ggccgccatcaaggtcgtgtgtaactcggtgtacgggttcacgggagtgcagcacggactcctgccgtgc": [[4208, 10.710967378552104]]}
+{"ggccgcgcccagggccgtcaccgcgtcgaccaggacgcggtgcgcccgcacggccgcatccaccgtcgac": [[4208, 10.710967378552104]]}
+{"ggccgcggcggtgctggataacctcgccacgcgcctgcggccctttctccagtgctacctgaaggcgcga": [[4208, 10.710967378552104]]}
+{"ggccggcacgtggggtaccagggggccagggtccttgaccccacttccgggtttcacgtgaaccccgtgg": [[4208, 10.710967378552104]]}
+{"ggccggccgcgtggccgtcgagtgcctggccgcctgccgcgggatcctggaggcgctggccgagggcttc": [[4208, 10.710967378552104]]}
+{"ggccggcgcgacagcgccacggggcgcgggcgggcctgcgccgcggcgccccgggccgccgcgggctggg": [[4208, 10.710967378552104]]}
+{"ggccggcgggcgtccgcgcggggacgcccgccgccagaaacccctccagggccgaaaggtagtgcgtgca": [[4208, 10.710967378552104]]}
+{"ggccggggggtgtagtccgaaaagccaaaatggcggcgtgcccgctcgcagagtcgcgtcaggtttgggg": [[4208, 10.710967378552104]]}
+{"ggccggggtggtgctcgtggcgcttcactacgagcaggagatccagaggcgcctgtttgatgtatgacgt": [[4208, 10.710967378552104]]}
+{"ggccgggtgcagggggtgcgcggggtccgtcacggggtcgctggggcaatcctcgccgggggtgatctcc": [[4208, 10.710967378552104]]}
+{"ggccgtcctgtgtgggattgcgtggtatgtgacgtcaattgcccgaggcgcacaaagggccggtggtccg": [[4208, 10.710967378552104]]}
+{"ggccgttcccgacaacagaaacgccgccatggcggcgcgcagcttggccgtggccagaaacgccgggtcg": [[4208, 10.710967378552104]]}
+{"ggcctaa": [[1923, 10.017820197992158], [2831, 10.017820197992158]]}
+{"ggcctcccgtggactccatttccgagacgacgtggggggagcggtggttgagcgcgccgccgggtgaacg": [[4208, 10.710967378552104]]}
+{"ggcctccgtcaatctggagttccgggacgcgtccccacaacactccggcctgtatctgtgtgtggtgtac": [[4208, 10.710967378552104]]}
+{"ggcctcgctgccaacaaaccgcacgtcgggggggccgggggggtccgggttttcccacaacaccgcgacc": [[4208, 10.710967378552104]]}
+{"ggcctcgttccacagggtcagctcgtgattctgtagctcgcaccacgcgatggcaacgcggcccaacata": [[4208, 10.710967378552104]]}
+{"ggcctgcacacggcctgcctgaagctggggctggatctggagtctgtcgaatttcaggacctgaacaaac": [[4208, 10.710967378552104]]}
+{"ggcctgtgcggcctggacgaactgtgttcgcggcggcgtctggcggacattaaggacattgcatccttcg": [[4208, 10.710967378552104]]}
+{"ggcctgtttgagcagaaggacattctccactactacgtggagcaggaatgcatcgaagtcgtacactcgc": [[4208, 10.710967378552104]]}
+{"ggccttggcgtacgcgctatataagcccatgcggcgttggatgagctcccgcgcgccccggaactcctcc": [[4208, 10.710967378552104]]}
+{"ggcg": [[1599, 9.101529466118004], [1666, 9.101529466118004], [1934, 9.101529466118004], [2116, 9.101529466118004], [2215, 9.101529466118004]]}
+{"ggcgaa": [[1599, 10.017820197992158], [2942, 10.017820197992158]]}
+{"ggcgaacgtgagggtgcacaggagcggggtcagggggtgcgtcacgctccggaggtggacgatcgcgcag": [[4208, 10.710967378552104]]}
+{"ggcgacggccgccccgccctcggagataatgccccggagctgctcgcacagcgagctttcgtgcgctccg": [[4208, 10.710967378552104]]}
+{"ggcgagcccgtccacgatcaaactctcgggaaccgtgttgtgttgccgcgcggccaaccggacgctgcga": [[4208, 10.710967378552104]]}
+{"ggcgaggggcgggagggggcgaggggcgggagggggcgaggggcgggagggggcgaggggcgggaggggg": [[4208, 10.710967378552104]]}
+{"ggcgccagtctgccagccgcgtgccgaacatgaggccccgggtcggagggcctccggtcgaaaacactgg": [[4208, 10.710967378552104]]}
+{"ggcgcccccccctccaaccggggccgggatacgcgcagatccttggttggagggggcgctcggggaccca": [[4208, 10.710967378552104]]}
+{"ggcgcccgtggggggtgggcacacgtaaaagtttgcatcggtgttctccgccttgatgtcccgcaggtgc": [[4208, 10.710967378552104]]}
+{"ggcgccggggaactttggggggacggcaagcgccggaagtcgtcgcgggggcccacgggcgccggccgcg": [[4208, 10.710967378552104]]}
+{"ggcgcgccaggtgctctgcggtgacgcgcaggcggagggcgaggcgcggcggaaggcggaaggggcgtga": [[4208, 10.710967378552104]]}
+{"ggcgcgct": [[3744, 10.710967378552104]]}
+{"ggcgcggcgcaggctggtcagcaggaagcccttctgcgcgcggtcgtatcggcggctcatggccacggcg": [[4208, 10.710967378552104]]}
+{"ggcgcggtccgggtccaggccgaggcgctcacacagcgcctcccccgtcgtctcgtgtttgaggtcgccg": [[4208, 10.710967378552104]]}
+{"ggcgcgtccgggtgccgcggctctccgggcccccctgcagccggggcggccaaggggcgtcggcgacatc": [[4208, 10.710967378552104]]}
+{"ggcgg": [[1599, 9.324673017432213], [1666, 9.324673017432213], [2685, 9.324673017432213], [2932, 24.332155292738896]]}
+{"ggcgga": [[1599, 10.017820197992158], [2942, 10.017820197992158]]}
+{"ggcggaacggccgcgcggatcatctcatattgttcctcggggcgcgctccccagccacatatagccccga": [[4208, 10.710967378552104]]}
+{"ggcggacgaccaaaccgacgtattgtacgccaagatacaacacccgcggcacctgcccgacgacgagccc": [[4208, 10.710967378552104]]}
+{"ggcggccccgtgggggtgggggttctcgtcgtcgtcgccgccgcacgcggcctgggcggcgggggcgggc": [[4208, 10.710967378552104]]}
+{"ggcggcccgggcgggcgcagggcagcctgcaggagctcggtccccagacgcgggagaaacaggcaccggc": [[4208, 10.710967378552104]]}
+{"ggcggccgcggagctcggcaggcgcgggtcccgcggcagcgcggggcccagggccccggcgaccaggctc": [[4208, 10.710967378552104]]}
+{"ggcggcgggtgacgtcctgcactgcccgctgaaccaacgcgaggatctcctcgttctcctgcgcgatgga": [[4208, 10.710967378552104]]}
+{"ggcggcgtggaccacgccccggcggggttcaaccccaccgtcaccgtctttcacgtgtacgacatcctgg": [[4208, 10.710967378552104]]}
+{"ggcggctccccgtgcgggcccgcgtctcccgccgctaaggcgacgagcaagacaaacaacaggcccgccc": [[4208, 10.710967378552104]]}
+{"ggcgggaaah": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggcgggaarn": [[3027, 9.101529466118004], [3029, 9.101529466118004], [3443, 9.101529466118004], [3716, 9.101529466118004], [3825, 9.101529466118004]]}
+{"ggcgggagccacctgacaacagcccccgggtttccccacgccagacgccggtccgctgtgccatcgctcc": [[4208, 10.710967378552104]]}
+{"ggcgggagtaccgtggaactcccccccaccacacgcgataccgcggggcagggcctgcttcggcgcgtcc": [[4208, 10.710967378552104]]}
+{"ggcgggccatggagacagagagcgtgccggggtggtagagtttgacaggcaagcatgtgcgtgcagaggc": [[4208, 10.710967378552104]]}
+{"ggcgggcgcgtcgcccgccccacgccacggagttctcgtaggagacgacgacgaagcgctgcttggttcc": [[4208, 10.710967378552104]]}
+{"ggcgggcggtacgtagtctgctgcaagagacaacggggggcgcgatcaggttacgccccctccccggccc": [[4208, 10.710967378552104]]}
+{"ggcgggcgtggggggcggggccgcgggagcgggggaggagcgggggaggagcggggggaggagcgggggg": [[4208, 10.710967378552104]]}
+{"ggcggggc": [[1599, 8.631525836872267], [1981, 8.631525836872267], [2054, 8.631525836872267], [2116, 8.631525836872267], [2206, 8.631525836872267], [3199, 14.614443634630602], [3223, 14.614443634630602], [3663, 8.631525836872267]]}
+{"ggcggggcdgggygkggc": [[3199, 10.017820197992158], [3223, 10.017820197992158]]}
+{"ggcggggcggggnggggc": [[3199, 10.017820197992158], [3223, 10.017820197992158]]}
+{"ggcggggcrgkgggcgkggc": [[3199, 10.017820197992158], [3223, 10.017820197992158]]}
+{"ggcggggctgggtggggc": [[3199, 10.017820197992158], [3223, 10.017820197992158]]}
+{"ggcgggggcctcgcacgcctgtccgatgccgtcgtcgaccacgcgggtcactcccacgaccaagcggggg": [[4208, 10.710967378552104]]}
+{"ggcggggtttgtgtcatcatagaactaaagacatgcaaatatatttcttccggggacaccgccagcaaac": [[4208, 10.710967378552104]]}
+{"ggcgggtgctgtacggcggcctgggcgacagccgcccgggcctctggggggcgcccgaggcggaggaggc": [[4208, 10.710967378552104]]}
+{"ggcggtattgaccagttttgcgaggagcccgcccttcgcatatgctactatccccgcagtcccgggggct": [[4208, 10.710967378552104]]}
+{"ggcggtgctaaagtgcagctttctggccagcccctgcgcgggtgtcttggatcgggttggcgccgtcgac": [[4208, 10.710967378552104]]}
+{"ggcggttcgggggggcgggagaccgagtaggcccgcccatacgcggcccctcccggcagccacgcccccc": [[4208, 10.710967378552104]]}
+{"ggcgtaaagcagatggcgaccttgtccaggctaaggccctgggagcgcgtgatggtcatggcaagcttgg": [[4208, 10.710967378552104]]}
+{"ggcgtatttaatcaggctagcgcggcgggcctgccgtagtttctggctcggtgagcgacggtccggttgc": [[4208, 10.710967378552104]]}
+{"ggcgtccagagggtagagccctgagtcatccgaggttggctcatcgcccgggtcttgccgcaagtgcgtg": [[4208, 10.710967378552104]]}
+{"ggcgtccgcgccgctcttcttcgtcttcgggggtcgcgggccgccgcctccgggcggccgggccgggccg": [[4208, 10.710967378552104]]}
+{"ggcgtccgtgggttccggcagcggactcggcaacgacgacgacggggactggtttccctgctacgacgac": [[4208, 10.710967378552104]]}
+{"ggcgtgccggaccgccccagcccctcccacaccccgcgcgtcatcagccggtgggcgtggccgctattat": [[4208, 10.710967378552104]]}
+{"ggcgttgcgacatacaaaatacaccagggcgtggaagtactcgcgagcgcgggggggcagccataccgcg": [[4208, 10.710967378552104]]}
+{"ggcgttgtgggtgatgggtaccaggatccgtggctcgacgttggcagactgccccccgcaccgatgtgag": [[4208, 10.710967378552104]]}
+{"ggct": [[1396, 13.550116655254042], [1398, 13.550116655254042], [1458, 16.795020333789452], [1841, 8.002917177449893], [2112, 8.002917177449893], [2153, 22.342219811593598], [2522, 8.002917177449893], [2799, 20.88311549290785], [3112, 20.88311549290785], [3128, 16.795020333789452], [3214, 8.002917177449893], [3670, 8.002917177449893], [3889, 22.342219811593598], [3936, 8.002917177449893], [4295, 8.002917177449893]]}
+{"ggctc": [[4032, 10.710967378552104]]}
+{"ggctcacccgcgttcgtgccttcccgcaggaggaacgccctcgtcgaggcgaccggcggcgaccgttgcg": [[4208, 10.710967378552104]]}
+{"ggctcccgacctagaggaggtcctgacgaacatcaccgccccacccgggggactcctggtgtacgacagc": [[4208, 10.710967378552104]]}
+{"ggctcgagaggtgggggatatattaaaggtgccttgtgtgccgctcccgtctgacgatcttgattggcgt": [[4208, 10.710967378552104]]}
+{"ggctcggtgtccacccgaaacatgtcggcgtacgtgtcggccgcggccccgaaggccgcgctccagtcga": [[4208, 10.710967378552104]]}
+{"ggctg": [[1666, 10.017820197992158], [4032, 10.017820197992158]]}
+{"ggctggggcctggcgcacgcggcggccgccgtggccatgagccgccgatacgaccgcgcgcagaagggct": [[4208, 10.710967378552104]]}
+{"ggctgtcctgcctgctggcggccctggccaaccggctgtgcgggccggacacggccgcctgggcgggcaa": [[4208, 10.710967378552104]]}
+{"ggctt": [[1981, 10.017820197992158], [4303, 10.017820197992158]]}
+{"ggcttgccgttggggaagatggccgcgtggaactgcttcagcagaaagcccagcggtccgaggaggatgt": [[4208, 10.710967378552104]]}
+{"ggcvgttr": [[1910, 8.919207909324049], [2274, 8.919207909324049], [3027, 8.919207909324049], [3029, 8.919207909324049], [3716, 8.919207909324049], [3825, 8.919207909324049]]}
+{"ggcx": [[1396, 12.554907320804286], [1398, 12.554907320804286], [1636, 7.415130512547774], [1841, 7.415130512547774], [2112, 7.415130512547774], [2117, 7.415130512547774], [2153, 31.283514857630358], [2170, 7.415130512547774], [2231, 7.415130512547774], [2317, 7.415130512547774], [2327, 7.415130512547774], [2331, 7.415130512547774], [2391, 7.415130512547774], [2522, 7.415130512547774], [2799, 19.349322685089067], [2818, 7.415130512547774], [3112, 19.349322685089067], [3169, 15.56148401571062], [3214, 7.415130512547774], [3242, 12.554907320804286], [3315, 7.415130512547774], [3580, 7.415130512547774], [3734, 7.415130512547774], [3770, 7.415130512547774], [3889, 31.283514857630358], [4295, 7.415130512547774], [4325, 7.415130512547774]]}
+{"ggf": [[36226, 18.135244218065043]]}
+{"ggfather": [[45671, 10.710967378552104]]}
+{"ggg": [[2288, 9.612355089883994], [36843, 16.275131918978126], [52778, 16.275131918978126]]}
+{"gggaaaacccacacagcatggccaggtgctcgccggcaaattcctgggttccgccgacgaggggcgcggt": [[4208, 10.710967378552104]]}
+{"gggaaggcggtggagaggcgtccacgtcactggcctcctcgtccgtccggcattgggccgtcgtgcgggc": [[4208, 10.710967378552104]]}
+{"gggaatttcc": [[2389, 10.710967378552104]]}
+{"gggac": [[4032, 10.710967378552104]]}
+{"gggaccaccatgttctgcagggtggcgtatacgcggtcgaagcgaacccccgcggtgcagcagcggcccc": [[4208, 10.710967378552104]]}
+{"gggacgccagttggccgatatacttaccgaggtccatgtcgtacgcggggaacactatctgtcgttgttg": [[4208, 10.710967378552104]]}
+{"gggacgcccgacggcgcgggaagagaaaaacccccaaacgcgttagaggaccggacggaccttatggggg": [[4208, 10.710967378552104]]}
+{"gggacggaaacggatgcgtcggtgtcggacgaccccgacgacacgtccgactggtcttgtgacgacattc": [[4208, 10.710967378552104]]}
+{"gggacggccggatgtccaagaccttcatgacggcgctggtcctgtccctgcagtcgtgcggccggctgta": [[4208, 10.710967378552104]]}
+{"gggacggggccgccccgcggtgggcctgcctcccctgggacgcgcggccattgggggaatcgtcactgcc": [[4208, 10.710967378552104]]}
+{"gggacggggcgcccaaaagggggtcggccacaccacagacgtgggtgttggggggtggggcggaggggtg": [[4208, 10.710967378552104]]}
+{"gggactaggtccccggcgtgcgcggcaaaccgttccatgaccggattgaacaggcccaggggcaggacga": [[4208, 10.710967378552104]]}
+{"gggagac": [[1746, 10.017820197992158], [3464, 10.017820197992158]]}
+{"gggagaggggagagggggggagaggggagagggggggagaggggagagggggggagagggggtatataaa": [[4208, 10.710967378552104]]}
+{"gggaggacng": [[3346, 10.710967378552104]]}
+{"gggaggagtgggtgggcgaggtggccgggggaaggcgcccgctagcgagaacggccgttcccggacgaca": [[4208, 10.710967378552104]]}
+{"gggaggc": [[1746, 10.017820197992158], [3464, 10.017820197992158]]}
+{"gggaggtggaggctcgattcgacgccaccgcagaacccgtgtgcaagcttccttgtttggaggccagacg": [[4208, 10.710967378552104]]}
+{"gggagrc": [[3464, 18.135244218065043]]}
+{"gggagtatgtgacgcggctggtcaacgggttcaagccgctggtgagccggtccgctcgcctttaccgcat": [[4208, 10.710967378552104]]}
+{"gggatggccgccgcgacggccgacgatgaggggtcggccgccaccatcctcaagcaggccatcgccgggg": [[4208, 10.710967378552104]]}
+{"gggatgttgtccgcgccgcaccgtcccccgacgacctcttgcagacggtccgtgatgcaaggacggcggg": [[4208, 10.710967378552104]]}
+{"gggc": [[2456, 10.710967378552104]]}
+{"gggcc": [[1599, 9.612355089883994], [2685, 9.612355089883994], [4032, 16.275131918978126]]}
+{"gggccacgaggggtgtcctcggccagggcccaggaacgcttagtcacggtgcgtcccggcggacatgctg": [[4208, 10.710967378552104]]}
+{"gggccagatcgacacgcagacgcacgagcaccccgacgggttcaccacagtctctaccgtgacctccgag": [[4208, 10.710967378552104]]}
+{"gggccagtcgcaggcgcgcacggtgttgaccacgatgagccgccggtcgccggcgctggcgagcagcccc": [[4208, 10.710967378552104]]}
+{"gggcccggtggagcgcgcacaggtgttccagcagcggccgccagcatgcccgcgcgtctgccggggcgat": [[4208, 10.710967378552104]]}
+{"gggccctacggtccacagacccgccttcccgggggggcccttggagcgaccggcagcggaggcgtccggg": [[4208, 10.710967378552104]]}
+{"gggccgaccctcgaacccgggcaccacgtgtccctcgcggtccacctgtgggttggccgccacgtgggtc": [[4208, 10.710967378552104]]}
+{"gggccgcgggggccttagtcgccacccgctgggttcggggggcccggggggcggtggtgggtgtgcgtcc": [[4208, 10.710967378552104]]}
+{"gggccgggccgggtgggcggggtttggaaaaacgaggaggaggaggagaaggcggggggggagacggggg": [[4208, 10.710967378552104]]}
+{"gggccgtgtgcaaaaa": [[3115, 10.710967378552104]]}
+{"gggcct": [[2793, 10.017820197992158], [2831, 10.017820197992158]]}
+{"gggcctccgaagacgtccggaaacaaccctacaacctgaccatcgcttggtttcggatgggaggcaactg": [[4208, 10.710967378552104]]}
+{"gggcctgcagcagggtgaccgtatccacgggatggccaaagagaagcggacacaggctagcatccccctg": [[4208, 10.710967378552104]]}
+{"gggcctggctcaggcgccccgttgcgtacagcggaggggccgccggggtgtttttgggacccccggccgg": [[4208, 10.710967378552104]]}
+{"gggccttcccgtcgacggcgcacgggcggctcgtcgcccgccatctcctccagagcctctagctcgctgt": [[4208, 10.710967378552104]]}
+{"gggcgcacgacgcgttctgcggcgcaggcctcggtcagggccgtggccagcgccgaggacagcagcggag": [[4208, 10.710967378552104]]}
+{"gggcgccctggtgcatggcgggactacgggggcccgtcgtgccccccgtcaggtagcctgggggcgaggt": [[4208, 10.710967378552104]]}
+{"gggcgccgccgtgtggctgggcccccggggctgccgccgccagccgcccagggggtcggggccctcggcg": [[4208, 10.710967378552104]]}
+{"gggcgcgaagtccggggaagcaaaaccgcgccgtccagacgggcccgacggccgcgggcgggtctaacag": [[4208, 10.710967378552104]]}
+{"gggcgga": [[2116, 10.017820197992158], [2168, 10.017820197992158]]}
+{"gggcggaggcgttcaccggctccggcgtccttcgcgtttaagcttggtcaggagggcgctcagggcggcg": [[4208, 10.710967378552104]]}
+{"gggcggg": [[1599, 9.324673017432213], [2116, 9.324673017432213], [2168, 9.324673017432213], [2539, 9.324673017432213]]}
+{"gggcgggaagg": [[3443, 10.710967378552104]]}
+{"gggcgggacggttcgcgaaccctttggtgggtttacgcgggcacgcacgctcccatcgcgggcgccatgg": [[4208, 10.710967378552104]]}
+{"gggcggtgggggagagtcttataggaagtgcatataaccacaacccatgggtctaaccaatccccagggg": [[4208, 10.710967378552104]]}
+{"gggcgtgatcggcgaagaactgcaagagaaacggagtctctggggcgtcggcgaacaggttcttcagcac": [[4208, 10.710967378552104]]}
+{"gggcgttattccggaaatgccgtcaaaacagtaaaacctctgaaattcgctgacggcccaatcagcaccc": [[4208, 10.710967378552104]]}
+{"gggctcaag": [[2218, 10.017820197992158], [2250, 10.017820197992158]]}
+{"gggctcatggccaagcagctcttggtgacggtttgccagcggtctatccactccacggcgcactggcgga": [[4208, 10.710967378552104]]}
+{"gggctccagacccgccaacaccgcatctgcgtcagccgcccccatggcgcccccgctgacggcctggtga": [[4208, 10.710967378552104]]}
+{"gggctgacggccatgggcgacaagatggcgagccacatctcgcgcgcgctgtttctgccccccatcaaac": [[4208, 10.710967378552104]]}
+{"gggctggggttggggttggggttggggctggggttggggttggggctggggctggggctggggctggggc": [[4208, 10.710967378552104]]}
+{"gggfather": [[45671, 18.135244218065043]]}
+{"gggg": [[1666, 10.710967378552104]]}
+{"ggggacacggaagcgctgtgctcccccgaggacggctgggtaaaggttcaccccacccccggtacgatgc": [[4208, 10.710967378552104]]}
+{"ggggaccccgggccaccgtcccccccgacaccccaacgatcccaggggccgccggccgatgaggtcgcac": [[4208, 10.710967378552104]]}
+{"ggggacgataaggcccgaccccaccgcccccaccataaactcccgaacgcgctccagcgcggcggtggcg": [[4208, 10.710967378552104]]}
+{"ggggacgcgcacctgttccgcctgtcgcacccacagctttttcgcgaaccgtcccgtttcgggatgccgt": [[4208, 10.710967378552104]]}
+{"ggggagcgctcttgtctcagggcaatgtttttattggtcaaactcaggcaaacagaaacgacatcttgtc": [[4208, 10.710967378552104]]}
+{"ggggaggagcggggggaggagcgggggaggagcggccagaccccggaaacgggccccccccaaaacacac": [[4208, 10.710967378552104]]}
+{"ggggaggagcggggggaggagcggggggaggagcggggggaggagcggggggaggagcggggggaggagc": [[4208, 10.710967378552104]]}
+{"ggggcagcgacaggacctagtgcgcacgatcgggcgggtgggtttgggtaagtccatcagcggctcggcc": [[4208, 10.710967378552104]]}
+{"ggggcccgtcgttcggggtgctcgttggttggcactcacggtgcggcgaatggcctgtcgtaagttttgt": [[4208, 10.710967378552104]]}
+{"ggggccgaggcctg": [[1564, 10.710967378552104]]}
+{"ggggcgaagttgccatggctgggcgggaggggcgcacgcgccagcgaactttacgggacacaatccccga": [[4208, 10.710967378552104]]}
+{"ggggcgagaggcggtaggtttgcttgtacagctcgatggtgcggcagaccagacagggccggtccagcgc": [[4208, 10.710967378552104]]}
+{"ggggcgaggggcgggagggggcgaggggcgggagggggcgaggggcgggagggggcgaggggcgggaggg": [[4208, 10.710967378552104]]}
+{"ggggcgccgggggggaggcgcccaagcgtccggccgcagcccgggaggacgaggagcggccagaggagga": [[4208, 10.710967378552104]]}
+{"ggggcgctgccgggacgctcggcgatgggatgagggcggggcttccgacgcgcgccgtcgtcgggctcgc": [[4208, 10.710967378552104]]}
+{"ggggcggcgacggtcaaggggagggtgggagaccggggttggggaatgaatccctacccttcacagacaa": [[4208, 10.710967378552104]]}
+{"ggggcggggccttggcggccgcccaactctcgcaccatcccgggttaatgtaaataaacttggtattgcc": [[4208, 10.710967378552104]]}
+{"ggggcgttaccatccctacatggacccagttgtcgtataattttttcccccccccccttctccgcatggg": [[4208, 10.710967378552104]]}
+{"ggggctygkctggga": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggggfather": [[45671, 10.710967378552104]]}
+{"gggggaacgtccccccccggcagctccacgtcggccacccccacgaagaagtcgaacgcggggtgcagct": [[4208, 10.710967378552104]]}
+{"gggggaatcccc": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"gggggactctaaggccgccacgtcccggaaccactgcagacggggcacttgcgctccgtcgagctgttgt": [[4208, 10.710967378552104]]}
+{"gggggagaggggagagggggggagaggggagagggggggagaggggagagggggggagaggggagagggg": [[4208, 10.710967378552104]]}
+{"gggggaggacgaggacgaacgcgaggagggcgggggcgagcgggagccggagggcgcgcgggagaccgcc": [[4208, 10.710967378552104]]}
+{"gggggatggccgaacagaacccaggggtcaacctccatctccgtgatggcgcacatggggtcacagaaca": [[4208, 10.710967378552104]]}
+{"gggggcccagccacacggcggcgcccgcggccgccgccctggaggcctactgctccccgcgcgccgtggc": [[4208, 10.710967378552104]]}
+{"gggggcgcggccagggagggcccgggacccccctgacgtcctcggcggcctccgcctcttcctcctccgc": [[4208, 10.710967378552104]]}
+{"gggggcggggcc": [[2932, 10.710967378552104]]}
+{"gggggcggggctaacccctcccaccccccctcacgccccttccgccttccgccgcgcctcgccctccgcc": [[4208, 10.710967378552104]]}
+{"gggggcgtcatggcctcccaggagatcgtttccgcgacggtgcgcctgcagaccgacccggtcgagtatc": [[4208, 10.710967378552104]]}
+{"gggggcgtgtctctgtgtatgagtcaggggggtcccacggcgaccccgggccctgcgtctgagtcaaagg": [[4208, 10.710967378552104]]}
+{"ggggggacggcgggaccccgcgatgatggccgtgagggtgttgatgaagtatgtcgagtgatcgcagtac": [[4208, 10.710967378552104]]}
+{"ggggggaggagcggggggaggagcggggggaggagcggggggaggagcggggggaggagcggggggagga": [[4208, 10.710967378552104]]}
+{"ggggggcaggggacggaaggtggttgttagcggaagactgttagggcgggggcgcttgggggggctgtcg": [[4208, 10.710967378552104]]}
+{"ggggggcggcggcggggcggccgcgggcgcgctcctgaccacgggttccgagttgggcgtggaggttacc": [[4208, 10.710967378552104]]}
+{"gggggggaaaaaacccccccccgggggggggggggggggggtaaaaaaaa": [[28802, 10.710967378552104]]}
+{"gggggggaccttgatggtggttgccgtcttgggctttgtctccatgtcctcctggcaatcggtccgcaaa": [[4208, 10.710967378552104]]}
+{"gggggggagacagaaacaggaacatagttagaaaacaagaatgcggtgcagccagagaatcacaggagac": [[4208, 10.710967378552104]]}
+{"gggggggagtcgctgatcactatggggtctctgttgtttgcaaggggggcgggtctgttgacaagggggc": [[4208, 10.710967378552104]]}
+{"gggggggcggcaaggcgggcggcccaagggccgcccgccgtcccgttggtcccggcgtccggcgggcggg": [[4208, 10.710967378552104]]}
+{"gggggggcgggtaagaatggggggatttcccgcgtcaatcagcgcccacgagttccccctccccccccgc": [[4208, 10.710967378552104]]}
+{"gggggggg": [[3027, 9.101529466118004], [3029, 9.101529466118004], [3716, 9.101529466118004], [3825, 9.101529466118004], [48736, 9.101529466118004]]}
+{"gggggggtgggaggggttagccccgccccccgggcccgcgccgggcggtggggaccgggggcggggggcg": [[4208, 10.710967378552104]]}
+{"gggggtgccgaggcgaggacaggctccggaacggaggcggggaccgcggccccgacgggggttttgcctt": [[4208, 10.710967378552104]]}
+{"gggggtgtgtcc": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggggtcacgcggtaccctggggtctctgggagctcgcggtactctgggttccctaggttctcggggtggt": [[4208, 10.710967378552104]]}
+{"ggggtcatggagatgtccacgagcaccagacacggcgggccccgggcgaggggccgctcggcgatgagcg": [[4208, 10.710967378552104]]}
+{"ggggtcgcgggggtcgcgggggtcgcggggggcttcggcgccccctccccgcccgcgcgtcgcaggcgca": [[4208, 10.710967378552104]]}
+{"ggggtcgtcgccccccacgggggaggcgggcgcggcggacagccgccccagggcggcgaggatccccgcg": [[4208, 10.710967378552104]]}
+{"ggggtcgtgcataatggaattccgttcggggtgggcccgccggggggcggggggccggcggcctccgctg": [[4208, 10.710967378552104]]}
+{"gggraarrgrmcagmtg": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"gggrandfath": [[36226, 10.710967378552104]]}
+{"gggtaacggtaacgaccttcggaggtcgggcggctgcagtccgggcggcgcaactcgagctccccgcacc": [[4208, 10.710967378552104]]}
+{"gggtaagatgctcatcaagggcgtggatctggtgcgcaaaaacaactgcgcgtttatcaaccgcacctcc": [[4208, 10.710967378552104]]}
+{"gggtaagcaccttgggtgggcagaggaggggggacgcgggggcggaggaggggggacgcgggggcggagg": [[4208, 10.710967378552104]]}
+{"gggtaagtaacagagtctaactaagggtgggagggggggaaaataacgggctggtgtgctgtaacacgag": [[4208, 10.710967378552104]]}
+{"gggtc": [[4032, 10.710967378552104]]}
+{"gggtcccacggcgtcccccaaatatggcgggcggctcctccccacccccctagatgcgtgtgagtaaggg": [[4208, 10.710967378552104]]}
+{"gggtcccgggccctccctggccgcgcccccccggccctgagtcggagggggggtgcgtcgccgccctctt": [[4208, 10.710967378552104]]}
+{"gggtccctgggggtcgcaacgtaggcggggcttctgtggtgatgcggagagggggcggcccgagtctgcc": [[4208, 10.710967378552104]]}
+{"gggtctgctgggccaggacttcgaccggggtctcggatcgggtggcttgagccagcgcgtccaggataaa": [[4208, 10.710967378552104]]}
+{"gggtctggctcatctcgagagacacgggggggaaccaccctccgcccagagactcgggtgatggtcgtac": [[4208, 10.710967378552104]]}
+{"gggtcttgctaggtcgcgatctgtggtcgcaatgaagaccaatccgctacccgcaaccccttccgtgtgg": [[4208, 10.710967378552104]]}
+{"gggtgacaagatagtgtacctgtgccccgtcctggtgtttgtcgcccaacggacgctccgcgtcagccgc": [[4208, 10.710967378552104]]}
+{"gggtggggttgatacgggaaagacgatatcgggcttttgatgcgatcgtccccgcccgcccagagagtgt": [[4208, 10.710967378552104]]}
+{"gggtgtacgtgttacgcgtatgggtcggggacgcaccaaacgccagcctgtttgtcctggggatggccat": [[4208, 10.710967378552104]]}
+{"gggtgtgtaggcgatgcgggtcccccgagtccgcgggaagggcgcgggtttggcgcgcgtatgcgtattc": [[4208, 10.710967378552104]]}
+{"gggttagggagttgttcggtcataagcttcagtgcgaacgaccaactaccccgatcatcagttatcctta": [[4208, 10.710967378552104]]}
+{"gggttcaag": [[2218, 10.017820197992158], [2250, 10.017820197992158]]}
+{"gggttcttgcacaaacaccacccgggttgcatccgcggaggcgagtgttttgataaggccgttccgcgcc": [[4208, 10.710967378552104]]}
+{"gggttgcggggtcctccgcgcccgcccgaaccccctccgtcgcccgcccccccgcgggcccttgaggggg": [[4208, 10.710967378552104]]}
+{"gggttttgaaggatgartaggagtt": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"gggytcaag": [[2218, 10.017820197992158], [2250, 10.017820197992158]]}
+{"ggh": [[1398, 13.7924074452], [1458, 19.43879686930943], [1550, 8.146018021090567], [1841, 8.146018021090567], [2153, 19.43879686930943], [2233, 8.146018021090567], [2434, 17.095333522772545], [2936, 8.146018021090567], [3128, 19.43879686930943], [3201, 17.095333522772545], [3214, 8.146018021090567], [3596, 13.7924074452], [3770, 8.146018021090567]]}
+{"gghiasi": [[31488, 18.135244218065043]]}
+{"ggj": [[19965, 12.618807250721852], [19975, 23.828501823056953], [19979, 25.97255915217625], [19984, 17.784743660913083], [19995, 12.618807250721852], [20001, 22.950680071104312], [20002, 17.784743660913083], [20013, 12.618807250721852], [20015, 15.64068633179379], [25352, 17.784743660913083], [30574, 19.447803727755208], [34854, 22.950680071104312], [35440, 19.447803727755208], [37344, 20.806622741985016], [53767, 12.618807250721852], [53892, 19.447803727755208], [53935, 15.64068633179379], [54032, 17.784743660913083], [54087, 12.618807250721852], [54197, 15.64068633179379], [54205, 22.950680071104312], [54375, 20.806622741985016], [54560, 19.447803727755208], [54689, 15.64068633179379], [54809, 12.618807250721852], [54958, 19.447803727755208]]}
+{"ggkc": [[2456, 18.135244218065043]]}
+{"ggl": [[2170, 9.612355089883994], [3315, 9.612355089883994], [6047, 9.612355089883994]]}
+{"ggm": [[36226, 10.017820197992158], [51958, 10.017820197992158]]}
+{"ggmbh": [[395, 10.710967378552104]]}
+{"ggmgctgtccatggtgctga": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggmmai": [[52501, 10.710967378552104]]}
+{"ggn": [[1083, 9.324673017432213], [2317, 9.324673017432213], [3214, 9.324673017432213], [3770, 15.78804382910875]]}
+{"ggnbp2": [[2522, 8.631525836872267], [2737, 24.097143988974764], [3169, 8.631525836872267], [3201, 14.614443634630602], [3214, 8.631525836872267], [3383, 26.58027923014727], [3600, 25.42769956467517], [3670, 27.596926545560596]]}
+{"ggntctcgcgagaac": [[2133, 10.710967378552104]]}
+{"ggocek": [[25792, 10.710967378552104]]}
+{"ggonz": [[53144, 10.710967378552104]]}
+{"ggplot": [[16823, 31.745620628416322], [16847, 16.275131918978126], [16851, 9.612355089883994]]}
+{"ggplot2": [[16823, 16.275131918978126], [16852, 9.612355089883994], [49769, 9.612355089883994]]}
+{"ggps1": [[1351, 7.575473162622954], [1396, 18.07730889078222], [1398, 18.07730889078222], [1841, 7.575473162622954], [2112, 7.575473162622954], [2153, 31.328325446953727], [2317, 7.575473162622954], [2522, 7.575473162622954], [2610, 12.826391026702588], [2737, 7.575473162622954], [2799, 19.767726875175395], [2936, 12.826391026702588], [3112, 19.767726875175395], [3214, 7.575473162622954], [3383, 7.575473162622954], [3596, 23.32822675486185], [3600, 15.897981071556003], [3670, 15.897981071556003], [3734, 7.575473162622954], [3770, 7.575473162622954], [3780, 23.32822675486185], [3889, 31.328325446953727], [4261, 7.575473162622954]]}
+{"ggrandfath": [[31215, 10.017820197992158], [45671, 10.017820197992158]]}
+{"ggshc": [[4032, 10.710967378552104]]}
+{"ggt": [[2288, 9.324673017432213], [5763, 19.568873382195186], [6983, 19.568873382195186], [7172, 19.568873382195186]]}
+{"ggt1": [[1351, 9.324673017432213], [3201, 22.251414640785285], [3822, 9.324673017432213], [4261, 9.324673017432213]]}
+{"ggt5": [[1351, 10.017820197992158], [4261, 10.017820197992158]]}
+{"ggt6": [[3201, 10.710967378552104]]}
+{"ggt7": [[2031, 8.76505722949679], [2434, 8.76505722949679], [2677, 8.76505722949679], [3169, 8.76505722949679], [3201, 8.76505722949679], [3242, 14.840531935569057], [4308, 8.76505722949679]]}
+{"ggtaatgagatgccatgcggggcggggcgcggacccacccgccctcgcgccccgtccatggcagatggcg": [[4208, 10.710967378552104]]}
+{"ggtagaccgaggcaaagagtgtggtggcgataatcagctcgcgaatatatcgccaggcggcgcgctgagt": [[4208, 10.710967378552104]]}
+{"ggtagctgtttggttccgttttaataaaccgtttgtgtttaacccgaccgtggtgtatgtctggtgtgtg": [[4208, 10.710967378552104]]}
+{"ggtatcaggacttccacttcccgtccttccatcccccgttcccctcggttgttcctcgcctcccccaaca": [[4208, 10.710967378552104]]}
+{"ggtc": [[2456, 10.710967378552104]]}
+{"ggtcaagtga": [[2994, 10.710967378552104]]}
+{"ggtcacatgac": [[2842, 10.710967378552104]]}
+{"ggtcacgtggc": [[2842, 10.710967378552104]]}
+{"ggtcanytgaggwca": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggtccaccctgcccatttcgtacgactacagcgagtacatctgtcggttgaccggatatccggccgggat": [[4208, 10.710967378552104]]}
+{"ggtccacgttcccgcgcggctgggtgagcgtgaagtttacccccccgccagtttcatgccgggccacctg": [[4208, 10.710967378552104]]}
+{"ggtcccgggggcgggatggggtttagcggcggggggcggcgcgccggacggggcgctggagataacggcc": [[4208, 10.710967378552104]]}
+{"ggtccgggacacccgagcctgtctctctgtgtatggtgacccagacaacaacaccgacacaagaggacaa": [[4208, 10.710967378552104]]}
+{"ggtcctcgtcctcgtcgtccgcatcctcttcgtcctcgtcgtccgacgaggacgaggacgacgacggcaa": [[4208, 10.710967378552104]]}
+{"ggtcggaaccataggatgaacaaaccaccccgtacctcccgcacccaagggtgcgggtggctcatcggca": [[4208, 10.710967378552104]]}
+{"ggtcgggggagggggggatggggtaccggcccacctggccggcgcgggtgcgcgtgcctttgcacaccaa": [[4208, 10.710967378552104]]}
+{"ggtcggtacaacgtacagccggatgcgggggggaccgtcgaggggttcgcatcggaactgctggggcgga": [[4208, 10.710967378552104]]}
+{"ggtcgtaaaaa": [[1523, 10.017820197992158], [3851, 10.017820197992158]]}
+{"ggtcgtaaaat": [[1523, 10.017820197992158], [3851, 10.017820197992158]]}
+{"ggtctcccccgaggtaggtcacgacgtacgagaccagcgagtagtcgttcacgaacgccgcgcaccgcgt": [[4208, 10.710967378552104]]}
+{"ggtctcggtagccggccggcgggtggactcgcggggggccggagggtggaaggcaggggggtgtaggatg": [[4208, 10.710967378552104]]}
+{"ggtctggcat": [[2577, 10.017820197992158], [4189, 10.017820197992158]]}
+{"ggtg": [[1666, 10.710967378552104]]}
+{"ggtgaacgtgggccaacccggaaaccccaggacggcaaagtacgggacgggtcccccccggacctcaaac": [[4208, 10.710967378552104]]}
+{"ggtgaagtacccggccggggccccaaggccctggcgcttgaccagatggtgtgtgtgggcaaacttcatc": [[4208, 10.710967378552104]]}
+{"ggtgaccgcgaggatggtgtccttgatgacctccatctcccggaaggcctggtcgggggcctcggggaga": [[4208, 10.710967378552104]]}
+{"ggtgacgcctcgcgcccccccgaggggctcagcgtctgcccagattccagacgcgcggtcagaagggcgt": [[4208, 10.710967378552104]]}
+{"ggtgcacgcgcgcgggcctcgtgtcgtttaacttcctggtggcggcgtgtgccgcctcgtacgacgcgcg": [[4208, 10.710967378552104]]}
+{"ggtgccgccgggccccaaccggcggtcgggggggcggtgtatcacgcggcccgctcgggtggctcgccgt": [[4208, 10.710967378552104]]}
+{"ggtggaggtggggagaccgaaaccgcaaagggtcgcttacgtcagcaggatcccgagatcaaagacaccc": [[4208, 10.710967378552104]]}
+{"ggtgggccgcagcagcacgtgaaggctggggtcgcagtcgcccacggggtcctcggggacgtccaggccg": [[4208, 10.710967378552104]]}
+{"ggtgggtggggagtgggtgggtggggagtgggtgggtggggagtgggtgggtggggagtgggtgggtggg": [[4208, 10.710967378552104]]}
+{"ggtggtgacgcacacaaacgccacggcctgttcttgttatatcctcaacaagcccgttttcatcacgatg": [[4208, 10.710967378552104]]}
+{"ggtggtgaggtcgcgcgcgtagaagccgtcgacctgcttgaagcggtcggcggcgtagctggtgtgttcg": [[4208, 10.710967378552104]]}
+{"ggtggtggtggtagtaggaatggtggtgggggggagggcgctggttggtcaaaaaagggagggacggggg": [[4208, 10.710967378552104]]}
+{"ggtggttggtgatcctggccaggagccatcccagatggcgggccctgcttcccggtggacagagcgaccc": [[4208, 10.710967378552104]]}
+{"ggtgtcgcagcgcaggtggggcgcgatctcatccgtgcacacggcgcacacgtcgccctcgtcgctcccc": [[4208, 10.710967378552104]]}
+{"ggtgytgacag": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggtlc2": [[3201, 18.135244218065043]]}
+{"ggtransptas": [[1566, 10.017820197992158], [3728, 10.017820197992158]]}
+{"ggttaawcattaa": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggttcctgtgaccctcgaggccggcgccaaggtcgcccagctcctggttgcgggggcggacgctcttcct": [[4208, 10.710967378552104]]}
+{"ggttgccatggcaa": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggttgctatggccgcgagaacgcgcagcctggtcgaacgcagacgcgtgttgatggcaggggtacgaagc": [[4208, 10.710967378552104]]}
+{"ggttgggaggcgacagggaccccagagcatgcgcggggaggtctgtcgggcccagacgcaccgagagcga": [[4208, 10.710967378552104]]}
+{"ggtttgggaggggccggggggcgcgcgaaatcggtaaccggggcgaccgtgtcggggagggcaggcggcc": [[4208, 10.710967378552104]]}
+{"ggttttgccgacggaccggccgtcccccgggatgtctcggaggccctgtcgtcgcgacgggcccgggtcg": [[4208, 10.710967378552104]]}
+{"ggtttttggccctgtatgacagcggggactcgggcgagttggcattggatccggatacggtgcgggcggc": [[4208, 10.710967378552104]]}
+{"ggvtctcgcgagaac": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ggwg": [[1666, 10.710967378552104]]}
+{"ggyagcaydtgctdcccnnn": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"gh": [[1351, 8.631525836872267], [4261, 8.631525836872267], [30863, 8.631525836872267], [31472, 8.631525836872267], [37521, 20.597361432388936], [40174, 14.614443634630602], [43093, 8.631525836872267], [46565, 8.631525836872267]]}
+{"gh3": [[2317, 10.017820197992158], [3770, 10.017820197992158]]}
+{"gha": [[2170, 10.017820197992158], [3315, 10.017820197992158]]}
+{"ghabach": [[5745, 10.017820197992158], [6298, 10.017820197992158]]}
+{"ghada": [[19863, 10.017820197992158], [39055, 10.017820197992158]]}
+{"ghaderi": [[5030, 16.275131918978126], [29420, 16.275131918978126], [32302, 9.612355089883994]]}
+{"ghadimi": [[28646, 10.710967378552104]]}
+{"ghahramani": [[57, 7.820595620655939], [70, 7.820595620655939], [98, 7.820595620655939], [470, 7.820595620655939], [625, 13.24141942541306], [706, 7.820595620655939], [799, 13.24141942541306], [800, 7.820595620655939], [906, 7.820595620655939], [929, 7.820595620655939], [1104, 7.820595620655939], [1234, 7.820595620655939], [24122, 7.820595620655939], [26138, 7.820595620655939], [38712, 7.820595620655939], [38787, 7.820595620655939], [43524, 7.820595620655939], [44782, 16.412398074212557]]}
+{"ghalati": [[27449, 10.710967378552104]]}
+{"ghalavand": [[30060, 10.710967378552104]]}
+{"ghali": [[8390, 7.766528399385663], [9246, 7.766528399385663], [9693, 7.766528399385663], [9779, 7.766528399385663], [10601, 7.766528399385663], [12957, 7.766528399385663], [19866, 7.766528399385663], [19906, 27.6872804270967], [21444, 7.766528399385663], [21471, 7.766528399385663], [28050, 7.766528399385663], [29868, 7.766528399385663], [34550, 28.262842097449457], [37098, 7.766528399385663], [39036, 7.766528399385663], [45592, 13.149875662158582], [45817, 7.766528399385663], [47388, 7.766528399385663], [49261, 7.766528399385663]]}
+{"ghan": [[6047, 25.559521057577985]]}
+{"ghana": [[21190, 7.715235104998112], [21329, 16.191287201312633], [21347, 16.191287201312633], [21352, 7.715235104998112], [21522, 20.132426986324564], [21565, 20.132426986324564], [21651, 23.758615486157776], [21684, 7.715235104998112], [22701, 23.758615486157776], [23212, 13.063028565384668], [27312, 20.132426986324564], [27537, 16.191287201312633], [31878, 13.063028565384668], [32625, 7.715235104998112], [41741, 16.191287201312633], [42047, 7.715235104998112], [48641, 7.715235104998112], [49940, 13.063028565384668], [53827, 7.715235104998112], [54883, 20.132426986324564]]}
+{"ghanaian": [[19586, 10.017820197992158], [49940, 21.023520573173943]]}
+{"ghandeharioun": [[584, 27.967344398768677], [611, 27.967344398768677]]}
+{"ghandeharizadeh": [[37541, 9.612355089883994], [44707, 16.275131918978126], [45592, 9.612355089883994]]}
+{"ghandi": [[22189, 10.017820197992158], [32499, 16.961644023586896]]}
+{"ghanem": [[292, 9.612355089883994], [478, 9.612355089883994], [558, 9.612355089883994]]}
+{"ghanes": [[49940, 10.710967378552104]]}
+{"ghani": [[125, 9.324673017432213], [512, 9.324673017432213], [15952, 15.78804382910875], [30951, 9.324673017432213]]}
+{"ghanian": [[49940, 10.710967378552104]]}
+{"ghanshyam": [[34914, 10.710967378552104]]}
+{"ghaoui": [[745, 10.710967378552104]]}
+{"gharan": [[28247, 10.710967378552104]]}
+{"gharavi": [[23909, 10.710967378552104]]}
+{"gharehchopogh": [[320, 10.710967378552104]]}
+{"gharial": [[24521, 9.324673017432213], [49940, 19.568873382195186], [50011, 9.324673017432213], [50918, 15.78804382910875]]}
+{"gharibian": [[32461, 10.710967378552104]]}
+{"gharmalkar": [[46295, 10.710967378552104]]}
+{"gharri": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 22.937908748072257]]}
+{"ghart": [[32871, 18.135244218065043]]}
+{"ghasemiesfeh": [[47723, 10.710967378552104]]}
+{"ghasemloo": [[32871, 9.612355089883994], [49103, 9.612355089883994], [49843, 9.612355089883994]]}
+{"ghassan": [[49940, 18.135244218065043]]}
+{"ghassem": [[5030, 16.961644023586896], [39846, 10.017820197992158]]}
+{"ghassemi": [[16131, 15.78804382910875], [38937, 9.324673017432213], [48242, 19.568873382195186], [50416, 15.78804382910875]]}
+{"ghast": [[25211, 16.275131918978126], [32923, 16.275131918978126], [49940, 20.172606514672005]]}
+{"ghastili": [[49940, 10.710967378552104]]}
+{"ghastli": [[25211, 8.919207909324049], [25248, 8.919207909324049], [32923, 8.919207909324049], [42168, 8.919207909324049], [46611, 18.71795932369325], [49940, 21.28385553967591]]}
+{"ghastlier": [[49940, 10.710967378552104]]}
+{"ghastliest": [[49940, 10.710967378552104]]}
+{"ghat": [[49940, 27.94960435643875]]}
+{"ghaut": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"ghavamzadeh": [[4594, 9.324673017432213], [4596, 9.324673017432213], [43524, 9.324673017432213], [52836, 9.324673017432213]]}
+{"ghavamzadehsenior": [[4594, 10.017820197992158], [4596, 10.017820197992158]]}
+{"ghayyur": [[16474, 15.10153172449998], [21418, 8.919207909324049], [23617, 8.919207909324049], [34914, 8.919207909324049], [40770, 8.919207909324049], [48071, 8.919207909324049]]}
+{"ghazal": [[25211, 9.324673017432213], [32923, 9.324673017432213], [47673, 15.78804382910875], [49940, 19.568873382195186]]}
+{"ghazanfar": [[1168, 22.478167764152698]]}
+{"ghazard": [[806, 10.710967378552104]]}
+{"ghazel": [[49940, 18.135244218065043]]}
+{"ghazi": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"ghazvanid": [[49940, 18.135244218065043]]}
+{"ghb": [[2170, 10.017820197992158], [3315, 10.017820197992158]]}
+{"ghbp": [[2317, 10.017820197992158], [3770, 10.017820197992158]]}
+{"ghc": [[20358, 7.715235104998112], [20425, 13.063028565384668], [20482, 7.715235104998112], [20487, 7.715235104998112], [20538, 7.715235104998112], [20571, 13.063028565384668], [20809, 13.063028565384668], [20867, 13.063028565384668], [21428, 18.410822025771225], [22911, 22.728389398161777], [24379, 18.410822025771225], [26456, 18.410822025771225], [31021, 20.132426986324564], [33274, 7.715235104998112], [33804, 22.728389398161777], [43299, 13.063028565384668], [45079, 18.410822025771225], [48781, 7.715235104998112], [52206, 22.728389398161777], [53787, 18.410822025771225]]}
+{"ghcacgtg": [[3027, 9.324673017432213], [3029, 9.324673017432213], [3716, 9.324673017432213], [3825, 9.324673017432213]]}
+{"ghci": [[38449, 18.135244218065043]]}
+{"ghdc": [[2317, 9.101529466118004], [2522, 9.101529466118004], [3214, 9.101529466118004], [3770, 9.101529466118004], [3822, 9.101529466118004]]}
+{"gheber": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"ghee": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gheen": [[49940, 22.478167764152698]]}
+{"ghelli": [[44707, 10.710967378552104]]}
+{"ghemawat": [[7958, 6.633429934646384], [7975, 6.633429934646384], [7996, 6.633429934646384], [8005, 6.633429934646384], [8007, 6.633429934646384], [8022, 6.633429934646384], [8042, 6.633429934646384], [8043, 6.633429934646384], [8097, 6.633429934646384], [8098, 6.633429934646384], [8107, 6.633429934646384], [8113, 6.633429934646384], [8120, 6.633429934646384], [8124, 6.633429934646384], [8146, 6.633429934646384], [8151, 6.633429934646384], [8153, 6.633429934646384], [8232, 6.633429934646384], [8253, 6.633429934646384], [8295, 6.633429934646384], [8331, 6.633429934646384], [8333, 6.633429934646384], [8334, 6.633429934646384], [8360, 6.633429934646384], [8376, 6.633429934646384], [8405, 6.633429934646384], [8429, 6.633429934646384], [8536, 6.633429934646384], [8628, 6.633429934646384], [8856, 6.633429934646384], [8901, 6.633429934646384], [8943, 6.633429934646384], [9190, 6.633429934646384], [9296, 6.633429934646384], [9446, 6.633429934646384], [9539, 6.633429934646384], [9562, 6.633429934646384], [9570, 6.633429934646384], [9603, 6.633429934646384], [9826, 6.633429934646384], [9854, 6.633429934646384], [9878, 6.633429934646384], [10558, 6.633429934646384], [10573, 6.633429934646384], [10641, 6.633429934646384], [10835, 6.633429934646384], [10920, 6.633429934646384], [11256, 6.633429934646384], [11285, 6.633429934646384], [12191, 6.633429934646384], [12339, 6.633429934646384], [12644, 6.633429934646384], [13221, 6.633429934646384], [14141, 6.633429934646384], [14408, 6.633429934646384], [14446, 6.633429934646384], [14555, 6.633429934646384], [15278, 6.633429934646384], [15322, 6.633429934646384]]}
+{"ghemm": [[6047, 10.710967378552104]]}
+{"ghena": [[23722, 10.710967378552104]]}
+{"ghenia": [[28807, 29.902444603665632]]}
+{"ghent": [[21366, 17.445915277718868], [21405, 8.313072105753733], [21444, 8.313072105753733], [24671, 8.313072105753733], [29842, 8.313072105753733], [30740, 14.075254597648462], [37729, 8.313072105753733], [44494, 8.313072105753733], [45592, 8.313072105753733], [46913, 17.445915277718868], [49940, 14.075254597648462]]}
+{"gheorgh": [[26324, 10.710967378552104]]}
+{"gheorghiu": [[25248, 10.017820197992158], [42168, 10.017820197992158]]}
+{"gherao": [[49940, 29.902444603665632]]}
+{"gherardi": [[49940, 18.135244218065043]]}
+{"gherardo": [[49940, 18.135244218065043]]}
+{"gherkin": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gherlein": [[49940, 18.135244218065043]]}
+{"gheshlaghi": [[4454, 10.017820197992158], [4593, 10.017820197992158]]}
+{"ghess": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"ghetto": [[23037, 7.532913548204158], [23091, 7.532913548204158], [25211, 7.532913548204158], [25248, 19.65667020377241], [27396, 7.532913548204158], [27530, 15.808664941735742], [30127, 7.532913548204158], [31039, 15.808664941735742], [32923, 7.532913548204158], [33185, 7.532913548204158], [34674, 12.754331335543684], [35798, 15.808664941735742], [36319, 12.754331335543684], [38685, 17.97574912288321], [39597, 7.532913548204158], [40145, 15.808664941735742], [40842, 7.532913548204158], [41637, 7.532913548204158], [42168, 19.65667020377241], [44424, 17.97574912288321], [44633, 7.532913548204158], [48286, 24.87808799111194], [49940, 19.65667020377241], [50194, 17.97574912288321]]}
+{"ghettoiz": [[49940, 29.902444603665632]]}
+{"ghezzi": [[19502, 13.7924074452], [23510, 8.146018021090567], [26058, 8.146018021090567], [27038, 8.146018021090567], [27771, 8.146018021090567], [29937, 8.146018021090567], [31443, 8.146018021090567], [31897, 8.146018021090567], [36376, 8.146018021090567], [37081, 8.146018021090567], [38672, 8.146018021090567], [46406, 8.146018021090567], [51280, 8.146018021090567]]}
+{"ghg": [[390, 35.37388119595169]]}
+{"ghiani": [[43517, 22.478167764152698]]}
+{"ghiasi": [[20073, 18.410822025771225], [20082, 18.410822025771225], [20087, 7.715235104998112], [20111, 16.191287201312633], [20131, 16.191287201312633], [20134, 16.191287201312633], [20183, 16.191287201312633], [20190, 13.063028565384668], [20192, 16.191287201312633], [20222, 20.132426986324564], [20242, 16.191287201312633], [20253, 20.132426986324564], [20257, 7.715235104998112], [20261, 16.191287201312633], [20266, 20.132426986324564], [23270, 7.715235104998112], [25060, 20.132426986324564], [31488, 13.063028565384668], [43085, 7.715235104998112], [49376, 20.132426986324564]]}
+{"ghiasigradu": [[4476, 10.017820197992158], [4593, 10.017820197992158]]}
+{"ghiasiphd": [[4596, 9.101529466118004], [4631, 9.101529466118004], [20222, 15.410228954340964], [20263, 9.101529466118004], [20266, 9.101529466118004]]}
+{"ghibelin": [[49940, 22.478167764152698]]}
+{"ghibellin": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 25.08284379932219]]}
+{"ghiberti": [[49940, 18.135244218065043]]}
+{"ghibli": [[49940, 22.478167764152698]]}
+{"ghidora": [[25248, 10.017820197992158], [42168, 10.017820197992158]]}
+{"ghigi": [[4368, 9.101529466118004], [25926, 9.101529466118004], [37414, 9.101529466118004], [45773, 9.101529466118004], [50266, 15.410228954340964]]}
+{"ghil": [[19615, 8.631525836872267], [19706, 8.631525836872267], [19721, 8.631525836872267], [19805, 8.631525836872267], [26119, 8.631525836872267], [43130, 25.42769956467517], [44782, 8.631525836872267], [51425, 8.631525836872267]]}
+{"ghilgai": [[49940, 18.135244218065043]]}
+{"ghilli": [[49940, 27.94960435643875]]}
+{"ghio": [[151, 15.410228954340964], [311, 25.4092810714931], [439, 23.74987605002442], [1083, 19.100581583270145], [1268, 9.101529466118004]]}
+{"ghiotto": [[19296, 8.919207909324049], [19336, 8.919207909324049], [19370, 8.919207909324049], [19425, 8.919207909324049], [19457, 8.919207909324049], [19460, 8.919207909324049]]}
+{"ghirlandaio": [[49940, 18.135244218065043]]}
+{"ghiselin": [[49940, 18.135244218065043]]}
+{"ghislain": [[5812, 9.612355089883994], [28866, 9.612355089883994], [44236, 9.612355089883994]]}
+{"ghislaine914": [[47210, 10.710967378552104]]}
+{"ghita": [[23491, 10.017820197992158], [47670, 10.017820197992158]]}
+{"ghitm": [[2317, 14.614443634630602], [2522, 8.631525836872267], [2789, 14.614443634630602], [3169, 8.631525836872267], [3214, 8.631525836872267], [3770, 14.614443634630602], [4261, 8.631525836872267], [4328, 20.597361432388936]]}
+{"ghiulezian": [[30573, 10.710967378552104]]}
+{"ghjklb": [[37099, 10.710967378552104]]}
+{"ghjoin": [[7953, 22.74172294688197], [7976, 23.99743716271818], [8021, 23.99743716271818], [8390, 8.146018021090567], [8522, 22.74172294688197], [9231, 23.99743716271818], [9246, 8.146018021090567], [9370, 22.74172294688197], [9693, 8.146018021090567], [9779, 8.146018021090567], [9796, 23.99743716271818], [10601, 8.146018021090567], [15771, 22.74172294688197]]}
+{"ghjv95": [[28977, 22.478167764152698]]}
+{"ghli": [[33111, 10.710967378552104]]}
+{"ghodasar": [[46412, 10.710967378552104]]}
+{"ghodrat": [[23131, 27.967344398768677], [25711, 10.017820197992158]]}
+{"ghof33": [[41845, 10.710967378552104]]}
+{"gholamreza": [[16580, 9.612355089883994], [16588, 9.612355089883994], [41055, 9.612355089883994]]}
+{"ghole": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"ghomasio": [[49940, 18.135244218065043]]}
+{"ghor": [[17523, 10.710967378552104]]}
+{"ghorashi": [[39460, 10.017820197992158], [40124, 10.017820197992158]]}
+{"ghorbani": [[16565, 8.146018021090567], [16566, 8.146018021090567], [16580, 13.7924074452], [16588, 13.7924074452], [19487, 8.146018021090567], [19490, 8.146018021090567], [19498, 8.146018021090567], [19502, 17.095333522772545], [19512, 8.146018021090567], [31742, 17.095333522772545], [34914, 8.146018021090567], [43299, 8.146018021090567], [53995, 8.146018021090567]]}
+{"ghorbanpour": [[36751, 10.710967378552104]]}
+{"ghosal": [[55244, 10.710967378552104]]}
+{"ghose": [[22525, 10.017820197992158], [46224, 10.017820197992158]]}
+{"ghosh": [[33, 6.685615687816954], [57, 6.685615687816954], [77, 6.685615687816954], [143, 11.319731352134616], [163, 6.685615687816954], [306, 6.685615687816954], [470, 6.685615687816954], [481, 6.685615687816954], [505, 6.685615687816954], [706, 6.685615687816954], [739, 6.685615687816954], [800, 6.685615687816954], [821, 6.685615687816954], [906, 6.685615687816954], [981, 6.685615687816954], [1080, 11.319731352134616], [1112, 11.319731352134616], [1166, 6.685615687816954], [1228, 6.685615687816954], [1234, 6.685615687816954], [16487, 6.685615687816954], [16548, 6.685615687816954], [18160, 11.319731352134616], [21326, 6.685615687816954], [21418, 6.685615687816954], [21466, 11.319731352134616], [21486, 6.685615687816954], [21717, 11.319731352134616], [23131, 19.695223107423384], [23617, 6.685615687816954], [24122, 6.685615687816954], [24296, 6.685615687816954], [27016, 11.319731352134616], [27602, 6.685615687816954], [27948, 6.685615687816954], [28593, 18.664630904082617], [30013, 11.319731352134616], [30597, 6.685615687816954], [31105, 11.319731352134616], [32785, 6.685615687816954], [34914, 6.685615687816954], [35319, 6.685615687816954], [37392, 6.685615687816954], [38999, 6.685615687816954], [39551, 14.030515239764958], [39662, 6.685615687816954], [40903, 6.685615687816954], [43517, 6.685615687816954], [45049, 11.319731352134616], [48071, 11.319731352134616], [48780, 6.685615687816954], [51280, 6.685615687816954], [52423, 6.685615687816954], [52792, 6.685615687816954], [53092, 6.685615687816954], [54321, 6.685615687816954]]}
+{"ghost": [[722, 6.949767262858541], [8177, 26.218613598051363], [11723, 6.949767262858541], [12500, 6.949767262858541], [19185, 6.949767262858541], [19977, 6.949767262858541], [21214, 6.949767262858541], [21233, 6.949767262858541], [21250, 6.949767262858541], [21414, 14.58486698121827], [21528, 6.949767262858541], [21546, 6.949767262858541], [21604, 6.949767262858541], [22852, 6.949767262858541], [24144, 6.949767262858541], [25211, 6.949767262858541], [25248, 37.74291279918348], [25309, 11.766978846656746], [28212, 14.58486698121827], [29357, 6.949767262858541], [30740, 6.949767262858541], [31170, 6.949767262858541], [31327, 14.58486698121827], [31547, 11.766978846656746], [31985, 6.949767262858541], [32923, 6.949767262858541], [33320, 6.949767262858541], [33382, 6.949767262858541], [33435, 6.949767262858541], [34176, 6.949767262858541], [34316, 6.949767262858541], [34680, 11.766978846656746], [35701, 6.949767262858541], [39086, 6.949767262858541], [42168, 37.74291279918348], [43136, 6.949767262858541], [46611, 6.949767262858541], [46913, 6.949767262858541], [47135, 6.949767262858541], [47693, 11.766978846656746], [48128, 6.949767262858541], [49940, 19.40207856501647], [53444, 6.949767262858541]]}
+{"ghostbust": [[25248, 25.08284379932219], [42168, 25.08284379932219], [49940, 16.275131918978126]]}
+{"ghosthustl": [[25248, 10.017820197992158], [42168, 10.017820197992158]]}
+{"ghosti": [[49940, 10.710967378552104]]}
+{"ghostier": [[49940, 10.710967378552104]]}
+{"ghostiest": [[49940, 10.710967378552104]]}
+{"ghostiik": [[46611, 10.710967378552104]]}
+{"ghostless": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"ghostli": [[25211, 9.101529466118004], [25248, 9.101529466118004], [32923, 9.101529466118004], [42168, 9.101529466118004], [49940, 21.71892844256392]]}
+{"ghostlier": [[49940, 10.710967378552104]]}
+{"ghostliest": [[49940, 10.710967378552104]]}
+{"ghostlik": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"ghostmin": [[98, 10.710967378552104]]}
+{"ghostolog": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"ghosts1176th": [[9697, 10.710967378552104]]}
+{"ghostscript": [[21827, 10.017820197992158], [28028, 10.017820197992158]]}
+{"ghostview": [[28028, 10.017820197992158], [47950, 10.017820197992158]]}
+{"ghostwrit": [[49940, 27.94960435643875]]}
+{"ghostwritten": [[49940, 10.710967378552104]]}
+{"ghostwrot": [[49940, 10.710967378552104]]}
+{"ghoul": [[25211, 8.631525836872267], [25248, 22.52343076088897], [28276, 8.631525836872267], [29624, 8.631525836872267], [32923, 8.631525836872267], [42168, 22.52343076088897], [49940, 18.11422619121643], [54513, 8.631525836872267]]}
+{"ghouli": [[25248, 9.612355089883994], [42168, 9.612355089883994], [49940, 16.275131918978126]]}
+{"ghoulish": [[49940, 25.559521057577985]]}
+{"ghoulishli": [[49940, 10.710967378552104]]}
+{"ghous": [[46869, 16.961644023586896], [49243, 10.017820197992158]]}
+{"ghozlan": [[28866, 25.559521057577985]]}
+{"ghrelin": [[1566, 9.324673017432213], [2799, 9.324673017432213], [3112, 9.324673017432213], [3728, 9.324673017432213]]}
+{"ghrhr": [[3201, 10.710967378552104]]}
+{"ghrhreceptor": [[1566, 10.017820197992158], [3728, 10.017820197992158]]}
+{"ghsreceptor": [[1566, 10.017820197992158], [3728, 10.017820197992158]]}
+{"ghulam": [[664, 10.017820197992158], [30060, 10.017820197992158]]}
+{"ghulum": [[40, 8.002917177449893], [55, 8.002917177449893], [125, 8.002917177449893], [292, 8.002917177449893], [297, 8.002917177449893], [478, 8.002917177449893], [512, 8.002917177449893], [551, 8.002917177449893], [558, 8.002917177449893], [567, 8.002917177449893], [739, 8.002917177449893], [769, 8.002917177449893], [775, 8.002917177449893], [821, 8.002917177449893], [911, 8.002917177449893]]}
+{"ghury": [[20653, 10.710967378552104]]}
+{"ghyll": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"ghz": [[238, 19.43879686930943], [16101, 8.146018021090567], [16153, 19.43879686930943], [30491, 8.146018021090567], [32565, 13.7924074452], [36537, 8.146018021090567], [37149, 8.146018021090567], [40441, 8.146018021090567], [44669, 13.7924074452], [46537, 8.146018021090567], [48217, 8.146018021090567], [51537, 8.146018021090567], [53191, 8.146018021090567]]}
+{"gi": [[654, 13.362204326267392], [4353, 6.3671619566984194], [4367, 10.780542315152474], [4371, 15.19392267360653], [5548, 6.3671619566984194], [6047, 6.3671619566984194], [6202, 10.780542315152474], [16474, 10.780542315152474], [16494, 10.780542315152474], [16934, 23.170467387370813], [17101, 6.3671619566984194], [19160, 6.3671619566984194], [19586, 13.362204326267392], [20018, 6.3671619566984194], [20082, 10.780542315152474], [20083, 18.75708702891676], [20143, 10.780542315152474], [20145, 10.780542315152474], [20151, 10.780542315152474], [20168, 18.75708702891676], [20231, 6.3671619566984194], [20253, 10.780542315152474], [20266, 10.780542315152474], [22785, 6.3671619566984194], [23003, 18.75708702891676], [23111, 6.3671619566984194], [23134, 21.634949513807182], [23270, 6.3671619566984194], [23366, 15.19392267360653], [23695, 21.028094162871], [25060, 10.780542315152474], [25211, 6.3671619566984194], [25248, 19.60730303206058], [25517, 6.3671619566984194], [25870, 13.362204326267392], [26879, 6.3671619566984194], [28501, 13.362204326267392], [28883, 6.3671619566984194], [29663, 6.3671619566984194], [30713, 6.3671619566984194], [30955, 10.780542315152474], [31029, 15.19392267360653], [31586, 6.3671619566984194], [31880, 13.362204326267392], [32546, 10.780542315152474], [32644, 6.3671619566984194], [32871, 17.775584684721444], [32923, 6.3671619566984194], [33025, 6.3671619566984194], [34198, 13.362204326267392], [35593, 10.780542315152474], [37392, 6.3671619566984194], [37921, 13.362204326267392], [39171, 6.3671619566984194], [39607, 15.19392267360653], [39662, 10.780542315152474], [40768, 25.441474521325052], [41442, 10.780542315152474], [42168, 19.60730303206058], [43171, 6.3671619566984194], [44144, 10.780542315152474], [44364, 6.3671619566984194], [44770, 6.3671619566984194], [46869, 13.362204326267392], [46985, 6.3671619566984194], [48693, 6.3671619566984194], [48903, 13.362204326267392], [49252, 6.3671619566984194], [49376, 6.3671619566984194], [49843, 13.362204326267392], [49940, 6.3671619566984194], [52462, 13.362204326267392], [52612, 10.780542315152474], [52910, 10.780542315152474], [53163, 10.780542315152474], [54227, 6.3671619566984194], [55363, 6.3671619566984194]]}
+{"gi09": [[39228, 10.710967378552104]]}
+{"gia": [[5812, 8.313072105753733], [16139, 26.578758449683995], [19586, 8.313072105753733], [21728, 8.313072105753733], [25248, 8.313072105753733], [27400, 8.313072105753733], [30060, 14.075254597648462], [39846, 33.62240665813367], [41852, 8.313072105753733], [42168, 8.313072105753733], [53227, 8.313072105753733]]}
+{"giacamo": [[49940, 18.135244218065043]]}
+{"giaccardi": [[20007, 10.710967378552104]]}
+{"giacinta": [[49940, 18.135244218065043]]}
+{"giacobo": [[49940, 18.135244218065043]]}
+{"giacometti": [[25248, 8.513742801215884], [30694, 20.316296438566525], [39660, 8.513742801215884], [42168, 8.513742801215884], [42613, 17.86704526519131], [44671, 20.316296438566525], [46749, 8.513742801215884], [48744, 17.86704526519131], [49940, 14.415019619891204]]}
+{"giacomo": [[25115, 9.101529466118004], [39070, 9.101529466118004], [41599, 9.101529466118004], [49940, 15.410228954340964], [52836, 15.410228954340964]]}
+{"giacopo": [[49940, 18.135244218065043]]}
+{"giae": [[30992, 10.710967378552104]]}
+{"giaimo": [[49940, 18.135244218065043]]}
+{"giallo": [[25248, 10.017820197992158], [42168, 10.017820197992158]]}
+{"giallolino": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"giallouraki": [[1336, 15.78804382910875], [1433, 15.78804382910875], [1613, 15.78804382910875], [45824, 15.78804382910875]]}
+{"giambeux": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"giamo": [[49940, 18.135244218065043]]}
+{"gian": [[43066, 9.324673017432213], [43524, 9.324673017432213], [49940, 15.78804382910875], [52836, 9.324673017432213]]}
+{"giana": [[49940, 16.961644023586896], [53227, 16.961644023586896]]}
+{"giancarlo": [[23411, 12.826391026702588], [24128, 7.575473162622954], [24798, 15.897981071556003], [26431, 7.575473162622954], [26907, 7.575473162622954], [29974, 7.575473162622954], [32827, 7.575473162622954], [32871, 23.32822675486185], [33422, 7.575473162622954], [35082, 18.07730889078222], [35379, 7.575473162622954], [37921, 12.826391026702588], [38531, 7.575473162622954], [38733, 12.826391026702588], [38935, 7.575473162622954], [39007, 15.897981071556003], [42301, 7.575473162622954], [43737, 25.018644739255027], [45081, 12.826391026702588], [47001, 7.575473162622954], [49843, 15.897981071556003], [50236, 7.575473162622954], [53246, 7.575473162622954]]}
+{"giandomenico": [[24405, 18.135244218065043]]}
+{"gianelia": [[30991, 10.710967378552104]]}
+{"gianfranco": [[21303, 9.101529466118004], [22288, 9.101529466118004], [24194, 9.101529466118004], [33282, 15.410228954340964], [45719, 9.101529466118004]]}
+{"giang": [[36397, 9.612355089883994], [44152, 9.612355089883994], [53639, 9.612355089883994]]}
+{"gianina": [[25581, 9.612355089883994], [34502, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gianluca": [[504, 8.631525836872267], [978, 8.631525836872267], [1215, 8.631525836872267], [1240, 8.631525836872267], [4520, 8.631525836872267], [43231, 8.631525836872267], [52757, 14.614443634630602], [53123, 8.631525836872267]]}
+{"gianluigi": [[26138, 10.017820197992158], [47855, 10.017820197992158]]}
+{"gianna": [[5812, 10.017820197992158], [49940, 16.961644023586896]]}
+{"giannakopoul": [[25547, 10.710967378552104]]}
+{"giannakopoulo": [[800, 16.961644023586896], [906, 16.961644023586896]]}
+{"giannella": [[16, 8.071910048936845], [93, 8.071910048936845], [138, 8.071910048936845], [203, 8.071910048936845], [402, 8.071910048936845], [417, 8.071910048936845], [480, 8.071910048936845], [499, 8.071910048936845], [510, 8.071910048936845], [654, 8.071910048936845], [823, 8.071910048936845], [835, 8.071910048936845], [1072, 8.071910048936845], [1122, 8.071910048936845]]}
+{"giannelli": [[39553, 20.172606514672005], [45713, 9.612355089883994], [48071, 20.172606514672005]]}
+{"gianni": [[587, 9.101529466118004], [21802, 9.101529466118004], [25248, 9.101529466118004], [42168, 9.101529466118004], [49940, 15.410228954340964]]}
+{"giannina": [[21366, 10.710967378552104]]}
+{"giannini": [[49940, 18.135244218065043]]}
+{"giannouko": [[1336, 9.324673017432213], [1433, 9.324673017432213], [1613, 9.324673017432213], [45824, 9.324673017432213]]}
+{"gianopoulo": [[6047, 10.710967378552104]]}
+{"giant": [[1194, 5.82061825033035], [4454, 5.82061825033035], [4593, 5.82061825033035], [6047, 5.82061825033035], [11723, 5.82061825033035], [12500, 5.82061825033035], [17068, 5.82061825033035], [17265, 5.82061825033035], [17694, 5.82061825033035], [17958, 5.82061825033035], [18367, 5.82061825033035], [18413, 5.82061825033035], [19117, 5.82061825033035], [19715, 5.82061825033035], [19977, 5.82061825033035], [20715, 5.82061825033035], [20766, 5.82061825033035], [21277, 5.82061825033035], [21344, 5.82061825033035], [21371, 5.82061825033035], [21483, 5.82061825033035], [21746, 5.82061825033035], [22876, 9.855163379662594], [23177, 5.82061825033035], [23312, 13.889708508994838], [23396, 5.82061825033035], [23648, 5.82061825033035], [23703, 5.82061825033035], [23857, 5.82061825033035], [25166, 5.82061825033035], [25211, 5.82061825033035], [25248, 26.17245397502021], [25450, 5.82061825033035], [26046, 5.82061825033035], [26269, 5.82061825033035], [26841, 5.82061825033035], [27150, 5.82061825033035], [27283, 5.82061825033035], [27827, 5.82061825033035], [27893, 5.82061825033035], [27981, 5.82061825033035], [28201, 5.82061825033035], [28475, 5.82061825033035], [29099, 5.82061825033035], [29421, 5.82061825033035], [29880, 5.82061825033035], [29988, 5.82061825033035], [30218, 5.82061825033035], [30945, 5.82061825033035], [31119, 5.82061825033035], [31610, 5.82061825033035], [32923, 5.82061825033035], [33009, 5.82061825033035], [33349, 13.889708508994838], [33376, 5.82061825033035], [33486, 12.215220987789145], [33612, 5.82061825033035], [33943, 13.889708508994838], [34035, 9.855163379662594], [34281, 5.82061825033035], [34331, 9.855163379662594], [34654, 5.82061825033035], [34867, 5.82061825033035], [35686, 5.82061825033035], [36264, 5.82061825033035], [36451, 5.82061825033035], [36508, 5.82061825033035], [36821, 5.82061825033035], [36976, 9.855163379662594], [37093, 5.82061825033035], [37644, 13.889708508994838], [37729, 5.82061825033035], [38344, 9.855163379662594], [38440, 5.82061825033035], [39271, 5.82061825033035], [39688, 5.82061825033035], [40063, 9.855163379662594], [40579, 5.82061825033035], [40777, 9.855163379662594], [41019, 5.82061825033035], [41739, 5.82061825033035], [42168, 26.17245397502021], [42828, 12.215220987789145], [42951, 13.889708508994838], [43032, 5.82061825033035], [43070, 12.215220987789145], [43138, 5.82061825033035], [43335, 9.855163379662594], [43417, 13.889708508994838], [43481, 9.855163379662594], [44063, 5.82061825033035], [44392, 5.82061825033035], [44571, 5.82061825033035], [45156, 5.82061825033035], [45397, 5.82061825033035], [45439, 9.855163379662594], [45513, 5.82061825033035], [46668, 5.82061825033035], [46676, 13.889708508994838], [46737, 5.82061825033035], [46840, 5.82061825033035], [46913, 12.215220987789145], [47182, 5.82061825033035], [47274, 5.82061825033035], [47319, 12.215220987789145], [47407, 5.82061825033035], [47590, 13.889708508994838], [47641, 5.82061825033035], [47998, 5.82061825033035], [48461, 5.82061825033035], [48472, 5.82061825033035], [48905, 9.855163379662594], [49341, 13.889708508994838], [49477, 9.855163379662594], [49497, 9.855163379662594], [49672, 5.82061825033035], [49940, 12.215220987789145], [50106, 5.82061825033035], [50149, 5.82061825033035], [50291, 13.889708508994838], [50608, 5.82061825033035], [51146, 5.82061825033035], [51203, 5.82061825033035], [51298, 5.82061825033035], [51650, 9.855163379662594], [52176, 5.82061825033035], [52406, 5.82061825033035], [52489, 5.82061825033035], [53079, 13.889708508994838], [53708, 5.82061825033035], [53717, 5.82061825033035], [54314, 5.82061825033035], [54388, 5.82061825033035]]}
+{"giantess": [[49940, 22.478167764152698]]}
+{"gianthood": [[49940, 10.710967378552104]]}
+{"giantism": [[49940, 22.478167764152698]]}
+{"giantkil": [[49940, 10.710967378552104]]}
+{"giantli": [[49940, 10.710967378552104]]}
+{"giantlik": [[49940, 10.710967378552104]]}
+{"giantri": [[49940, 10.710967378552104]]}
+{"giantship": [[49940, 10.710967378552104]]}
+{"giaour": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"giap": [[18213, 10.017820197992158], [18416, 10.017820197992158]]}
+{"giaquinto": [[45397, 10.710967378552104]]}
+{"giard": [[37225, 10.017820197992158], [50323, 10.017820197992158]]}
+{"giardia": [[49940, 25.559521057577985]]}
+{"giardias": [[49940, 10.710967378552104]]}
+{"giardiasi": [[49940, 10.710967378552104]]}
+{"giardini": [[21366, 8.76505722949679], [21405, 14.840531935569057], [21461, 8.76505722949679], [21604, 8.76505722949679], [25095, 8.76505722949679], [28540, 8.76505722949679], [39941, 8.76505722949679]]}
+{"giardino": [[25248, 21.023520573173943], [42168, 21.023520573173943]]}
+{"giarla": [[49940, 18.135244218065043]]}
+{"giauqu": [[49940, 18.135244218065043]]}
+{"giavani": [[49940, 18.135244218065043]]}
+{"giay": [[19586, 10.710967378552104]]}
+{"gib": [[699, 9.101529466118004], [25211, 9.101529466118004], [28290, 9.101529466118004], [32923, 9.101529466118004], [49940, 23.74987605002442]]}
+{"giba": [[28849, 9.324673017432213], [29663, 9.324673017432213], [33239, 36.276444558634694], [45575, 9.324673017432213]]}
+{"gibb": [[115, 11.511613496138734], [706, 11.511613496138734], [737, 11.511613496138734], [1112, 11.511613496138734], [1240, 11.511613496138734], [4512, 11.511613496138734], [4589, 11.511613496138734], [19579, 6.798944373123957], [19706, 6.798944373123957], [19721, 11.511613496138734], [19805, 20.936951742168283], [21792, 6.798944373123957], [21982, 6.798944373123957], [22291, 6.798944373123957], [22360, 6.798944373123957], [22504, 6.798944373123957], [26119, 14.268348211408837], [26226, 6.798944373123957], [27015, 6.798944373123957], [28593, 6.798944373123957], [28897, 6.798944373123957], [29180, 6.798944373123957], [29356, 6.798944373123957], [29525, 11.511613496138734], [31271, 6.798944373123957], [31813, 11.511613496138734], [32651, 11.511613496138734], [34564, 6.798944373123957], [34636, 6.798944373123957], [35395, 16.22428261915351], [36104, 6.798944373123957], [36578, 6.798944373123957], [37866, 6.798944373123957], [38404, 6.798944373123957], [38712, 11.511613496138734], [39416, 6.798944373123957], [43130, 14.268348211408837], [43890, 6.798944373123957], [44663, 11.511613496138734], [44770, 6.798944373123957], [45834, 6.798944373123957], [46360, 6.798944373123957], [48716, 11.511613496138734], [48847, 6.798944373123957], [49619, 6.798944373123957], [49940, 14.268348211408837], [50380, 16.22428261915351], [51425, 26.06180429655468], [52640, 6.798944373123957], [55296, 6.798944373123957]]}
+{"gibbeon": [[49940, 18.135244218065043]]}
+{"gibber": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 22.937908748072257]]}
+{"gibberella": [[49940, 18.135244218065043]]}
+{"gibberellin": [[49940, 22.478167764152698]]}
+{"gibberish": [[25166, 8.631525836872267], [25211, 8.631525836872267], [25538, 8.631525836872267], [32923, 8.631525836872267], [34999, 8.631525836872267], [42686, 8.631525836872267], [49940, 18.11422619121643], [52168, 8.631525836872267]]}
+{"gibbet": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 25.08284379932219]]}
+{"gibbi": [[49940, 25.559521057577985]]}
+{"gibbier": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"gibblegabbl": [[49940, 10.710967378552104]]}
+{"gibbon": [[6047, 8.146018021090567], [25065, 8.146018021090567], [25211, 8.146018021090567], [29177, 8.146018021090567], [32923, 8.146018021090567], [33940, 8.146018021090567], [37650, 8.146018021090567], [38404, 17.095333522772545], [42133, 8.146018021090567], [43737, 8.146018021090567], [48286, 8.146018021090567], [48885, 8.146018021090567], [49940, 22.74172294688197]]}
+{"gibbonian": [[49940, 10.710967378552104]]}
+{"gibbonsvil": [[49940, 18.135244218065043]]}
+{"gibbos": [[25211, 16.275131918978126], [32923, 16.275131918978126], [49940, 22.937908748072257]]}
+{"gibbou": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"gibbous": [[49940, 25.559521057577985]]}
+{"gibbsbas": [[34636, 10.710967378552104]]}
+{"gibbsboro": [[49940, 18.135244218065043]]}
+{"gibbsit": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gibbstown": [[49940, 18.135244218065043]]}
+{"gibe": [[25211, 9.324673017432213], [32923, 9.324673017432213], [47597, 9.324673017432213], [49940, 26.03224419387172]]}
+{"gibek": [[39425, 10.710967378552104]]}
+{"gibel": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 16.275131918978126]]}
+{"giben": [[45825, 10.710967378552104]]}
+{"gibeon": [[49940, 18.135244218065043]]}
+{"gibeonit": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"giber": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gibert": [[49940, 18.135244218065043]]}
+{"gibier": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"gibingli": [[49940, 10.710967378552104]]}
+{"giblet": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gibraltar": [[25211, 9.324673017432213], [32923, 9.324673017432213], [49938, 9.324673017432213], [49940, 19.568873382195186]]}
+{"gibraltarian": [[49940, 18.135244218065043]]}
+{"gibran": [[27015, 10.017820197992158], [49940, 16.961644023586896]]}
+{"gibrian": [[49940, 18.135244218065043]]}
+{"gibsland": [[49940, 18.135244218065043]]}
+{"gibson": [[4800, 13.338197032651447], [5179, 7.877754034495887], [5191, 7.877754034495887], [6047, 7.877754034495887], [11723, 7.877754034495887], [12500, 7.877754034495887], [23893, 7.877754034495887], [23909, 7.877754034495887], [26358, 7.877754034495887], [30204, 7.877754034495887], [35920, 7.877754034495887], [38404, 7.877754034495887], [45397, 13.338197032651447], [45834, 7.877754034495887], [47099, 7.877754034495887], [49940, 20.556510042444263], [54002, 7.877754034495887]]}
+{"gibsonburg": [[49940, 18.135244218065043]]}
+{"gibsonia": [[49940, 18.135244218065043]]}
+{"gibsonquot": [[23893, 10.710967378552104]]}
+{"gibsonton": [[49940, 18.135244218065043]]}
+{"gibsonvil": [[49940, 18.135244218065043]]}
+{"gibt": [[48145, 10.710967378552104]]}
+{"gibu": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gibun": [[49940, 18.135244218065043]]}
+{"gibus": [[49940, 10.710967378552104]]}
+{"gicher": [[51240, 10.710967378552104]]}
+{"gichner": [[31570, 9.612355089883994], [46043, 9.612355089883994], [46287, 9.612355089883994]]}
+{"gid": [[5578, 8.919207909324049], [7320, 8.919207909324049], [25211, 8.919207909324049], [26631, 8.919207909324049], [32923, 8.919207909324049], [49940, 21.28385553967591]]}
+{"gid4": [[3214, 10.017820197992158], [3770, 10.017820197992158]]}
+{"gida": [[2317, 10.017820197992158], [3770, 10.017820197992158]]}
+{"gidal": [[50229, 10.710967378552104]]}
+{"gidcumb": [[6047, 10.710967378552104]]}
+{"giddap": [[49940, 10.710967378552104]]}
+{"gidday": [[49940, 10.710967378552104]]}
+{"gidden": [[27529, 10.017820197992158], [28698, 10.017820197992158]]}
+{"giddi": [[6047, 18.394456812701222], [14496, 8.76505722949679], [18665, 8.76505722949679], [25211, 8.76505722949679], [32923, 8.76505722949679], [46611, 8.76505722949679], [49940, 25.821071049425242]]}
+{"giddier": [[49940, 10.710967378552104]]}
+{"giddiest": [[49940, 10.710967378552104]]}
+{"giddili": [[49940, 10.710967378552104]]}
+{"giddup": [[49940, 10.710967378552104]]}
+{"giddyap": [[49940, 10.710967378552104]]}
+{"giddyup": [[49940, 10.710967378552104]]}
+{"gide": [[2317, 9.612355089883994], [3770, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gidella": [[30992, 10.710967378552104]]}
+{"gideon": [[81, 7.575473162622954], [110, 7.575473162622954], [113, 7.575473162622954], [204, 7.575473162622954], [267, 7.575473162622954], [329, 7.575473162622954], [824, 7.575473162622954], [1091, 7.575473162622954], [1269, 7.575473162622954], [6047, 7.575473162622954], [22189, 7.575473162622954], [22906, 7.575473162622954], [23466, 7.575473162622954], [23981, 7.575473162622954], [25248, 7.575473162622954], [31375, 7.575473162622954], [37248, 7.575473162622954], [38586, 7.575473162622954], [42168, 7.575473162622954], [43686, 7.575473162622954], [48286, 7.575473162622954], [49940, 15.897981071556003], [51199, 7.575473162622954]]}
+{"gidge": [[49940, 22.478167764152698]]}
+{"gidget": [[5812, 10.710967378552104]]}
+{"gidje": [[49940, 18.135244218065043]]}
+{"gidla": [[30127, 10.017820197992158], [30992, 21.023520573173943]]}
+{"gidload": [[5578, 16.961644023586896], [7320, 16.961644023586896]]}
+{"gidm": [[38907, 10.017820197992158], [45049, 10.017820197992158]]}
+{"gidmap": [[30780, 18.135244218065043]]}
+{"gidon": [[45335, 18.135244218065043]]}
+{"gidsav": [[5578, 16.961644023586896], [7320, 16.961644023586896]]}
+{"gie": [[46611, 21.023520573173943], [49940, 23.905467849181633]]}
+{"giebau": [[49951, 10.710967378552104]]}
+{"giebultow": [[41155, 23.905467849181633], [46253, 10.017820197992158]]}
+{"giebuzinski": [[27018, 10.710967378552104]]}
+{"giecel": [[41599, 10.710967378552104]]}
+{"giefer": [[49940, 18.135244218065043]]}
+{"giela": [[39425, 22.478167764152698]]}
+{"gielarowski": [[6047, 25.559521057577985]]}
+{"gielata": [[39425, 10.710967378552104]]}
+{"gielbard": [[36319, 10.710967378552104]]}
+{"gielgud": [[49940, 18.135244218065043]]}
+{"gielniewski": [[39425, 10.710967378552104]]}
+{"giemsa": [[49940, 18.135244218065043]]}
+{"gien": [[49940, 10.710967378552104]]}
+{"gienah": [[49940, 18.135244218065043]]}
+{"gienia": [[30912, 10.710967378552104]]}
+{"gienizow": [[49449, 10.710967378552104]]}
+{"giera": [[39425, 10.710967378552104]]}
+{"gieraltowic": [[31039, 10.710967378552104]]}
+{"gierat": [[39425, 10.710967378552104]]}
+{"giera\u00b3t": [[39425, 10.710967378552104]]}
+{"gierczak": [[39425, 10.710967378552104]]}
+{"gierczyc": [[46977, 10.710967378552104]]}
+{"gierfalcon": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"giergiel": [[39425, 10.710967378552104]]}
+{"giering": [[6047, 10.710967378552104]]}
+{"gierk": [[2153, 16.961644023586896], [3889, 16.961644023586896]]}
+{"giermek": [[39425, 10.710967378552104]]}
+{"giersen": [[30992, 10.710967378552104]]}
+{"giersonowicz": [[30992, 10.017820197992158], [50726, 10.017820197992158]]}
+{"giert": [[46287, 10.710967378552104]]}
+{"giertler": [[34127, 10.710967378552104]]}
+{"gierucka": [[39425, 10.710967378552104]]}
+{"gierula": [[39425, 10.710967378552104]]}
+{"gierz": [[39425, 10.710967378552104]]}
+{"gies": [[1336, 18.394456812701222], [1433, 18.394456812701222], [1613, 18.394456812701222], [19502, 28.02385639590565], [23722, 8.76505722949679], [45824, 18.394456812701222], [48046, 8.76505722949679]]}
+{"gieseck": [[49940, 18.135244218065043]]}
+{"gieseckit": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"giesen": [[11767, 30.849291674776367], [15299, 30.849291674776367]]}
+{"giess": [[49940, 10.710967378552104]]}
+{"giessen": [[32924, 10.710967378552104]]}
+{"giesser": [[34723, 24.332155292738896], [37516, 24.332155292738896], [40392, 9.324673017432213], [49940, 15.78804382910875]]}
+{"giest": [[25248, 10.017820197992158], [42168, 10.017820197992158]]}
+{"gif": [[2799, 6.066576479410731], [3112, 6.066576479410731], [4769, 6.066576479410731], [4780, 6.066576479410731], [5583, 6.066576479410731], [7910, 6.066576479410731], [19612, 6.066576479410731], [19632, 6.066576479410731], [19640, 6.066576479410731], [19647, 6.066576479410731], [21906, 10.271606861765559], [22304, 6.066576479410731], [22572, 6.066576479410731], [22706, 12.73139194983628], [22710, 6.066576479410731], [23209, 6.066576479410731], [23504, 6.066576479410731], [23734, 6.066576479410731], [24185, 20.03538504641018], [24212, 6.066576479410731], [24239, 12.73139194983628], [24375, 6.066576479410731], [24431, 6.066576479410731], [24444, 6.066576479410731], [24510, 6.066576479410731], [24574, 6.066576479410731], [24815, 6.066576479410731], [24929, 6.066576479410731], [25036, 6.066576479410731], [25211, 6.066576479410731], [25941, 6.066576479410731], [26028, 6.066576479410731], [26510, 6.066576479410731], [27220, 6.066576479410731], [27401, 6.066576479410731], [27823, 6.066576479410731], [27919, 6.066576479410731], [28085, 6.066576479410731], [28802, 6.066576479410731], [29102, 10.271606861765559], [29285, 6.066576479410731], [29303, 6.066576479410731], [29714, 24.240415428765004], [29819, 6.066576479410731], [29842, 10.271606861765559], [30168, 10.271606861765559], [30632, 6.066576479410731], [30740, 6.066576479410731], [30756, 6.066576479410731], [30952, 6.066576479410731], [31089, 6.066576479410731], [31296, 6.066576479410731], [31462, 6.066576479410731], [31610, 6.066576479410731], [31673, 6.066576479410731], [31827, 14.476637244120386], [32816, 6.066576479410731], [32923, 6.066576479410731], [32925, 6.066576479410731], [34587, 10.271606861765559], [35046, 10.271606861765559], [35454, 6.066576479410731], [35664, 6.066576479410731], [36461, 6.066576479410731], [36655, 10.271606861765559], [37519, 10.271606861765559], [37729, 6.066576479410731], [37864, 6.066576479410731], [38129, 10.271606861765559], [38761, 6.066576479410731], [38766, 6.066576479410731], [39039, 6.066576479410731], [39336, 6.066576479410731], [39523, 6.066576479410731], [39758, 10.271606861765559], [40438, 10.271606861765559], [41161, 10.271606861765559], [42012, 6.066576479410731], [42180, 6.066576479410731], [44110, 6.066576479410731], [44392, 6.066576479410731], [44472, 6.066576479410731], [44494, 10.271606861765559], [44641, 6.066576479410731], [45594, 6.066576479410731], [46913, 15.830354664055353], [46979, 6.066576479410731], [49344, 6.066576479410731], [49573, 16.936422332191103], [49810, 6.066576479410731], [50046, 6.066576479410731], [50170, 6.066576479410731], [50404, 6.066576479410731], [50962, 6.066576479410731], [51146, 6.066576479410731], [51407, 6.066576479410731], [51571, 10.271606861765559], [51607, 6.066576479410731], [51627, 6.066576479410731], [52740, 6.066576479410731], [52787, 6.066576479410731], [52986, 6.066576479410731], [53501, 15.830354664055353], [53508, 6.066576479410731]]}
+{"gif89a": [[43348, 10.710967378552104]]}
+{"gifbuild": [[24185, 10.710967378552104]]}
+{"giff": [[49940, 18.135244218065043]]}
+{"giffard": [[49940, 18.135244218065043]]}
+{"giffer": [[49940, 18.135244218065043]]}
+{"gifferd": [[49940, 18.135244218065043]]}
+{"giffgaff": [[49940, 10.710967378552104]]}
+{"giffi": [[49940, 25.559521057577985]]}
+{"gifford": [[1060, 15.10153172449998], [32067, 18.71795932369325], [40072, 8.919207909324049], [47106, 8.919207909324049], [47412, 8.919207909324049], [49940, 15.10153172449998]]}
+{"gift": [[160, 3.0161193061674934], [4446, 5.10673389946991], [4452, 6.329665040012236], [4464, 3.0161193061674934], [4466, 6.329665040012236], [4468, 3.0161193061674934], [4483, 6.329665040012236], [4487, 3.0161193061674934], [4511, 5.10673389946991], [4526, 3.0161193061674934], [4591, 3.0161193061674934], [4610, 3.0161193061674934], [4653, 3.0161193061674934], [4662, 5.10673389946991], [4669, 7.197348492772327], [4696, 3.0161193061674934], [4710, 3.0161193061674934], [4713, 3.0161193061674934], [4731, 3.0161193061674934], [5266, 5.10673389946991], [5267, 3.0161193061674934], [5285, 3.0161193061674934], [5472, 3.0161193061674934], [5631, 3.0161193061674934], [6047, 13.373434410747283], [6151, 3.0161193061674934], [6202, 3.0161193061674934], [6504, 3.0161193061674934], [7245, 3.0161193061674934], [7912, 3.0161193061674934], [7928, 3.0161193061674934], [7952, 3.0161193061674934], [7989, 3.0161193061674934], [8050, 7.197348492772327], [8073, 7.197348492772327], [8126, 3.0161193061674934], [8147, 3.0161193061674934], [8427, 8.420279633314651], [8445, 3.0161193061674934], [8737, 7.197348492772327], [8906, 3.0161193061674934], [8937, 7.197348492772327], [9018, 3.0161193061674934], [9815, 3.0161193061674934], [9843, 7.197348492772327], [10090, 7.870376065937892], [11000, 6.329665040012236], [11357, 3.0161193061674934], [11921, 3.0161193061674934], [11955, 3.0161193061674934], [12276, 3.0161193061674934], [12501, 3.0161193061674934], [13386, 5.10673389946991], [13632, 6.329665040012236], [14496, 3.0161193061674934], [15279, 6.329665040012236], [16541, 3.0161193061674934], [16548, 3.0161193061674934], [16902, 3.0161193061674934], [17237, 3.0161193061674934], [17338, 3.0161193061674934], [17548, 3.0161193061674934], [17980, 3.0161193061674934], [18160, 3.0161193061674934], [18708, 3.0161193061674934], [19133, 5.10673389946991], [19586, 3.0161193061674934], [19944, 5.10673389946991], [19974, 3.0161193061674934], [20376, 3.0161193061674934], [20397, 3.0161193061674934], [20435, 3.0161193061674934], [20583, 3.0161193061674934], [20619, 3.0161193061674934], [20782, 3.0161193061674934], [20812, 3.0161193061674934], [20823, 3.0161193061674934], [20881, 3.0161193061674934], [21155, 3.0161193061674934], [21190, 7.197348492772327], [21202, 6.329665040012236], [21210, 7.870376065937892], [21237, 3.0161193061674934], [21295, 3.0161193061674934], [21304, 3.0161193061674934], [21326, 3.0161193061674934], [21327, 3.0161193061674934], [21329, 3.0161193061674934], [21331, 3.0161193061674934], [21412, 5.10673389946991], [21456, 5.10673389946991], [21486, 3.0161193061674934], [21574, 3.0161193061674934], [21606, 3.0161193061674934], [21630, 3.0161193061674934], [21641, 5.10673389946991], [21663, 3.0161193061674934], [21673, 3.0161193061674934], [21702, 5.10673389946991], [21717, 5.10673389946991], [21724, 5.10673389946991], [21726, 5.10673389946991], [21779, 3.0161193061674934], [21787, 5.10673389946991], [21814, 5.10673389946991], [21823, 5.10673389946991], [21831, 5.10673389946991], [21874, 5.10673389946991], [21893, 5.10673389946991], [21947, 6.329665040012236], [21956, 5.10673389946991], [21963, 5.10673389946991], [21988, 3.0161193061674934], [21999, 5.10673389946991], [22039, 3.0161193061674934], [22063, 5.10673389946991], [22068, 5.10673389946991], [22091, 3.0161193061674934], [22127, 5.10673389946991], [22146, 5.10673389946991], [22203, 3.0161193061674934], [22248, 5.10673389946991], [22261, 5.10673389946991], [22264, 5.10673389946991], [22268, 5.10673389946991], [22307, 5.10673389946991], [22346, 5.10673389946991], [22401, 5.10673389946991], [22422, 3.0161193061674934], [22470, 5.10673389946991], [22503, 5.10673389946991], [22543, 5.10673389946991], [22555, 5.10673389946991], [22564, 5.10673389946991], [22576, 5.10673389946991], [22593, 6.329665040012236], [22616, 3.0161193061674934], [22626, 5.10673389946991], [22633, 6.329665040012236], [22637, 5.10673389946991], [22657, 5.10673389946991], [22667, 5.10673389946991], [22680, 5.10673389946991], [22682, 9.287963086074742], [22688, 5.10673389946991], [22693, 3.0161193061674934], [22701, 5.10673389946991], [22725, 5.10673389946991], [22754, 5.10673389946991], [22776, 5.10673389946991], [22783, 5.10673389946991], [22814, 5.10673389946991], [22820, 5.10673389946991], [22852, 5.10673389946991], [22860, 5.10673389946991], [22863, 5.10673389946991], [22886, 5.10673389946991], [22889, 5.10673389946991], [22894, 5.10673389946991], [22908, 5.10673389946991], [22911, 5.10673389946991], [22960, 5.10673389946991], [22985, 5.10673389946991], [22991, 5.10673389946991], [23000, 5.10673389946991], [23001, 6.329665040012236], [23003, 5.10673389946991], [23045, 5.10673389946991], [23060, 5.10673389946991], [23078, 5.10673389946991], [23094, 5.10673389946991], [23145, 5.10673389946991], [23153, 5.10673389946991], [23161, 7.870376065937892], [23169, 5.10673389946991], [23207, 5.10673389946991], [23251, 5.10673389946991], [23257, 6.329665040012236], [23270, 3.0161193061674934], [23311, 5.10673389946991], [23319, 5.10673389946991], [23338, 5.10673389946991], [23359, 5.10673389946991], [23360, 5.10673389946991], [23420, 5.10673389946991], [23445, 5.10673389946991], [23453, 5.10673389946991], [23454, 5.10673389946991], [23481, 5.10673389946991], [23514, 5.10673389946991], [23527, 5.10673389946991], [23538, 5.10673389946991], [23544, 7.870376065937892], [23550, 5.10673389946991], [23567, 5.10673389946991], [23611, 3.0161193061674934], [23617, 5.10673389946991], [23626, 5.10673389946991], [23655, 5.10673389946991], [23703, 5.10673389946991], [23758, 5.10673389946991], [23811, 5.10673389946991], [23824, 10.752312582549141], [23829, 5.10673389946991], [23830, 5.10673389946991], [23905, 3.0161193061674934], [23911, 5.10673389946991], [23918, 5.10673389946991], [23956, 5.10673389946991], [23959, 5.10673389946991], [23967, 5.10673389946991], [23978, 5.10673389946991], [23980, 5.10673389946991], [24007, 5.10673389946991], [24008, 5.10673389946991], [24052, 5.10673389946991], [24070, 5.10673389946991], [24103, 5.10673389946991], [24141, 5.10673389946991], [24155, 5.10673389946991], [24183, 5.10673389946991], [24187, 5.10673389946991], [24209, 7.197348492772327], [24211, 5.10673389946991], [24217, 5.10673389946991], [24219, 5.10673389946991], [24224, 3.0161193061674934], [24226, 5.10673389946991], [24230, 5.10673389946991], [24231, 5.10673389946991], [24298, 5.10673389946991], [24307, 6.329665040012236], [24364, 5.10673389946991], [24379, 5.10673389946991], [24385, 5.10673389946991], [24414, 5.10673389946991], [24488, 5.10673389946991], [24501, 5.10673389946991], [24515, 5.10673389946991], [24530, 5.10673389946991], [24534, 5.10673389946991], [24537, 5.10673389946991], [24541, 5.10673389946991], [24554, 5.10673389946991], [24583, 5.10673389946991], [24589, 3.0161193061674934], [24614, 5.10673389946991], [24622, 5.10673389946991], [24643, 5.10673389946991], [24669, 5.10673389946991], [24683, 5.10673389946991], [24707, 5.10673389946991], [24771, 5.10673389946991], [24784, 3.0161193061674934], [24792, 5.10673389946991], [24794, 5.10673389946991], [24847, 3.0161193061674934], [24856, 6.329665040012236], [24857, 5.10673389946991], [24874, 5.10673389946991], [24889, 5.10673389946991], [24951, 5.10673389946991], [24962, 5.10673389946991], [24976, 5.10673389946991], [25001, 3.0161193061674934], [25007, 6.329665040012236], [25010, 5.10673389946991], [25022, 5.10673389946991], [25031, 5.10673389946991], [25055, 5.10673389946991], [25061, 5.10673389946991], [25069, 5.10673389946991], [25083, 3.0161193061674934], [25095, 5.10673389946991], [25096, 5.10673389946991], [25103, 5.10673389946991], [25123, 5.10673389946991], [25126, 5.10673389946991], [25153, 5.10673389946991], [25176, 5.10673389946991], [25190, 5.10673389946991], [25196, 5.10673389946991], [25211, 3.0161193061674934], [25216, 5.10673389946991], [25217, 7.197348492772327], [25248, 14.754313643433484], [25266, 5.10673389946991], [25312, 5.10673389946991], [25349, 5.10673389946991], [25350, 3.0161193061674934], [25352, 5.10673389946991], [25425, 3.0161193061674934], [25435, 5.10673389946991], [25473, 3.0161193061674934], [25492, 5.10673389946991], [25496, 5.10673389946991], [25559, 5.10673389946991], [25589, 5.10673389946991], [25626, 5.10673389946991], [25635, 5.10673389946991], [25649, 5.10673389946991], [25668, 5.10673389946991], [25706, 5.10673389946991], [25728, 6.329665040012236], [25741, 5.10673389946991], [25760, 5.10673389946991], [25813, 5.10673389946991], [25820, 3.0161193061674934], [25876, 5.10673389946991], [25880, 5.10673389946991], [25895, 5.10673389946991], [25908, 5.10673389946991], [25916, 5.10673389946991], [25925, 5.10673389946991], [25959, 5.10673389946991], [25970, 3.0161193061674934], [26014, 8.885216474800488], [26016, 5.10673389946991], [26021, 5.10673389946991], [26052, 7.870376065937892], [26110, 3.0161193061674934], [26114, 5.10673389946991], [26136, 5.10673389946991], [26153, 5.10673389946991], [26157, 5.10673389946991], [26216, 6.329665040012236], [26266, 5.10673389946991], [26293, 5.10673389946991], [26303, 7.870376065937892], [26319, 5.10673389946991], [26324, 5.10673389946991], [26337, 3.0161193061674934], [26346, 5.10673389946991], [26362, 5.10673389946991], [26410, 5.10673389946991], [26456, 5.10673389946991], [26478, 5.10673389946991], [26518, 5.10673389946991], [26556, 5.10673389946991], [26564, 5.10673389946991], [26567, 3.0161193061674934], [26586, 6.329665040012236], [26600, 5.10673389946991], [26623, 5.10673389946991], [26633, 5.10673389946991], [26634, 5.10673389946991], [26670, 5.10673389946991], [26679, 5.10673389946991], [26685, 5.10673389946991], [26703, 5.10673389946991], [26708, 5.10673389946991], [26718, 5.10673389946991], [26721, 5.10673389946991], [26762, 5.10673389946991], [26776, 5.10673389946991], [26865, 5.10673389946991], [26873, 5.10673389946991], [26889, 5.10673389946991], [26959, 5.10673389946991], [27015, 3.0161193061674934], [27037, 5.10673389946991], [27056, 5.10673389946991], [27070, 5.10673389946991], [27090, 5.10673389946991], [27212, 5.10673389946991], [27213, 7.870376065937892], [27226, 5.10673389946991], [27251, 3.0161193061674934], [27252, 5.10673389946991], [27254, 5.10673389946991], [27265, 5.10673389946991], [27284, 5.10673389946991], [27312, 5.10673389946991], [27332, 5.10673389946991], [27347, 5.10673389946991], [27370, 5.10673389946991], [27403, 5.10673389946991], [27432, 5.10673389946991], [27451, 5.10673389946991], [27465, 5.10673389946991], [27471, 5.10673389946991], [27490, 5.10673389946991], [27511, 5.10673389946991], [27526, 5.10673389946991], [27533, 3.0161193061674934], [27537, 5.10673389946991], [27551, 5.10673389946991], [27568, 5.10673389946991], [27574, 5.10673389946991], [27635, 3.0161193061674934], [27637, 5.10673389946991], [27652, 5.10673389946991], [27702, 5.10673389946991], [27706, 5.10673389946991], [27743, 5.10673389946991], [27751, 5.10673389946991], [27755, 5.10673389946991], [27757, 5.10673389946991], [27788, 6.329665040012236], [27882, 5.10673389946991], [27896, 5.10673389946991], [27940, 5.10673389946991], [27954, 5.10673389946991], [27973, 5.10673389946991], [27981, 5.10673389946991], [27999, 9.287963086074742], [28019, 5.10673389946991], [28028, 3.0161193061674934], [28074, 5.10673389946991], [28075, 5.10673389946991], [28084, 5.10673389946991], [28094, 5.10673389946991], [28117, 5.10673389946991], [28125, 5.10673389946991], [28127, 5.10673389946991], [28178, 5.10673389946991], [28196, 5.10673389946991], [28231, 5.10673389946991], [28234, 5.10673389946991], [28260, 5.10673389946991], [28306, 6.329665040012236], [28356, 5.10673389946991], [28376, 5.10673389946991], [28404, 5.10673389946991], [28426, 6.329665040012236], [28445, 5.10673389946991], [28535, 5.10673389946991], [28540, 5.10673389946991], [28544, 5.10673389946991], [28547, 5.10673389946991], [28548, 5.10673389946991], [28552, 5.10673389946991], [28558, 5.10673389946991], [28604, 5.10673389946991], [28606, 5.10673389946991], [28619, 5.10673389946991], [28667, 5.10673389946991], [28714, 5.10673389946991], [28747, 5.10673389946991], [28748, 5.10673389946991], [28749, 5.10673389946991], [28760, 5.10673389946991], [28768, 5.10673389946991], [28783, 5.10673389946991], [28789, 5.10673389946991], [28812, 5.10673389946991], [28819, 5.10673389946991], [28843, 5.10673389946991], [28849, 3.0161193061674934], [28850, 3.0161193061674934], [28852, 5.10673389946991], [28876, 5.10673389946991], [28892, 5.10673389946991], [28899, 5.10673389946991], [28925, 5.10673389946991], [28939, 5.10673389946991], [28953, 5.10673389946991], [28966, 5.10673389946991], [28994, 5.10673389946991], [28999, 5.10673389946991], [29048, 3.0161193061674934], [29074, 7.197348492772327], [29116, 5.10673389946991], [29131, 5.10673389946991], [29138, 5.10673389946991], [29154, 5.10673389946991], [29171, 5.10673389946991], [29186, 5.10673389946991], [29188, 5.10673389946991], [29193, 5.10673389946991], [29250, 5.10673389946991], [29275, 5.10673389946991], [29332, 5.10673389946991], [29339, 5.10673389946991], [29349, 5.10673389946991], [29481, 5.10673389946991], [29513, 5.10673389946991], [29540, 5.10673389946991], [29569, 5.10673389946991], [29610, 6.329665040012236], [29624, 5.10673389946991], [29631, 5.10673389946991], [29663, 7.197348492772327], [29683, 5.10673389946991], [29685, 5.10673389946991], [29715, 5.10673389946991], [29730, 3.0161193061674934], [29748, 5.10673389946991], [29774, 5.10673389946991], [29779, 5.10673389946991], [29791, 5.10673389946991], [29815, 5.10673389946991], [29850, 5.10673389946991], [29883, 5.10673389946991], [29933, 3.0161193061674934], [29940, 6.329665040012236], [29963, 5.10673389946991], [29979, 5.10673389946991], [29984, 5.10673389946991], [29997, 5.10673389946991], [30007, 5.10673389946991], [30014, 5.10673389946991], [30023, 5.10673389946991], [30036, 5.10673389946991], [30041, 5.10673389946991], [30046, 3.0161193061674934], [30056, 5.10673389946991], [30065, 6.329665040012236], [30089, 5.10673389946991], [30090, 3.0161193061674934], [30101, 3.0161193061674934], [30143, 6.329665040012236], [30201, 5.10673389946991], [30204, 5.10673389946991], [30206, 6.329665040012236], [30207, 5.10673389946991], [30224, 6.329665040012236], [30259, 5.10673389946991], [30262, 5.10673389946991], [30283, 3.0161193061674934], [30319, 5.10673389946991], [30346, 5.10673389946991], [30350, 5.10673389946991], [30354, 3.0161193061674934], [30358, 3.0161193061674934], [30371, 5.10673389946991], [30427, 5.10673389946991], [30465, 5.10673389946991], [30488, 5.10673389946991], [30490, 5.10673389946991], [30562, 5.10673389946991], [30573, 5.10673389946991], [30574, 5.10673389946991], [30577, 5.10673389946991], [30603, 5.10673389946991], [30619, 5.10673389946991], [30633, 5.10673389946991], [30655, 5.10673389946991], [30677, 5.10673389946991], [30735, 5.10673389946991], [30742, 5.10673389946991], [30750, 5.10673389946991], [30770, 5.10673389946991], [30773, 5.10673389946991], [30791, 5.10673389946991], [30824, 5.10673389946991], [30904, 5.10673389946991], [30931, 5.10673389946991], [30951, 3.0161193061674934], [30963, 5.10673389946991], [30975, 5.10673389946991], [30982, 5.10673389946991], [31021, 5.10673389946991], [31033, 5.10673389946991], [31040, 5.10673389946991], [31090, 5.10673389946991], [31158, 3.0161193061674934], [31189, 5.10673389946991], [31204, 7.197348492772327], [31211, 5.10673389946991], [31219, 5.10673389946991], [31252, 5.10673389946991], [31282, 5.10673389946991], [31322, 5.10673389946991], [31329, 6.329665040012236], [31357, 5.10673389946991], [31363, 5.10673389946991], [31394, 5.10673389946991], [31405, 3.0161193061674934], [31435, 5.10673389946991], [31454, 5.10673389946991], [31481, 5.10673389946991], [31502, 6.329665040012236], [31546, 3.0161193061674934], [31564, 5.10673389946991], [31611, 5.10673389946991], [31641, 5.10673389946991], [31644, 5.10673389946991], [31667, 5.10673389946991], [31669, 5.10673389946991], [31704, 5.10673389946991], [31706, 3.0161193061674934], [31778, 5.10673389946991], [31800, 5.10673389946991], [31812, 5.10673389946991], [31818, 5.10673389946991], [31871, 5.10673389946991], [31878, 5.10673389946991], [31930, 5.10673389946991], [31933, 5.10673389946991], [31967, 5.10673389946991], [32051, 5.10673389946991], [32057, 5.10673389946991], [32060, 5.10673389946991], [32188, 5.10673389946991], [32195, 3.0161193061674934], [32213, 6.329665040012236], [32217, 6.329665040012236], [32231, 5.10673389946991], [32335, 5.10673389946991], [32361, 5.10673389946991], [32376, 5.10673389946991], [32410, 7.870376065937892], [32416, 5.10673389946991], [32417, 5.10673389946991], [32447, 5.10673389946991], [32461, 5.10673389946991], [32466, 5.10673389946991], [32470, 6.329665040012236], [32515, 5.10673389946991], [32545, 5.10673389946991], [32547, 5.10673389946991], [32550, 6.329665040012236], [32571, 5.10673389946991], [32580, 6.329665040012236], [32601, 5.10673389946991], [32629, 3.0161193061674934], [32660, 5.10673389946991], [32673, 3.0161193061674934], [32697, 5.10673389946991], [32742, 5.10673389946991], [32763, 3.0161193061674934], [32769, 5.10673389946991], [32850, 5.10673389946991], [32857, 5.10673389946991], [32886, 5.10673389946991], [32887, 5.10673389946991], [32923, 3.0161193061674934], [32926, 5.10673389946991], [32945, 5.10673389946991], [32961, 5.10673389946991], [32975, 5.10673389946991], [33003, 5.10673389946991], [33036, 5.10673389946991], [33083, 5.10673389946991], [33087, 5.10673389946991], [33123, 5.10673389946991], [33128, 5.10673389946991], [33146, 6.329665040012236], [33157, 5.10673389946991], [33194, 5.10673389946991], [33239, 5.10673389946991], [33240, 5.10673389946991], [33250, 5.10673389946991], [33274, 5.10673389946991], [33302, 6.329665040012236], [33351, 5.10673389946991], [33377, 5.10673389946991], [33385, 5.10673389946991], [33398, 5.10673389946991], [33402, 5.10673389946991], [33456, 5.10673389946991], [33475, 7.870376065937892], [33483, 5.10673389946991], [33509, 5.10673389946991], [33532, 5.10673389946991], [33643, 5.10673389946991], [33671, 5.10673389946991], [33674, 5.10673389946991], [33691, 5.10673389946991], [33728, 5.10673389946991], [33729, 6.329665040012236], [33751, 5.10673389946991], [33774, 5.10673389946991], [33797, 5.10673389946991], [33804, 5.10673389946991], [33815, 6.329665040012236], [33830, 5.10673389946991], [33840, 5.10673389946991], [33842, 5.10673389946991], [33846, 5.10673389946991], [33847, 5.10673389946991], [33904, 5.10673389946991], [33949, 5.10673389946991], [34007, 5.10673389946991], [34040, 5.10673389946991], [34061, 8.885216474800488], [34068, 5.10673389946991], [34074, 5.10673389946991], [34079, 5.10673389946991], [34096, 5.10673389946991], [34114, 5.10673389946991], [34118, 5.10673389946991], [34124, 10.975831068102904], [34141, 5.10673389946991], [34208, 5.10673389946991], [34214, 5.10673389946991], [34246, 3.0161193061674934], [34262, 5.10673389946991], [34265, 3.0161193061674934], [34268, 5.10673389946991], [34276, 5.10673389946991], [34296, 3.0161193061674934], [34315, 3.0161193061674934], [34371, 5.10673389946991], [34386, 3.0161193061674934], [34407, 5.10673389946991], [34420, 5.10673389946991], [34460, 5.10673389946991], [34503, 5.10673389946991], [34545, 5.10673389946991], [34595, 6.329665040012236], [34641, 5.10673389946991], [34648, 5.10673389946991], [34651, 5.10673389946991], [34653, 3.0161193061674934], [34655, 3.0161193061674934], [34693, 5.10673389946991], [34695, 5.10673389946991], [34699, 5.10673389946991], [34723, 5.10673389946991], [34785, 5.10673389946991], [34825, 5.10673389946991], [34835, 3.0161193061674934], [34849, 5.10673389946991], [34854, 3.0161193061674934], [34876, 5.10673389946991], [34914, 5.10673389946991], [34924, 3.0161193061674934], [34954, 5.10673389946991], [34961, 5.10673389946991], [34972, 5.10673389946991], [34991, 6.329665040012236], [35042, 5.10673389946991], [35043, 5.10673389946991], [35068, 5.10673389946991], [35071, 5.10673389946991], [35092, 5.10673389946991], [35093, 3.0161193061674934], [35131, 5.10673389946991], [35135, 5.10673389946991], [35140, 5.10673389946991], [35152, 5.10673389946991], [35166, 3.0161193061674934], [35179, 3.0161193061674934], [35208, 5.10673389946991], [35210, 7.870376065937892], [35233, 5.10673389946991], [35335, 5.10673389946991], [35347, 5.10673389946991], [35420, 3.0161193061674934], [35430, 5.10673389946991], [35440, 5.10673389946991], [35459, 5.10673389946991], [35480, 5.10673389946991], [35502, 5.10673389946991], [35507, 3.0161193061674934], [35529, 5.10673389946991], [35544, 5.10673389946991], [35545, 5.10673389946991], [35546, 7.870376065937892], [35555, 5.10673389946991], [35616, 3.0161193061674934], [35629, 5.10673389946991], [35653, 5.10673389946991], [35655, 5.10673389946991], [35662, 5.10673389946991], [35697, 5.10673389946991], [35701, 5.10673389946991], [35703, 6.329665040012236], [35705, 5.10673389946991], [35739, 3.0161193061674934], [35771, 5.10673389946991], [35842, 5.10673389946991], [35843, 5.10673389946991], [35877, 5.10673389946991], [35891, 5.10673389946991], [35896, 6.329665040012236], [35918, 5.10673389946991], [35945, 3.0161193061674934], [35964, 5.10673389946991], [35966, 3.0161193061674934], [35986, 5.10673389946991], [36022, 5.10673389946991], [36026, 5.10673389946991], [36059, 5.10673389946991], [36116, 5.10673389946991], [36127, 3.0161193061674934], [36129, 5.10673389946991], [36133, 7.197348492772327], [36143, 5.10673389946991], [36147, 5.10673389946991], [36151, 5.10673389946991], [36156, 5.10673389946991], [36184, 5.10673389946991], [36192, 5.10673389946991], [36236, 5.10673389946991], [36242, 5.10673389946991], [36264, 5.10673389946991], [36266, 5.10673389946991], [36371, 5.10673389946991], [36383, 7.197348492772327], [36443, 7.197348492772327], [36482, 5.10673389946991], [36537, 5.10673389946991], [36539, 5.10673389946991], [36553, 5.10673389946991], [36590, 5.10673389946991], [36593, 5.10673389946991], [36647, 5.10673389946991], [36659, 5.10673389946991], [36673, 5.10673389946991], [36676, 5.10673389946991], [36706, 5.10673389946991], [36709, 5.10673389946991], [36729, 5.10673389946991], [36791, 5.10673389946991], [36795, 3.0161193061674934], [36806, 5.10673389946991], [36810, 5.10673389946991], [36818, 5.10673389946991], [36853, 5.10673389946991], [36861, 6.329665040012236], [36903, 5.10673389946991], [36904, 3.0161193061674934], [36909, 5.10673389946991], [36921, 5.10673389946991], [36939, 5.10673389946991], [36942, 6.329665040012236], [36981, 5.10673389946991], [36985, 6.329665040012236], [36998, 3.0161193061674934], [37003, 5.10673389946991], [37077, 5.10673389946991], [37098, 5.10673389946991], [37159, 5.10673389946991], [37164, 5.10673389946991], [37185, 5.10673389946991], [37200, 5.10673389946991], [37208, 5.10673389946991], [37268, 5.10673389946991], [37276, 5.10673389946991], [37337, 5.10673389946991], [37344, 5.10673389946991], [37347, 5.10673389946991], [37380, 5.10673389946991], [37384, 5.10673389946991], [37402, 5.10673389946991], [37421, 5.10673389946991], [37430, 3.0161193061674934], [37437, 5.10673389946991], [37480, 5.10673389946991], [37482, 5.10673389946991], [37512, 5.10673389946991], [37524, 3.0161193061674934], [37543, 5.10673389946991], [37560, 5.10673389946991], [37575, 5.10673389946991], [37616, 3.0161193061674934], [37651, 5.10673389946991], [37652, 5.10673389946991], [37674, 7.197348492772327], [37734, 5.10673389946991], [37762, 5.10673389946991], [37840, 5.10673389946991], [37877, 5.10673389946991], [37908, 5.10673389946991], [37938, 8.885216474800488], [37955, 5.10673389946991], [37990, 5.10673389946991], [37996, 5.10673389946991], [38007, 3.0161193061674934], [38055, 5.10673389946991], [38075, 5.10673389946991], [38092, 5.10673389946991], [38169, 5.10673389946991], [38180, 5.10673389946991], [38203, 5.10673389946991], [38276, 5.10673389946991], [38281, 5.10673389946991], [38292, 5.10673389946991], [38312, 5.10673389946991], [38345, 5.10673389946991], [38372, 5.10673389946991], [38414, 5.10673389946991], [38427, 5.10673389946991], [38438, 5.10673389946991], [38446, 5.10673389946991], [38447, 3.0161193061674934], [38499, 5.10673389946991], [38547, 6.329665040012236], [38567, 5.10673389946991], [38589, 5.10673389946991], [38625, 5.10673389946991], [38627, 6.329665040012236], [38651, 5.10673389946991], [38653, 5.10673389946991], [38686, 5.10673389946991], [38704, 6.329665040012236], [38719, 5.10673389946991], [38779, 5.10673389946991], [38780, 5.10673389946991], [38814, 5.10673389946991], [38843, 5.10673389946991], [38925, 5.10673389946991], [38929, 5.10673389946991], [38937, 3.0161193061674934], [38945, 5.10673389946991], [38955, 5.10673389946991], [38961, 5.10673389946991], [38967, 5.10673389946991], [38983, 6.329665040012236], [39032, 5.10673389946991], [39167, 5.10673389946991], [39259, 5.10673389946991], [39271, 5.10673389946991], [39275, 5.10673389946991], [39304, 5.10673389946991], [39305, 5.10673389946991], [39352, 5.10673389946991], [39353, 5.10673389946991], [39414, 5.10673389946991], [39426, 5.10673389946991], [39475, 3.0161193061674934], [39499, 5.10673389946991], [39517, 5.10673389946991], [39617, 5.10673389946991], [39646, 5.10673389946991], [39652, 5.10673389946991], [39690, 5.10673389946991], [39705, 5.10673389946991], [39732, 5.10673389946991], [39734, 5.10673389946991], [39798, 7.870376065937892], [39809, 5.10673389946991], [39827, 5.10673389946991], [39865, 5.10673389946991], [39869, 5.10673389946991], [39883, 5.10673389946991], [39894, 5.10673389946991], [39904, 5.10673389946991], [39913, 5.10673389946991], [39932, 5.10673389946991], [39984, 5.10673389946991], [40002, 5.10673389946991], [40013, 3.0161193061674934], [40037, 5.10673389946991], [40045, 6.329665040012236], [40083, 5.10673389946991], [40118, 5.10673389946991], [40154, 5.10673389946991], [40162, 5.10673389946991], [40190, 5.10673389946991], [40209, 3.0161193061674934], [40226, 5.10673389946991], [40237, 5.10673389946991], [40238, 5.10673389946991], [40286, 6.329665040012236], [40346, 5.10673389946991], [40350, 5.10673389946991], [40429, 5.10673389946991], [40431, 5.10673389946991], [40439, 5.10673389946991], [40450, 5.10673389946991], [40499, 3.0161193061674934], [40540, 5.10673389946991], [40550, 5.10673389946991], [40572, 5.10673389946991], [40586, 5.10673389946991], [40587, 5.10673389946991], [40589, 5.10673389946991], [40598, 5.10673389946991], [40618, 5.10673389946991], [40644, 3.0161193061674934], [40692, 5.10673389946991], [40723, 5.10673389946991], [40732, 5.10673389946991], [40765, 5.10673389946991], [40769, 5.10673389946991], [40794, 5.10673389946991], [40800, 5.10673389946991], [40804, 5.10673389946991], [40807, 5.10673389946991], [40821, 3.0161193061674934], [40915, 5.10673389946991], [40922, 3.0161193061674934], [40923, 5.10673389946991], [40936, 5.10673389946991], [40937, 5.10673389946991], [40956, 5.10673389946991], [41024, 5.10673389946991], [41074, 5.10673389946991], [41122, 3.0161193061674934], [41149, 5.10673389946991], [41173, 5.10673389946991], [41174, 5.10673389946991], [41204, 5.10673389946991], [41262, 5.10673389946991], [41324, 5.10673389946991], [41370, 3.0161193061674934], [41372, 7.197348492772327], [41424, 5.10673389946991], [41441, 3.0161193061674934], [41470, 3.0161193061674934], [41490, 5.10673389946991], [41504, 5.10673389946991], [41515, 6.329665040012236], [41536, 5.10673389946991], [41545, 5.10673389946991], [41552, 5.10673389946991], [41592, 5.10673389946991], [41610, 5.10673389946991], [41616, 7.870376065937892], [41635, 5.10673389946991], [41665, 5.10673389946991], [41681, 9.287963086074742], [41692, 5.10673389946991], [41741, 6.329665040012236], [41756, 5.10673389946991], [41792, 5.10673389946991], [41830, 5.10673389946991], [41861, 5.10673389946991], [41891, 5.10673389946991], [41937, 5.10673389946991], [41942, 5.10673389946991], [42047, 5.10673389946991], [42086, 5.10673389946991], [42121, 5.10673389946991], [42130, 5.10673389946991], [42136, 5.10673389946991], [42141, 5.10673389946991], [42160, 5.10673389946991], [42165, 5.10673389946991], [42168, 14.754313643433484], [42169, 5.10673389946991], [42256, 5.10673389946991], [42267, 5.10673389946991], [42268, 5.10673389946991], [42269, 5.10673389946991], [42296, 5.10673389946991], [42298, 5.10673389946991], [42319, 5.10673389946991], [42324, 5.10673389946991], [42341, 5.10673389946991], [42369, 5.10673389946991], [42380, 5.10673389946991], [42397, 5.10673389946991], [42399, 5.10673389946991], [42441, 5.10673389946991], [42452, 3.0161193061674934], [42474, 5.10673389946991], [42521, 5.10673389946991], [42540, 5.10673389946991], [42593, 5.10673389946991], [42626, 5.10673389946991], [42640, 3.0161193061674934], [42655, 5.10673389946991], [42658, 5.10673389946991], [42659, 5.10673389946991], [42661, 5.10673389946991], [42669, 5.10673389946991], [42717, 5.10673389946991], [42884, 3.0161193061674934], [42919, 5.10673389946991], [42920, 5.10673389946991], [42953, 3.0161193061674934], [42959, 5.10673389946991], [42973, 6.329665040012236], [43039, 7.870376065937892], [43081, 3.0161193061674934], [43082, 5.10673389946991], [43132, 5.10673389946991], [43136, 5.10673389946991], [43141, 7.870376065937892], [43151, 3.0161193061674934], [43199, 5.10673389946991], [43200, 5.10673389946991], [43201, 5.10673389946991], [43224, 6.329665040012236], [43260, 5.10673389946991], [43381, 5.10673389946991], [43404, 5.10673389946991], [43408, 5.10673389946991], [43416, 5.10673389946991], [43432, 5.10673389946991], [43458, 5.10673389946991], [43464, 5.10673389946991], [43479, 5.10673389946991], [43507, 5.10673389946991], [43533, 5.10673389946991], [43556, 5.10673389946991], [43574, 5.10673389946991], [43647, 5.10673389946991], [43687, 5.10673389946991], [43702, 5.10673389946991], [43751, 5.10673389946991], [43766, 5.10673389946991], [43770, 5.10673389946991], [43784, 5.10673389946991], [43797, 5.10673389946991], [43826, 5.10673389946991], [43857, 3.0161193061674934], [43875, 5.10673389946991], [43878, 5.10673389946991], [43890, 5.10673389946991], [43949, 5.10673389946991], [43988, 5.10673389946991], [43995, 3.0161193061674934], [44030, 5.10673389946991], [44044, 5.10673389946991], [44049, 5.10673389946991], [44051, 5.10673389946991], [44052, 5.10673389946991], [44070, 6.329665040012236], [44093, 5.10673389946991], [44112, 5.10673389946991], [44147, 5.10673389946991], [44181, 5.10673389946991], [44185, 5.10673389946991], [44197, 6.329665040012236], [44205, 5.10673389946991], [44214, 5.10673389946991], [44217, 6.329665040012236], [44223, 5.10673389946991], [44285, 5.10673389946991], [44323, 5.10673389946991], [44387, 3.0161193061674934], [44488, 5.10673389946991], [44491, 5.10673389946991], [44500, 5.10673389946991], [44601, 7.870376065937892], [44620, 3.0161193061674934], [44700, 5.10673389946991], [44738, 5.10673389946991], [44784, 5.10673389946991], [44806, 5.10673389946991], [44822, 5.10673389946991], [44871, 5.10673389946991], [44890, 5.10673389946991], [44894, 5.10673389946991], [44907, 5.10673389946991], [44932, 5.10673389946991], [44984, 5.10673389946991], [44987, 5.10673389946991], [44997, 5.10673389946991], [45020, 5.10673389946991], [45037, 6.329665040012236], [45039, 5.10673389946991], [45079, 5.10673389946991], [45127, 5.10673389946991], [45158, 5.10673389946991], [45164, 5.10673389946991], [45170, 5.10673389946991], [45187, 5.10673389946991], [45232, 5.10673389946991], [45240, 5.10673389946991], [45261, 5.10673389946991], [45262, 5.10673389946991], [45267, 5.10673389946991], [45269, 5.10673389946991], [45288, 5.10673389946991], [45323, 5.10673389946991], [45335, 3.0161193061674934], [45338, 3.0161193061674934], [45347, 3.0161193061674934], [45393, 5.10673389946991], [45449, 5.10673389946991], [45482, 3.0161193061674934], [45486, 5.10673389946991], [45537, 3.0161193061674934], [45539, 5.10673389946991], [45552, 3.0161193061674934], [45575, 6.329665040012236], [45592, 5.10673389946991], [45603, 5.10673389946991], [45664, 7.870376065937892], [45678, 5.10673389946991], [45684, 5.10673389946991], [45698, 5.10673389946991], [45751, 5.10673389946991], [45760, 5.10673389946991], [45763, 5.10673389946991], [45805, 5.10673389946991], [45807, 5.10673389946991], [45817, 5.10673389946991], [45842, 3.0161193061674934], [45923, 5.10673389946991], [45929, 5.10673389946991], [45966, 5.10673389946991], [45982, 3.0161193061674934], [45984, 5.10673389946991], [45990, 5.10673389946991], [46000, 5.10673389946991], [46003, 5.10673389946991], [46016, 5.10673389946991], [46027, 5.10673389946991], [46053, 5.10673389946991], [46061, 5.10673389946991], [46156, 5.10673389946991], [46165, 5.10673389946991], [46187, 5.10673389946991], [46230, 5.10673389946991], [46250, 5.10673389946991], [46251, 5.10673389946991], [46285, 3.0161193061674934], [46295, 5.10673389946991], [46305, 5.10673389946991], [46315, 5.10673389946991], [46358, 5.10673389946991], [46434, 5.10673389946991], [46450, 5.10673389946991], [46477, 5.10673389946991], [46490, 5.10673389946991], [46542, 5.10673389946991], [46569, 5.10673389946991], [46611, 10.752312582549141], [46654, 5.10673389946991], [46673, 5.10673389946991], [46683, 5.10673389946991], [46694, 5.10673389946991], [46707, 7.197348492772327], [46719, 5.10673389946991], [46763, 5.10673389946991], [46832, 5.10673389946991], [46856, 5.10673389946991], [46859, 3.0161193061674934], [46867, 5.10673389946991], [46908, 5.10673389946991], [46945, 5.10673389946991], [46961, 5.10673389946991], [46996, 5.10673389946991], [47004, 5.10673389946991], [47066, 6.329665040012236], [47071, 7.870376065937892], [47084, 5.10673389946991], [47109, 3.0161193061674934], [47132, 5.10673389946991], [47148, 5.10673389946991], [47156, 5.10673389946991], [47158, 3.0161193061674934], [47182, 5.10673389946991], [47201, 9.643210773856977], [47214, 5.10673389946991], [47274, 6.329665040012236], [47298, 5.10673389946991], [47327, 5.10673389946991], [47342, 5.10673389946991], [47348, 5.10673389946991], [47389, 3.0161193061674934], [47408, 5.10673389946991], [47423, 5.10673389946991], [47427, 5.10673389946991], [47443, 5.10673389946991], [47450, 9.960990659240307], [47452, 5.10673389946991], [47481, 5.10673389946991], [47510, 3.0161193061674934], [47531, 5.10673389946991], [47557, 5.10673389946991], [47558, 5.10673389946991], [47560, 5.10673389946991], [47577, 9.287963086074742], [47595, 5.10673389946991], [47597, 3.0161193061674934], [47601, 6.329665040012236], [47668, 5.10673389946991], [47749, 5.10673389946991], [47760, 9.960990659240307], [47820, 5.10673389946991], [47824, 5.10673389946991], [47871, 5.10673389946991], [47913, 5.10673389946991], [47931, 9.960990659240307], [47958, 5.10673389946991], [48022, 5.10673389946991], [48041, 5.10673389946991], [48100, 6.329665040012236], [48102, 5.10673389946991], [48182, 3.0161193061674934], [48206, 5.10673389946991], [48217, 3.0161193061674934], [48242, 5.10673389946991], [48309, 5.10673389946991], [48312, 5.10673389946991], [48329, 5.10673389946991], [48368, 5.10673389946991], [48420, 6.329665040012236], [48437, 5.10673389946991], [48478, 5.10673389946991], [48566, 5.10673389946991], [48598, 6.329665040012236], [48613, 5.10673389946991], [48615, 5.10673389946991], [48619, 5.10673389946991], [48635, 5.10673389946991], [48641, 8.420279633314651], [48657, 5.10673389946991], [48668, 5.10673389946991], [48703, 5.10673389946991], [48742, 5.10673389946991], [48745, 5.10673389946991], [48756, 5.10673389946991], [48781, 5.10673389946991], [48832, 5.10673389946991], [48881, 5.10673389946991], [48884, 5.10673389946991], [48919, 3.0161193061674934], [48935, 5.10673389946991], [48962, 5.10673389946991], [48989, 3.0161193061674934], [48996, 5.10673389946991], [49024, 5.10673389946991], [49034, 5.10673389946991], [49084, 5.10673389946991], [49089, 5.10673389946991], [49177, 3.0161193061674934], [49205, 5.10673389946991], [49223, 5.10673389946991], [49378, 5.10673389946991], [49387, 6.329665040012236], [49395, 5.10673389946991], [49397, 5.10673389946991], [49440, 5.10673389946991], [49442, 5.10673389946991], [49532, 5.10673389946991], [49544, 5.10673389946991], [49564, 6.329665040012236], [49599, 5.10673389946991], [49607, 5.10673389946991], [49626, 5.10673389946991], [49641, 3.0161193061674934], [49664, 6.329665040012236], [49685, 5.10673389946991], [49693, 5.10673389946991], [49776, 5.10673389946991], [49793, 3.0161193061674934], [49797, 5.10673389946991], [49802, 5.10673389946991], [49836, 5.10673389946991], [49860, 5.10673389946991], [49884, 5.10673389946991], [49903, 5.10673389946991], [49904, 5.10673389946991], [49911, 5.10673389946991], [49931, 5.10673389946991], [49940, 7.870376065937892], [49946, 5.10673389946991], [49991, 5.10673389946991], [50098, 5.10673389946991], [50113, 5.10673389946991], [50115, 5.10673389946991], [50173, 5.10673389946991], [50182, 5.10673389946991], [50209, 5.10673389946991], [50292, 5.10673389946991], [50300, 5.10673389946991], [50320, 5.10673389946991], [50358, 5.10673389946991], [50416, 5.10673389946991], [50431, 5.10673389946991], [50448, 5.10673389946991], [50479, 5.10673389946991], [50487, 5.10673389946991], [50490, 5.10673389946991], [50499, 5.10673389946991], [50508, 5.10673389946991], [50514, 5.10673389946991], [50565, 5.10673389946991], [50570, 6.329665040012236], [50576, 5.10673389946991], [50580, 5.10673389946991], [50642, 5.10673389946991], [50670, 5.10673389946991], [50678, 5.10673389946991], [50710, 5.10673389946991], [50796, 5.10673389946991], [50819, 5.10673389946991], [50914, 5.10673389946991], [50980, 5.10673389946991], [51025, 5.10673389946991], [51034, 5.10673389946991], [51043, 6.329665040012236], [51126, 6.329665040012236], [51159, 5.10673389946991], [51169, 6.329665040012236], [51184, 5.10673389946991], [51197, 3.0161193061674934], [51244, 5.10673389946991], [51263, 5.10673389946991], [51270, 3.0161193061674934], [51318, 5.10673389946991], [51380, 5.10673389946991], [51408, 5.10673389946991], [51423, 8.420279633314651], [51449, 5.10673389946991], [51480, 5.10673389946991], [51499, 5.10673389946991], [51639, 3.0161193061674934], [51675, 5.10673389946991], [51680, 3.0161193061674934], [51684, 5.10673389946991], [51691, 5.10673389946991], [51695, 5.10673389946991], [51707, 5.10673389946991], [51889, 5.10673389946991], [51895, 5.10673389946991], [51911, 5.10673389946991], [51920, 5.10673389946991], [51941, 5.10673389946991], [51987, 5.10673389946991], [52007, 5.10673389946991], [52008, 5.10673389946991], [52045, 5.10673389946991], [52175, 5.10673389946991], [52180, 5.10673389946991], [52195, 5.10673389946991], [52206, 5.10673389946991], [52215, 5.10673389946991], [52284, 5.10673389946991], [52454, 5.10673389946991], [52488, 6.329665040012236], [52522, 6.329665040012236], [52549, 5.10673389946991], [52574, 5.10673389946991], [52617, 5.10673389946991], [52655, 5.10673389946991], [52664, 5.10673389946991], [52703, 5.10673389946991], [52726, 5.10673389946991], [52750, 5.10673389946991], [52751, 5.10673389946991], [52798, 5.10673389946991], [52871, 5.10673389946991], [53003, 3.0161193061674934], [53027, 6.329665040012236], [53031, 5.10673389946991], [53050, 5.10673389946991], [53082, 5.10673389946991], [53137, 5.10673389946991], [53191, 3.0161193061674934], [53205, 5.10673389946991], [53303, 5.10673389946991], [53326, 5.10673389946991], [53336, 5.10673389946991], [53368, 5.10673389946991], [53394, 5.10673389946991], [53411, 5.10673389946991], [53417, 3.0161193061674934], [53425, 5.10673389946991], [53430, 5.10673389946991], [53460, 5.10673389946991], [53493, 5.10673389946991], [53545, 5.10673389946991], [53572, 5.10673389946991], [53592, 5.10673389946991], [53613, 3.0161193061674934], [53639, 5.10673389946991], [53649, 5.10673389946991], [53686, 5.10673389946991], [53700, 3.0161193061674934], [53712, 3.0161193061674934], [53758, 5.10673389946991], [53759, 5.10673389946991], [53760, 5.10673389946991], [53761, 5.10673389946991], [53762, 5.10673389946991], [53763, 5.10673389946991], [53764, 5.10673389946991], [53765, 5.10673389946991], [53766, 5.10673389946991], [53767, 5.10673389946991], [53768, 5.10673389946991], [53769, 5.10673389946991], [53770, 6.329665040012236], [53771, 5.10673389946991], [53772, 5.10673389946991], [53773, 5.10673389946991], [53774, 5.10673389946991], [53775, 5.10673389946991], [53776, 5.10673389946991], [53777, 5.10673389946991], [53778, 5.10673389946991], [53779, 5.10673389946991], [53780, 5.10673389946991], [53781, 5.10673389946991], [53782, 5.10673389946991], [53783, 5.10673389946991], [53784, 5.10673389946991], [53785, 5.10673389946991], [53786, 5.10673389946991], [53787, 5.10673389946991], [53788, 5.10673389946991], [53789, 5.10673389946991], [53790, 5.10673389946991], [53791, 5.10673389946991], [53792, 5.10673389946991], [53793, 5.10673389946991], [53794, 5.10673389946991], [53795, 5.10673389946991], [53796, 5.10673389946991], [53797, 5.10673389946991], [53798, 5.10673389946991], [53799, 5.10673389946991], [53800, 5.10673389946991], [53801, 5.10673389946991], [53802, 5.10673389946991], [53803, 5.10673389946991], [53804, 5.10673389946991], [53805, 5.10673389946991], [53806, 5.10673389946991], [53808, 5.10673389946991], [53809, 5.10673389946991], [53810, 5.10673389946991], [53811, 5.10673389946991], [53812, 5.10673389946991], [53813, 5.10673389946991], [53814, 5.10673389946991], [53815, 5.10673389946991], [53816, 5.10673389946991], [53817, 5.10673389946991], [53818, 5.10673389946991], [53819, 5.10673389946991], [53820, 5.10673389946991], [53821, 5.10673389946991], [53822, 5.10673389946991], [53823, 5.10673389946991], [53824, 6.329665040012236], [53825, 5.10673389946991], [53826, 5.10673389946991], [53827, 5.10673389946991], [53828, 5.10673389946991], [53829, 5.10673389946991], [53830, 5.10673389946991], [53831, 5.10673389946991], [53832, 5.10673389946991], [53833, 5.10673389946991], [53834, 5.10673389946991], [53835, 5.10673389946991], [53836, 5.10673389946991], [53837, 5.10673389946991], [53838, 5.10673389946991], [53839, 5.10673389946991], [53840, 5.10673389946991], [53841, 5.10673389946991], [53842, 5.10673389946991], [53844, 5.10673389946991], [53845, 5.10673389946991], [53846, 5.10673389946991], [53847, 5.10673389946991], [53848, 6.329665040012236], [53849, 5.10673389946991], [53850, 5.10673389946991], [53852, 5.10673389946991], [53853, 5.10673389946991], [53854, 5.10673389946991], [53855, 5.10673389946991], [53856, 5.10673389946991], [53857, 5.10673389946991], [53858, 5.10673389946991], [53859, 5.10673389946991], [53860, 5.10673389946991], [53861, 5.10673389946991], [53862, 5.10673389946991], [53863, 5.10673389946991], [53864, 5.10673389946991], [53865, 5.10673389946991], [53866, 5.10673389946991], [53867, 5.10673389946991], [53868, 5.10673389946991], [53869, 5.10673389946991], [53870, 5.10673389946991], [53871, 5.10673389946991], [53872, 5.10673389946991], [53873, 5.10673389946991], [53874, 5.10673389946991], [53875, 5.10673389946991], [53876, 5.10673389946991], [53877, 5.10673389946991], [53878, 5.10673389946991], [53879, 5.10673389946991], [53880, 5.10673389946991], [53881, 5.10673389946991], [53882, 5.10673389946991], [53883, 5.10673389946991], [53884, 5.10673389946991], [53885, 5.10673389946991], [53886, 5.10673389946991], [53887, 5.10673389946991], [53888, 5.10673389946991], [53889, 5.10673389946991], [53890, 6.329665040012236], [53891, 5.10673389946991], [53892, 5.10673389946991], [53893, 5.10673389946991], [53894, 5.10673389946991], [53895, 5.10673389946991], [53896, 5.10673389946991], [53897, 5.10673389946991], [53898, 5.10673389946991], [53899, 5.10673389946991], [53900, 5.10673389946991], [53901, 7.197348492772327], [53902, 5.10673389946991], [53903, 5.10673389946991], [53904, 5.10673389946991], [53905, 5.10673389946991], [53906, 5.10673389946991], [53907, 5.10673389946991], [53908, 5.10673389946991], [53909, 5.10673389946991], [53910, 5.10673389946991], [53911, 5.10673389946991], [53912, 5.10673389946991], [53913, 5.10673389946991], [53914, 5.10673389946991], [53916, 5.10673389946991], [53917, 5.10673389946991], [53918, 5.10673389946991], [53919, 5.10673389946991], [53920, 5.10673389946991], [53921, 5.10673389946991], [53922, 5.10673389946991], [53923, 5.10673389946991], [53924, 5.10673389946991], [53925, 5.10673389946991], [53927, 5.10673389946991], [53928, 5.10673389946991], [53929, 5.10673389946991], [53930, 5.10673389946991], [53931, 5.10673389946991], [53932, 5.10673389946991], [53933, 5.10673389946991], [53934, 5.10673389946991], [53935, 5.10673389946991], [53936, 5.10673389946991], [53937, 5.10673389946991], [53938, 5.10673389946991], [53939, 5.10673389946991], [53940, 5.10673389946991], [53941, 5.10673389946991], [53942, 5.10673389946991], [53943, 5.10673389946991], [53944, 5.10673389946991], [53946, 5.10673389946991], [53947, 5.10673389946991], [53948, 5.10673389946991], [53949, 6.329665040012236], [53950, 5.10673389946991], [53951, 5.10673389946991], [53952, 5.10673389946991], [53953, 5.10673389946991], [53954, 5.10673389946991], [53955, 5.10673389946991], [53957, 5.10673389946991], [53959, 5.10673389946991], [53961, 5.10673389946991], [53962, 5.10673389946991], [53963, 5.10673389946991], [53965, 5.10673389946991], [53966, 5.10673389946991], [53967, 5.10673389946991], [53968, 5.10673389946991], [53969, 5.10673389946991], [53971, 5.10673389946991], [53972, 5.10673389946991], [53973, 5.10673389946991], [53974, 5.10673389946991], [53975, 5.10673389946991], [53977, 5.10673389946991], [53978, 5.10673389946991], [53979, 5.10673389946991], [53980, 5.10673389946991], [53981, 5.10673389946991], [53982, 5.10673389946991], [53983, 5.10673389946991], [53985, 5.10673389946991], [53986, 5.10673389946991], [53987, 5.10673389946991], [53988, 5.10673389946991], [53989, 5.10673389946991], [53991, 5.10673389946991], [53993, 5.10673389946991], [53994, 5.10673389946991], [53995, 5.10673389946991], [53996, 5.10673389946991], [53997, 5.10673389946991], [54000, 5.10673389946991], [54001, 5.10673389946991], [54002, 5.10673389946991], [54003, 5.10673389946991], [54004, 5.10673389946991], [54006, 5.10673389946991], [54008, 5.10673389946991], [54010, 5.10673389946991], [54011, 5.10673389946991], [54012, 5.10673389946991], [54013, 5.10673389946991], [54015, 5.10673389946991], [54016, 5.10673389946991], [54017, 5.10673389946991], [54018, 5.10673389946991], [54019, 5.10673389946991], [54020, 5.10673389946991], [54021, 5.10673389946991], [54022, 5.10673389946991], [54023, 5.10673389946991], [54024, 5.10673389946991], [54026, 5.10673389946991], [54027, 5.10673389946991], [54028, 5.10673389946991], [54029, 5.10673389946991], [54030, 5.10673389946991], [54031, 5.10673389946991], [54032, 5.10673389946991], [54033, 5.10673389946991], [54034, 5.10673389946991], [54035, 5.10673389946991], [54038, 5.10673389946991], [54039, 5.10673389946991], [54041, 5.10673389946991], [54042, 5.10673389946991], [54043, 5.10673389946991], [54044, 5.10673389946991], [54045, 5.10673389946991], [54046, 5.10673389946991], [54048, 5.10673389946991], [54049, 5.10673389946991], [54050, 5.10673389946991], [54051, 5.10673389946991], [54052, 5.10673389946991], [54053, 5.10673389946991], [54054, 5.10673389946991], [54055, 5.10673389946991], [54057, 5.10673389946991], [54058, 5.10673389946991], [54059, 5.10673389946991], [54060, 5.10673389946991], [54062, 5.10673389946991], [54063, 5.10673389946991], [54064, 5.10673389946991], [54065, 5.10673389946991], [54066, 5.10673389946991], [54067, 5.10673389946991], [54070, 5.10673389946991], [54071, 5.10673389946991], [54072, 5.10673389946991], [54074, 5.10673389946991], [54075, 5.10673389946991], [54080, 5.10673389946991], [54081, 5.10673389946991], [54084, 5.10673389946991], [54085, 5.10673389946991], [54086, 5.10673389946991], [54087, 5.10673389946991], [54088, 5.10673389946991], [54089, 5.10673389946991], [54090, 5.10673389946991], [54091, 5.10673389946991], [54093, 5.10673389946991], [54094, 5.10673389946991], [54095, 5.10673389946991], [54096, 5.10673389946991], [54099, 5.10673389946991], [54101, 5.10673389946991], [54103, 5.10673389946991], [54104, 5.10673389946991], [54105, 5.10673389946991], [54106, 5.10673389946991], [54107, 5.10673389946991], [54109, 5.10673389946991], [54110, 5.10673389946991], [54112, 5.10673389946991], [54113, 5.10673389946991], [54114, 5.10673389946991], [54115, 5.10673389946991], [54116, 5.10673389946991], [54117, 5.10673389946991], [54118, 5.10673389946991], [54119, 5.10673389946991], [54120, 5.10673389946991], [54122, 5.10673389946991], [54123, 5.10673389946991], [54125, 5.10673389946991], [54126, 5.10673389946991], [54128, 5.10673389946991], [54129, 5.10673389946991], [54130, 5.10673389946991], [54131, 5.10673389946991], [54133, 5.10673389946991], [54136, 6.329665040012236], [54137, 5.10673389946991], [54140, 7.197348492772327], [54142, 5.10673389946991], [54143, 5.10673389946991], [54144, 5.10673389946991], [54146, 5.10673389946991], [54148, 5.10673389946991], [54150, 5.10673389946991], [54153, 5.10673389946991], [54154, 5.10673389946991], [54156, 5.10673389946991], [54157, 5.10673389946991], [54158, 5.10673389946991], [54159, 5.10673389946991], [54160, 5.10673389946991], [54161, 5.10673389946991], [54163, 5.10673389946991], [54164, 5.10673389946991], [54166, 5.10673389946991], [54168, 5.10673389946991], [54170, 5.10673389946991], [54171, 5.10673389946991], [54173, 5.10673389946991], [54174, 5.10673389946991], [54175, 5.10673389946991], [54176, 5.10673389946991], [54177, 5.10673389946991], [54178, 5.10673389946991], [54179, 5.10673389946991], [54180, 5.10673389946991], [54181, 5.10673389946991], [54182, 5.10673389946991], [54183, 5.10673389946991], [54185, 5.10673389946991], [54186, 5.10673389946991], [54187, 5.10673389946991], [54190, 5.10673389946991], [54191, 5.10673389946991], [54192, 5.10673389946991], [54194, 5.10673389946991], [54195, 5.10673389946991], [54197, 5.10673389946991], [54199, 5.10673389946991], [54200, 5.10673389946991], [54201, 5.10673389946991], [54202, 5.10673389946991], [54205, 5.10673389946991], [54206, 5.10673389946991], [54207, 5.10673389946991], [54208, 5.10673389946991], [54210, 5.10673389946991], [54211, 5.10673389946991], [54212, 5.10673389946991], [54213, 5.10673389946991], [54215, 5.10673389946991], [54216, 5.10673389946991], [54217, 5.10673389946991], [54219, 5.10673389946991], [54220, 5.10673389946991], [54221, 5.10673389946991], [54222, 5.10673389946991], [54224, 5.10673389946991], [54225, 5.10673389946991], [54226, 5.10673389946991], [54227, 5.10673389946991], [54228, 5.10673389946991], [54231, 5.10673389946991], [54232, 5.10673389946991], [54233, 5.10673389946991], [54236, 5.10673389946991], [54238, 5.10673389946991], [54239, 5.10673389946991], [54241, 5.10673389946991], [54242, 5.10673389946991], [54243, 5.10673389946991], [54244, 5.10673389946991], [54245, 5.10673389946991], [54247, 5.10673389946991], [54248, 5.10673389946991], [54249, 5.10673389946991], [54251, 5.10673389946991], [54252, 5.10673389946991], [54253, 5.10673389946991], [54255, 5.10673389946991], [54256, 5.10673389946991], [54259, 5.10673389946991], [54261, 5.10673389946991], [54263, 5.10673389946991], [54266, 5.10673389946991], [54267, 5.10673389946991], [54268, 5.10673389946991], [54270, 5.10673389946991], [54271, 5.10673389946991], [54272, 5.10673389946991], [54273, 5.10673389946991], [54274, 5.10673389946991], [54278, 5.10673389946991], [54279, 5.10673389946991], [54280, 5.10673389946991], [54281, 5.10673389946991], [54282, 5.10673389946991], [54283, 5.10673389946991], [54284, 5.10673389946991], [54285, 5.10673389946991], [54288, 5.10673389946991], [54289, 5.10673389946991], [54290, 5.10673389946991], [54292, 5.10673389946991], [54295, 5.10673389946991], [54296, 5.10673389946991], [54299, 5.10673389946991], [54300, 5.10673389946991], [54301, 5.10673389946991], [54307, 5.10673389946991], [54310, 5.10673389946991], [54311, 5.10673389946991], [54313, 5.10673389946991], [54314, 5.10673389946991], [54315, 5.10673389946991], [54316, 5.10673389946991], [54321, 5.10673389946991], [54322, 5.10673389946991], [54324, 5.10673389946991], [54326, 5.10673389946991], [54327, 5.10673389946991], [54328, 5.10673389946991], [54329, 5.10673389946991], [54330, 5.10673389946991], [54333, 5.10673389946991], [54334, 5.10673389946991], [54336, 5.10673389946991], [54337, 5.10673389946991], [54338, 5.10673389946991], [54340, 5.10673389946991], [54341, 5.10673389946991], [54343, 5.10673389946991], [54345, 5.10673389946991], [54347, 5.10673389946991], [54349, 5.10673389946991], [54350, 5.10673389946991], [54352, 5.10673389946991], [54353, 5.10673389946991], [54355, 5.10673389946991], [54356, 5.10673389946991], [54359, 5.10673389946991], [54360, 5.10673389946991], [54361, 5.10673389946991], [54362, 5.10673389946991], [54365, 5.10673389946991], [54366, 5.10673389946991], [54367, 5.10673389946991], [54368, 5.10673389946991], [54370, 5.10673389946991], [54371, 5.10673389946991], [54373, 5.10673389946991], [54374, 5.10673389946991], [54375, 5.10673389946991], [54376, 5.10673389946991], [54383, 5.10673389946991], [54384, 5.10673389946991], [54386, 5.10673389946991], [54387, 5.10673389946991], [54388, 5.10673389946991], [54389, 5.10673389946991], [54390, 5.10673389946991], [54391, 5.10673389946991], [54392, 5.10673389946991], [54393, 5.10673389946991], [54395, 5.10673389946991], [54398, 5.10673389946991], [54399, 5.10673389946991], [54401, 5.10673389946991], [54403, 5.10673389946991], [54405, 5.10673389946991], [54407, 5.10673389946991], [54409, 5.10673389946991], [54410, 5.10673389946991], [54411, 5.10673389946991], [54412, 5.10673389946991], [54415, 5.10673389946991], [54417, 5.10673389946991], [54418, 5.10673389946991], [54423, 5.10673389946991], [54425, 5.10673389946991], [54428, 5.10673389946991], [54429, 5.10673389946991], [54430, 5.10673389946991], [54432, 5.10673389946991], [54436, 5.10673389946991], [54437, 5.10673389946991], [54438, 5.10673389946991], [54440, 5.10673389946991], [54441, 5.10673389946991], [54443, 5.10673389946991], [54444, 5.10673389946991], [54445, 5.10673389946991], [54446, 5.10673389946991], [54448, 5.10673389946991], [54451, 5.10673389946991], [54453, 5.10673389946991], [54455, 5.10673389946991], [54457, 5.10673389946991], [54460, 5.10673389946991], [54461, 5.10673389946991], [54465, 5.10673389946991], [54466, 5.10673389946991], [54467, 5.10673389946991], [54468, 5.10673389946991], [54470, 5.10673389946991], [54474, 5.10673389946991], [54475, 5.10673389946991], [54478, 5.10673389946991], [54481, 5.10673389946991], [54485, 5.10673389946991], [54486, 5.10673389946991], [54487, 5.10673389946991], [54490, 5.10673389946991], [54494, 5.10673389946991], [54495, 5.10673389946991], [54497, 5.10673389946991], [54498, 5.10673389946991], [54499, 5.10673389946991], [54501, 5.10673389946991], [54503, 5.10673389946991], [54504, 5.10673389946991], [54507, 5.10673389946991], [54509, 5.10673389946991], [54512, 5.10673389946991], [54513, 5.10673389946991], [54515, 5.10673389946991], [54520, 5.10673389946991], [54521, 5.10673389946991], [54522, 6.329665040012236], [54523, 5.10673389946991], [54524, 5.10673389946991], [54525, 5.10673389946991], [54526, 5.10673389946991], [54527, 5.10673389946991], [54534, 5.10673389946991], [54538, 5.10673389946991], [54539, 5.10673389946991], [54540, 5.10673389946991], [54541, 5.10673389946991], [54542, 5.10673389946991], [54544, 5.10673389946991], [54546, 5.10673389946991], [54547, 5.10673389946991], [54548, 5.10673389946991], [54552, 5.10673389946991], [54553, 5.10673389946991], [54559, 5.10673389946991], [54560, 5.10673389946991], [54566, 5.10673389946991], [54567, 5.10673389946991], [54568, 5.10673389946991], [54572, 5.10673389946991], [54573, 5.10673389946991], [54574, 5.10673389946991], [54579, 5.10673389946991], [54580, 5.10673389946991], [54581, 5.10673389946991], [54584, 5.10673389946991], [54587, 5.10673389946991], [54589, 5.10673389946991], [54593, 5.10673389946991], [54594, 5.10673389946991], [54595, 5.10673389946991], [54598, 5.10673389946991], [54601, 5.10673389946991], [54602, 5.10673389946991], [54603, 5.10673389946991], [54604, 5.10673389946991], [54605, 5.10673389946991], [54607, 5.10673389946991], [54610, 5.10673389946991], [54612, 5.10673389946991], [54613, 5.10673389946991], [54615, 5.10673389946991], [54616, 5.10673389946991], [54617, 5.10673389946991], [54618, 5.10673389946991], [54621, 5.10673389946991], [54625, 5.10673389946991], [54626, 5.10673389946991], [54628, 5.10673389946991], [54632, 5.10673389946991], [54634, 5.10673389946991], [54636, 5.10673389946991], [54637, 5.10673389946991], [54639, 5.10673389946991], [54640, 5.10673389946991], [54641, 5.10673389946991], [54643, 5.10673389946991], [54644, 5.10673389946991], [54645, 5.10673389946991], [54646, 5.10673389946991], [54649, 5.10673389946991], [54650, 5.10673389946991], [54651, 5.10673389946991], [54656, 5.10673389946991], [54657, 5.10673389946991], [54658, 5.10673389946991], [54664, 5.10673389946991], [54671, 5.10673389946991], [54672, 5.10673389946991], [54674, 5.10673389946991], [54676, 5.10673389946991], [54677, 5.10673389946991], [54679, 5.10673389946991], [54683, 5.10673389946991], [54686, 5.10673389946991], [54688, 5.10673389946991], [54689, 5.10673389946991], [54694, 5.10673389946991], [54696, 5.10673389946991], [54699, 5.10673389946991], [54717, 5.10673389946991], [54722, 5.10673389946991], [54724, 5.10673389946991], [54727, 5.10673389946991], [54729, 5.10673389946991], [54731, 5.10673389946991], [54735, 5.10673389946991], [54736, 5.10673389946991], [54738, 5.10673389946991], [54739, 5.10673389946991], [54740, 5.10673389946991], [54741, 5.10673389946991], [54742, 5.10673389946991], [54751, 5.10673389946991], [54754, 5.10673389946991], [54756, 5.10673389946991], [54757, 5.10673389946991], [54763, 5.10673389946991], [54767, 5.10673389946991], [54768, 5.10673389946991], [54769, 5.10673389946991], [54771, 5.10673389946991], [54774, 5.10673389946991], [54775, 5.10673389946991], [54777, 5.10673389946991], [54782, 6.329665040012236], [54785, 5.10673389946991], [54787, 5.10673389946991], [54789, 5.10673389946991], [54792, 5.10673389946991], [54793, 5.10673389946991], [54797, 5.10673389946991], [54800, 5.10673389946991], [54806, 5.10673389946991], [54808, 5.10673389946991], [54809, 5.10673389946991], [54811, 5.10673389946991], [54813, 5.10673389946991], [54815, 5.10673389946991], [54818, 5.10673389946991], [54822, 5.10673389946991], [54824, 5.10673389946991], [54826, 5.10673389946991], [54827, 5.10673389946991], [54828, 5.10673389946991], [54839, 5.10673389946991], [54854, 5.10673389946991], [54855, 5.10673389946991], [54856, 5.10673389946991], [54870, 5.10673389946991], [54883, 5.10673389946991], [54884, 5.10673389946991], [54896, 5.10673389946991], [54898, 5.10673389946991], [54905, 5.10673389946991], [54912, 5.10673389946991], [54916, 5.10673389946991], [54917, 5.10673389946991], [54918, 5.10673389946991], [54921, 5.10673389946991], [54922, 5.10673389946991], [54923, 5.10673389946991], [54924, 5.10673389946991], [54937, 5.10673389946991], [54938, 5.10673389946991], [54940, 5.10673389946991], [54941, 5.10673389946991], [54944, 5.10673389946991], [54950, 6.329665040012236], [54951, 5.10673389946991], [54956, 5.10673389946991], [54958, 5.10673389946991], [54965, 5.10673389946991], [54969, 5.10673389946991], [54975, 5.10673389946991], [54978, 5.10673389946991], [54983, 5.10673389946991], [55004, 5.10673389946991], [55011, 5.10673389946991], [55013, 5.10673389946991], [55024, 5.10673389946991], [55032, 5.10673389946991], [55036, 5.10673389946991], [55043, 5.10673389946991], [55044, 5.10673389946991], [55050, 5.10673389946991], [55052, 5.10673389946991], [55054, 5.10673389946991], [55057, 5.10673389946991], [55064, 5.10673389946991], [55065, 5.10673389946991], [55082, 5.10673389946991], [55083, 5.10673389946991], [55091, 5.10673389946991], [55126, 5.10673389946991], [55130, 5.10673389946991], [55158, 5.10673389946991], [55167, 5.10673389946991], [55208, 5.10673389946991], [55219, 3.0161193061674934], [55283, 3.0161193061674934]]}
+{"giftabl": [[49940, 18.135244218065043]]}
+{"giftbook": [[49940, 10.710967378552104]]}
+{"gifted": [[49940, 22.478167764152698]]}
+{"giftedli": [[49940, 10.710967378552104]]}
+{"giftless": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"giftool": [[29714, 10.710967378552104]]}
+{"giftran": [[29714, 10.710967378552104]]}
+{"giftset": [[25248, 16.961644023586896], [42168, 16.961644023586896]]}
+{"giftshop": [[49940, 18.135244218065043]]}
+{"giftwar": [[49940, 18.135244218065043]]}
+{"giftwrap": [[49940, 27.94960435643875]]}
+{"gifu": [[49940, 18.135244218065043]]}
+{"gig": [[14496, 8.002917177449893], [19788, 8.002917177449893], [21235, 8.002917177449893], [23893, 8.002917177449893], [25211, 8.002917177449893], [25248, 8.002917177449893], [31068, 13.550116655254042], [31778, 8.002917177449893], [32923, 8.002917177449893], [34432, 8.002917177449893], [38526, 22.342219811593598], [42168, 8.002917177449893], [46611, 30.67688891597764], [49940, 19.097316133058193], [54119, 8.002917177449893]]}
+{"giga": [[22508, 9.612355089883994], [40579, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gigabit": [[24331, 20.172606514672005], [42918, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gigabix": [[39271, 10.710967378552104]]}
+{"gigabyt": [[20022, 8.071910048936845], [21448, 8.071910048936845], [21554, 8.071910048936845], [23453, 8.071910048936845], [23909, 8.071910048936845], [27606, 13.66693174109091], [33187, 8.071910048936845], [34554, 8.071910048936845], [35068, 8.071910048936845], [38790, 8.071910048936845], [40579, 19.261953433244976], [46315, 8.071910048936845], [49776, 8.071910048936845], [49940, 13.66693174109091]]}
+{"gigacycl": [[49940, 22.478167764152698]]}
+{"gigaflex": [[39271, 10.710967378552104]]}
+{"gigaflop": [[49940, 18.135244218065043]]}
+{"gigahertz": [[44181, 10.017820197992158], [49940, 16.961644023586896]]}
+{"gigant": [[15859, 16.29893193924062], [18528, 7.766528399385663], [18844, 7.766528399385663], [19586, 7.766528399385663], [25211, 7.766528399385663], [25248, 13.149875662158582], [25328, 7.766528399385663], [26979, 13.149875662158582], [27015, 13.149875662158582], [32165, 7.766528399385663], [32923, 7.766528399385663], [41847, 7.766528399385663], [42168, 13.149875662158582], [43111, 13.149875662158582], [43191, 7.766528399385663], [45250, 13.149875662158582], [46611, 13.149875662158582], [49107, 13.149875662158582], [49940, 21.682279202013536]]}
+{"gigantean": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"gigantesqu": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"giganticid": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gigantin": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"gigantolog": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"gigantomachi": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gigantomachia": [[49940, 22.478167764152698]]}
+{"gigantopithecu": [[49940, 18.135244218065043]]}
+{"gigantor": [[25248, 16.961644023586896], [42168, 16.961644023586896]]}
+{"gigaton": [[49940, 22.478167764152698]]}
+{"gigavolt": [[49940, 10.710967378552104]]}
+{"gigawatt": [[49940, 22.478167764152698]]}
+{"gigg": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"gigget": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"giggish": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"giggit": [[49940, 18.135244218065043]]}
+{"giggl": [[25211, 8.513742801215884], [25248, 8.513742801215884], [26686, 8.513742801215884], [32923, 8.513742801215884], [33067, 14.415019619891204], [34417, 8.513742801215884], [42168, 8.513742801215884], [46611, 14.415019619891204], [49940, 22.216083242205627]]}
+{"giggler": [[49940, 22.478167764152698]]}
+{"gigglesom": [[49940, 10.710967378552104]]}
+{"gigglewood": [[6047, 10.710967378552104]]}
+{"giggli": [[49940, 10.710967378552104]]}
+{"gigglier": [[49940, 10.710967378552104]]}
+{"giggliest": [[49940, 10.710967378552104]]}
+{"gigglingli": [[49940, 10.710967378552104]]}
+{"gigh": [[49940, 10.710967378552104]]}
+{"gigi": [[5812, 9.101529466118004], [25248, 15.410228954340964], [34495, 9.101529466118004], [42168, 15.410228954340964], [49940, 15.410228954340964]]}
+{"giglet": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gigli": [[49940, 18.135244218065043]]}
+{"giglio": [[44404, 10.017820197992158], [49940, 16.961644023586896]]}
+{"giglot": [[49940, 18.135244218065043]]}
+{"gigman": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gigmen": [[49940, 10.710967378552104]]}
+{"gignac": [[49940, 18.135244218065043]]}
+{"gigo": [[17487, 10.017820197992158], [49940, 10.017820197992158]]}
+{"gigolo": [[25211, 9.101529466118004], [25248, 21.71892844256392], [32923, 9.101529466118004], [42168, 21.71892844256392], [49940, 19.100581583270145]]}
+{"gigot": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 20.172606514672005]]}
+{"gigu": [[49940, 22.478167764152698]]}
+{"giguer": [[49940, 18.135244218065043]]}
+{"gigyf1": [[1351, 8.513742801215884], [1636, 8.513742801215884], [2031, 8.513742801215884], [2434, 14.415019619891204], [2929, 8.513742801215884], [3201, 17.86704526519131], [4261, 8.513742801215884], [4295, 14.415019619891204], [4304, 8.513742801215884]]}
+{"gigyf2": [[1351, 8.313072105753733], [2112, 8.313072105753733], [2170, 8.313072105753733], [2317, 8.313072105753733], [2522, 8.313072105753733], [2610, 8.313072105753733], [2737, 8.313072105753733], [3383, 21.692445521552173], [3600, 19.83743708954319], [3670, 21.692445521552173], [3822, 8.313072105753733]]}
+{"giher": [[25211, 10.017820197992158], [32923, 10.017820197992158]]}
+{"gij": [[44144, 10.710967378552104]]}
+{"gijon": [[49940, 18.135244218065043]]}
+{"gikuyu": [[49940, 18.135244218065043]]}
+{"gil": [[330, 16.659579000237677], [25211, 7.938378656312322], [25248, 18.943308223992588], [26350, 20.714706229039045], [27470, 7.938378656312322], [28330, 7.938378656312322], [30276, 7.938378656312322], [32871, 7.938378656312322], [32923, 7.938378656312322], [36245, 7.938378656312322], [37392, 7.938378656312322], [39551, 7.938378656312322], [39945, 7.938378656312322], [42168, 18.943308223992588], [48286, 13.440843440152456], [49940, 7.938378656312322]]}
+{"gila": [[25248, 23.474180866596146], [25429, 8.408382285558059], [26350, 8.408382285558059], [42168, 23.474180866596146], [47269, 8.408382285558059], [47597, 8.408382285558059], [48198, 8.408382285558059], [49940, 20.064875234167573], [50953, 8.408382285558059], [51240, 8.408382285558059]]}
+{"gilad": [[24297, 27.46964887867579], [25638, 9.324673017432213], [28866, 9.324673017432213], [35924, 9.324673017432213]]}
+{"giladi": [[244, 29.902444603665632]]}
+{"gilah": [[29483, 10.710967378552104]]}
+{"gilain": [[28866, 22.478167764152698]]}
+{"gilb": [[27015, 10.710967378552104]]}
+{"gilba": [[49940, 18.135244218065043]]}
+{"gilbart": [[46287, 21.023520573173943], [49940, 16.961644023586896]]}
+{"gilbert": [[47, 6.3289407438782215], [57, 6.3289407438782215], [233, 6.3289407438782215], [754, 6.3289407438782215], [781, 6.3289407438782215], [939, 6.3289407438782215], [1125, 6.3289407438782215], [1185, 6.3289407438782215], [1198, 6.3289407438782215], [1234, 6.3289407438782215], [5812, 6.3289407438782215], [6047, 6.3289407438782215], [11193, 10.715828176428374], [11723, 15.102715608978526], [12500, 15.102715608978526], [15606, 6.3289407438782215], [19864, 6.3289407438782215], [21993, 6.3289407438782215], [22246, 13.281992819355125], [23336, 10.715828176428374], [23650, 10.715828176428374], [24128, 6.3289407438782215], [25248, 26.173297839266716], [25870, 6.3289407438782215], [26324, 6.3289407438782215], [27128, 6.3289407438782215], [27256, 6.3289407438782215], [27325, 6.3289407438782215], [27976, 10.715828176428374], [28757, 6.3289407438782215], [29022, 10.715828176428374], [29094, 6.3289407438782215], [30035, 10.715828176428374], [30276, 6.3289407438782215], [30740, 6.3289407438782215], [30887, 6.3289407438782215], [31871, 6.3289407438782215], [32108, 6.3289407438782215], [32546, 6.3289407438782215], [32687, 6.3289407438782215], [32696, 13.281992819355125], [32871, 16.51497792262471], [33422, 6.3289407438782215], [35904, 6.3289407438782215], [36319, 6.3289407438782215], [36799, 6.3289407438782215], [37921, 6.3289407438782215], [38404, 6.3289407438782215], [38999, 13.281992819355125], [40710, 6.3289407438782215], [41024, 6.3289407438782215], [42168, 26.173297839266716], [42301, 10.715828176428374], [43517, 6.3289407438782215], [43620, 6.3289407438782215], [43737, 13.281992819355125], [44392, 6.3289407438782215], [44614, 15.102715608978526], [44995, 6.3289407438782215], [45081, 6.3289407438782215], [45834, 6.3289407438782215], [46228, 6.3289407438782215], [46696, 6.3289407438782215], [46891, 6.3289407438782215], [46913, 10.715828176428374], [47001, 6.3289407438782215], [47252, 6.3289407438782215], [47491, 6.3289407438782215], [48736, 6.3289407438782215], [49252, 6.3289407438782215], [49680, 6.3289407438782215], [49728, 6.3289407438782215], [49843, 10.715828176428374], [49940, 19.489603041528678], [50229, 6.3289407438782215], [50397, 6.3289407438782215], [52406, 6.3289407438782215], [52462, 10.715828176428374], [52923, 6.3289407438782215], [53544, 6.3289407438782215]]}
+{"gilbert79": [[38999, 10.710967378552104]]}
+{"gilbert92": [[15606, 10.710967378552104]]}
+{"gilberta": [[49940, 18.135244218065043]]}
+{"gilbertes": [[49940, 10.710967378552104]]}
+{"gilbertian": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 9.612355089883994]]}
+{"gilbertin": [[25211, 9.612355089883994], [32923, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gilbertina": [[49940, 18.135244218065043]]}
+{"gilbertjohng": [[33329, 10.710967378552104]]}
+{"gilberto": [[6047, 8.513742801215884], [25248, 8.513742801215884], [28245, 8.513742801215884], [30017, 20.316296438566525], [30276, 8.513742801215884], [32116, 8.513742801215884], [36482, 8.513742801215884], [42168, 8.513742801215884], [49940, 14.415019619891204]]}
+{"gilberton": [[49940, 18.135244218065043]]}
+{"gilbertown": [[49940, 18.135244218065043]]}
+{"gilbertson": [[21651, 16.275131918978126], [22701, 16.275131918978126], [49940, 16.275131918978126]]}
+{"gilbertsvil": [[49940, 18.135244218065043]]}
+{"gilbertvil": [[49940, 18.135244218065043]]}
+{"gilbey": [[49509, 18.135244218065043]]}
+{"gilbi": [[49940, 18.135244218065043]]}
+{"gilboa": [[19899, 9.612355089883994], [24834, 9.612355089883994], [49940, 16.275131918978126]]}
+{"gilburt": [[49940, 18.135244218065043]]}
+{"gilby": [[49940, 18.135244218065043]]}
+{"gilchrist": [[22725, 8.919207909324049], [23491, 8.919207909324049], [49940, 15.10153172449998], [54197, 8.919207909324049], [54775, 8.919207909324049], [54958, 8.919207909324049]]}
+{"gilcrest": [[49940, 18.135244218065043]]}
+{"gild": [[19715, 8.631525836872267], [25211, 18.11422619121643], [32923, 18.11422619121643], [34723, 14.614443634630602], [37113, 8.631525836872267], [46611, 8.631525836872267], [47597, 8.631525836872267], [49940, 24.097143988974764]]}
+{"gilda": [[5812, 8.408382285558059], [24164, 8.408382285558059], [25248, 8.408382285558059], [32617, 8.408382285558059], [42168, 8.408382285558059], [44724, 8.408382285558059], [47822, 8.408382285558059], [48286, 8.408382285558059], [49940, 17.64593439229139], [53227, 8.408382285558059]]}
+{"gildabl": [[49940, 10.710967378552104]]}
+{"gildea": [[49940, 18.135244218065043]]}
+{"gilden": [[25211, 9.324673017432213], [32923, 9.324673017432213], [49940, 9.324673017432213], [52290, 9.324673017432213]]}
+{"gilder": [[22785, 9.101529466118004], [25211, 9.101529466118004], [32923, 9.101529466118004], [43721, 23.74987605002442], [49940, 23.74987605002442]]}
+{"gildersleev": [[6047, 10.710967378552104]]}
+{"gildford": [[49940, 18.135244218065043]]}
+{"gildhal": [[49940, 22.478167764152698]]}
+{"gildu": [[49940, 18.135244218065043]]}
+{"gile": [[19769, 13.550116655254042], [24191, 8.002917177449893], [25211, 8.002917177449893], [25248, 8.002917177449893], [25799, 8.002917177449893], [26706, 8.002917177449893], [27128, 8.002917177449893], [32923, 8.002917177449893], [37578, 13.550116655254042], [38404, 8.002917177449893], [38549, 8.002917177449893], [39345, 8.002917177449893], [42168, 8.002917177449893], [45834, 8.002917177449893], [49940, 16.795020333789452]]}
+{"gilead": [[49940, 18.135244218065043]]}
+{"gileadit": [[49940, 22.478167764152698]]}
+{"gilemett": [[49940, 18.135244218065043]]}
+{"gilet": [[49940, 22.478167764152698]]}
+{"gilford": [[28831, 10.017820197992158], [49940, 16.961644023586896]]}
+{"gilg": [[49940, 18.135244218065043]]}
+{"gilgai": [[49940, 22.478167764152698]]}
+{"gilgamesh": [[45397, 10.017820197992158], [49940, 16.961644023586896]]}
+{"gilgi": [[49940, 18.135244218065043]]}
+{"gilhauft": [[46287, 10.710967378552104]]}
+{"gili": [[41295, 10.710967378552104]]}
+{"gilia": [[38149, 10.710967378552104]]}
+{"gilian": [[49940, 18.135244218065043]]}
+{"giliana": [[49940, 18.135244218065043]]}
+{"gill": [[346, 11.847620143518474], [491, 6.997395311847796], [981, 6.997395311847796], [1228, 6.997395311847796], [4780, 6.997395311847796], [4797, 6.997395311847796], [4800, 6.997395311847796], [5179, 6.997395311847796], [6047, 11.847620143518474], [11723, 6.997395311847796], [12500, 6.997395311847796], [15858, 11.847620143518474], [21236, 6.997395311847796], [21514, 6.997395311847796], [25211, 11.847620143518474], [25297, 6.997395311847796], [25405, 14.684819790112405], [26358, 6.997395311847796], [27833, 6.997395311847796], [29868, 6.997395311847796], [32871, 14.684819790112405], [32923, 11.847620143518474], [39954, 11.847620143518474], [41868, 6.997395311847796], [42344, 6.997395311847796], [43737, 11.847620143518474], [44112, 6.997395311847796], [45834, 6.997395311847796], [45865, 6.997395311847796], [46611, 6.997395311847796], [46842, 6.997395311847796], [47001, 6.997395311847796], [47597, 6.997395311847796], [47855, 16.697844975189156], [49216, 11.847620143518474], [49243, 6.997395311847796], [49940, 23.10949344669495], [50006, 6.997395311847796], [50403, 6.997395311847796], [50951, 6.997395311847796], [52515, 11.847620143518474]]}
+{"gilla": [[49937, 10.710967378552104]]}
+{"gillad": [[49180, 10.710967378552104]]}
+{"gillan": [[25248, 15.78804382910875], [36482, 9.324673017432213], [42168, 15.78804382910875], [49940, 15.78804382910875]]}
+{"gillard": [[41898, 10.710967378552104]]}
+{"gillaroo": [[49940, 18.135244218065043]]}
+{"gillart": [[48286, 10.710967378552104]]}
+{"gillead": [[49940, 18.135244218065043]]}
+{"gillen": [[22360, 11.041542104083396], [23978, 6.521312636525678], [24052, 6.521312636525678], [24554, 6.521312636525678], [25055, 6.521312636525678], [25492, 6.521312636525678], [25728, 6.521312636525678], [25833, 6.521312636525678], [26068, 27.768378760945733], [26959, 6.521312636525678], [28535, 11.041542104083396], [28768, 15.561771571641115], [29730, 11.041542104083396], [29815, 6.521312636525678], [30065, 11.041542104083396], [30951, 15.561771571641115], [31454, 6.521312636525678], [31799, 6.521312636525678], [31927, 11.041542104083396], [35131, 11.041542104083396], [35877, 11.041542104083396], [36861, 11.041542104083396], [36949, 6.521312636525678], [38585, 11.041542104083396], [38779, 6.521312636525678], [38930, 6.521312636525678], [39259, 6.521312636525678], [39886, 11.041542104083396], [40550, 20.08200103919883], [40692, 6.521312636525678], [41735, 6.521312636525678], [43376, 6.521312636525678], [44030, 6.521312636525678], [44932, 11.041542104083396], [46016, 11.041542104083396], [47005, 6.521312636525678], [47557, 19.21120108110366], [48563, 6.521312636525678], [48781, 6.521312636525678], [51889, 19.21120108110366], [55216, 11.041542104083396], [55219, 6.521312636525678], [55223, 15.561771571641115], [55229, 6.521312636525678], [55233, 6.521312636525678], [55241, 19.21120108110366], [55247, 6.521312636525678], [55248, 11.041542104083396], [55255, 11.041542104083396], [55257, 11.041542104083396], [55268, 6.521312636525678], [55273, 11.041542104083396], [55274, 11.041542104083396], [55281, 18.205936304817136], [55282, 6.521312636525678], [55284, 15.561771571641115], [55295, 6.521312636525678], [55298, 11.041542104083396], [55306, 6.521312636525678], [55314, 6.521312636525678], [55322, 20.08200103919883], [55328, 6.521312636525678], [55342, 6.521312636525678], [55348, 6.521312636525678], [55349, 6.521312636525678], [55355, 11.041542104083396]]}
+{"gillenprofessor": [[38585, 10.017820197992158], [44932, 10.017820197992158]]}
+{"gilleod": [[49940, 18.135244218065043]]}
+{"giller": [[49940, 16.275131918978126], [50807, 9.612355089883994], [53286, 26.835383343766132]]}
+{"gillesbi": [[27470, 10.710967378552104]]}
