@@ -3,20 +3,21 @@ import json
 import numpy as np
 from collections import defaultdict
 
+CORPUS = "DEV"
 
-def calculate_page_rank(iterations:int=50, d:int=0.85):
+def calculate_page_rank(iterations:int=50, d:float=0.85):
     """
     Calculate the page rank for the graph. d = damping factor
     """
     
-    with open("link_graph.json", "r") as file:
+    with open(f"{CORPUS}_TEST/link_graph.json", "r") as file:
         graph = json.load(file)
 
     # need dictionary where key = page and values = pages that link to key
     inverse_graph = defaultdict(list)
     for page, neighbors in graph.items():
         for neighbor in neighbors:
-            inverse_graph[neighbor].append(page)
+            inverse_graph[str(neighbor)].append(page)
 
     page_rank = {}
     num_pages = len(graph)
