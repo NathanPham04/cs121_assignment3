@@ -27,13 +27,7 @@ def search(query_text, top_k=5):
 
 def search_query():
     # External data structure setup
-    global SECONDARY_INDEX_BODY
-    global SECONDARY_INDEX_IMPORTANT
-    global DOC_MAP
-    SECONDARY_INDEX_BODY = load_secondary_index(SECONDARY_BODY_INDEX_PATH)
-    SECONDARY_INDEX_IMPORTANT = load_secondary_index(SECONDARY_IMPORTANT_INDEX_PATH)
-    with open("doc_id_map.json", "r") as file:
-        DOC_MAP = json.load(file)
+    setup_search_environment()
 
     query = input("Enter your search query: ")
     results = search(query)
@@ -154,5 +148,57 @@ def load_secondary_index(path: str) -> list[tuple[str, str, str]]:
         secondary_index = pickle.load(f)
     return secondary_index
 
+def setup_search_environment():
+    global SECONDARY_INDEX_BODY
+    global SECONDARY_INDEX_IMPORTANT
+    global DOC_MAP
+    SECONDARY_INDEX_BODY = load_secondary_index(SECONDARY_BODY_INDEX_PATH)
+    SECONDARY_INDEX_IMPORTANT = load_secondary_index(SECONDARY_IMPORTANT_INDEX_PATH)
+    with open("doc_id_map.json", "r") as file:
+        DOC_MAP = json.load(file)
+
+def benchmark_search():
+    queries = [
+        "machine learning",
+        "computer science",
+        "artificial intelligence",
+        "course offerings",
+        "professorships",
+        "graduate students",
+        "research labs",
+        "data science",
+        "undergraduate programs",
+        "faculty publications",
+        "data structures",
+        "operating systems",
+        "network security",
+        "database management",
+        "software engineering",
+        "human-computer interaction",
+        "cloud computing",
+        "cybersecurity",
+        "big data analytics",
+        "natural language processing"
+    ]
+    
+    setup_search_environment()
+    search_times = []
+    for query in queries:
+        start = time.perf_counter()
+        results = search(query, top_k=5)
+        elapsed = time.perf_counter() - start
+
+        search_times.append(elapsed)
+        print(f"\nQuery: '{query}'")
+        print(f"Time: {elapsed*1000:.2f}ms")
+        print(f"Results: {len(results)}")
+        for url, score in results[:3]:
+            print(f"  {score:.4f} - {url}")
+
+    print("=====================================================")
+    print(f"Average search time for {len(queries)} queries: {sum(search_times)/len(queries)*1000 :.2f}ms")
+    print("=====================================================")
+
 if __name__ == '__main__':
     search_query()
+    # benchmark_search()
