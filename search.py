@@ -16,11 +16,18 @@ SECONDARY_BODY_INDEX_PATH = f"{CORPUS}/secondary_index/body.pkl"
 SECONDARY_IMPORTANT_INDEX_PATH = f"{CORPUS}/secondary_index/important_words.pkl"
 BODY_INDEX_DIR = f"{CORPUS}/split_index_weighted/body/"
 IMPORTANT_INDEX_DIR = f"{CORPUS}/split_index_weighted/important_words/"
+PAGE_RANK_PATH = f"{CORPUS}/page_rank.json"
+AUTHORITY_SCORES_PATH = f"{CORPUS}/authority_scores.json"
+HUB_SCORES_PATH = f"{CORPUS}/hub_scores.json"
+
 
 CORPUS_SIZE = 44845
 SECONDARY_INDEX_BODY = list()
 SECONDARY_INDEX_IMPORTANT = list()
 DOC_MAP = dict()
+PAGE_RANK_MAP = dict()
+AUTHORITY_SCORES_MAP = dict()
+HUB_SCORES_MAP = dict()
 
 STOP_WORDS = {
     "a", "about", "above", "after", "again", "against", "all", "am", "an", "and",
@@ -147,6 +154,16 @@ def score_query(sorted_postings_body, sorted_postings_important) -> dict[int, fl
             # accumulate doc score with a higher weight for important sections
             doc_scores[doc_id] += tf_idf_score * 1.5  # Weight factor for important sections
 
+    for doc_id in doc_scores:
+        # Incorporate PageRank and Authority/Hub scores into the final score
+        page_rank_score = PAGE_RANK_MAP.get(str(doc_id), 0)
+        authority_score = AUTHORITY_SCORES_MAP.get(str(doc_id), 0)
+        hub_score = HUB_SCORES_MAP.get(str(doc_id), 0)
+
+        doc_scores[doc_id] += 100 * page_rank_score
+        doc_scores[doc_id] += 100 * authority_score
+        doc_scores[doc_id] += 100 * hub_score
+
     return dict(doc_scores)
 
 def search_partial_index_for_term(secondary_index: list[tuple[str, str, str]], split_index_dir: str, term: str) -> list[tuple[int, int]] | None:
@@ -202,10 +219,22 @@ def setup_search_environment():
     global SECONDARY_INDEX_BODY
     global SECONDARY_INDEX_IMPORTANT
     global DOC_MAP
+    global PAGE_RANK_MAP
+    global AUTHORITY_SCORES_MAP
+    global HUB_SCORES_MAP
     SECONDARY_INDEX_BODY = load_secondary_index(SECONDARY_BODY_INDEX_PATH)
     SECONDARY_INDEX_IMPORTANT = load_secondary_index(SECONDARY_IMPORTANT_INDEX_PATH)
     with open("doc_id_map.json", "r") as file:
         DOC_MAP = json.load(file)
+
+    with open(PAGE_RANK_PATH, "r") as file:
+        PAGE_RANK_MAP = json.load(file)
+
+    with open(AUTHORITY_SCORES_PATH, "r") as file:
+        AUTHORITY_SCORES_MAP = json.load(file)
+
+    with open(HUB_SCORES_PATH, "r") as file:
+        HUB_SCORES_MAP = json.load(file)
 
 def benchmark_search():
     good_queries = [
