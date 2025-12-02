@@ -18,6 +18,7 @@ nltk.download('punkt_tab', quiet=True)
 seen_ngram_sets = []
 inverted_index = defaultdict(list)
 important_words_inverted_index = defaultdict(list)
+anchor_words_inverted_index = defaultdict(list)
 link_graph = defaultdict(list)
 hashed_seen_content_for_exact_duplicates = set()
 num_documents_indexed = 0
@@ -27,11 +28,13 @@ near_duplicates_skipped = 0
 CORPUS = "DEV"
 PARTIAL_INDEX_BODY_DIR = f"{CORPUS}_TEST/partial_indexes/"
 PARTIAL_INDEX_IMPORTANT_DIR = f"{CORPUS}_TEST/partial_indexes_important_words/"
+PARTIAL_INDEX_ANCHOR_DIR = f"{CORPUS}_TEST/partial_indexes_anchor_words/"
 BATCH_SIZE = 10000  # Number of documents to process before checking index size and dumping to disk
 
 def main():
     global inverted_index
     global important_words_inverted_index
+    global anchor_words_inverted_index
     global link_graph
 
     document_id_map = {}
@@ -45,9 +48,10 @@ def main():
 
     partial_num_index_body = 0
     partial_num_index_important = 0
+    partial_num_index_anchor = 0
 
     for doc_id, filepath in enumerate(filepaths):
-        file_contents, important_words, url, links = parse_file(filepath)
+        file_contents, important_words, url, links, anchor_text = parse_file(filepath)
 
         # Check for exact duplicates here by hashing all content
         hashed_content = hash(file_contents)
@@ -59,10 +63,12 @@ def main():
 
         tokens = tokenize(file_contents)
         important_words_tokens = tokenize(important_words)
+        anchor_text_tokens = tokenize(anchor_text)
 
         # Porter stemming
         stems = [stemmer.stem(token) for token in tokens]
         important_stems = [stemmer.stem(token) for token in important_words_tokens]
+        anchor_stems = [stemmer.stem(token) for token in anchor_text_tokens]
 
         # Check for near duplicates here
         if len(stems) > 50 and similar_to_seen(stems):
@@ -73,6 +79,8 @@ def main():
         update_index(inverted_index, doc_id, stems)
         # Important words index update
         update_index(important_words_inverted_index, doc_id, important_stems)
+        # Anchor text index update
+        update_index(anchor_words_inverted_index, doc_id, anchor_stems)
 
         # Store links for PageRank
         link_graph[doc_id] = links
@@ -80,15 +88,21 @@ def main():
         # Check size of indexes and dump them if they have over 10,000 unique tokens
         if check_to_dump_index(inverted_index, BATCH_SIZE):
             partial_index_path = f"{PARTIAL_INDEX_BODY_DIR}full_index_part_{partial_num_index_body}.jsonl"
-            output_full_index_to_file(partial_index_path)
+            output_inverted_index_to_file(partial_index_path, inverted_index)
             inverted_index = defaultdict(list)  # reset index
             partial_num_index_body += 1
 
         if check_to_dump_index(important_words_inverted_index, BATCH_SIZE):
             partial_important_index_path = f"{PARTIAL_INDEX_IMPORTANT_DIR}important_words_index_part_{partial_num_index_important}.jsonl"
-            output_important_words_index_to_file(partial_important_index_path)
+            output_inverted_index_to_file(partial_important_index_path, important_words_inverted_index)
             important_words_inverted_index = defaultdict(list)  # reset index
             partial_num_index_important += 1
+
+        if check_to_dump_index(anchor_words_inverted_index, BATCH_SIZE):
+            partial_anchor_index_path = f"{PARTIAL_INDEX_ANCHOR_DIR}anchor_words_index_part_{partial_num_index_anchor}.jsonl"
+            output_inverted_index_to_file(partial_anchor_index_path, anchor_words_inverted_index)
+            anchor_words_inverted_index = defaultdict(list)  # reset index
+            partial_num_index_anchor += 1
 
         document_id_map[doc_id] = url
         url_to_doc_id[url] = doc_id
@@ -96,21 +110,15 @@ def main():
 
     if inverted_index:
         partial_index_path = f"{PARTIAL_INDEX_BODY_DIR}full_index_part_{partial_num_index_body}.jsonl"
-        output_full_index_to_file(partial_index_path)
+        output_inverted_index_to_file(partial_index_path, inverted_index)
     
     if important_words_inverted_index:
         partial_important_index_path = f"{PARTIAL_INDEX_IMPORTANT_DIR}important_words_index_part_{partial_num_index_important}.jsonl"
-        output_important_words_index_to_file(partial_important_index_path)
+        output_inverted_index_to_file(partial_important_index_path, important_words_inverted_index)
 
-    # ------------------------------DO NOT UNCOMMENT (OLD CODE BEFORE PARTIAL INDEXING)-------------------------------
-
-    # write to file the full inverted index with sorted lists
-    # output_full_index_to_file("ANALYST_test/full_index.jsonl")
-
-    # write to file the important words inverted index with sorted lists
-    # output_important_words_index_to_file("ANALYST_test/important_words_index.jsonl")
-
-    # ------------------------------DO NOT UNCOMMENT (OLD CODE BEFORE PARTIAL INDEXING)-------------------------------
+    if anchor_words_inverted_index:
+        partial_anchor_index_path = f"{PARTIAL_INDEX_ANCHOR_DIR}anchor_words_index_part_{partial_num_index_anchor}.jsonl"
+        output_inverted_index_to_file(partial_anchor_index_path, anchor_words_inverted_index)
 
     # write to file the document id map
     output_doc_id_map_to_file(f"{CORPUS}_TEST/doc_id_map.jsonl", document_id_map)
@@ -118,8 +126,7 @@ def main():
     # Convert URLs to doc_ids in link graph and save
     output_link_graph_to_file(f"{CORPUS}_TEST/link_graph.json", url_to_doc_id)
 
-
-
+    return
 
 # Retrieves all .json filenames from the given directory
 def get_json_files(dir: str) -> list[str]:
@@ -132,7 +139,7 @@ def get_json_files(dir: str) -> list[str]:
 
 
 # Use beautifulsoup to parse files in a directory and return their text content
-def parse_file(path: str) -> tuple[str, str, str, list[str]]:
+def parse_file(path: str) -> tuple[str, str, str, list[str], str]:
     with open(path, "r") as f:
         data = json.load(f)
 
@@ -148,10 +155,13 @@ def parse_file(path: str) -> tuple[str, str, str, list[str]]:
             for tag in soup.find_all(['h1', 'h2', 'h3', 'strong', 'title'])
         )
 
+        # Extract anchor text
+        anchor_texts = " ".join([a.get_text() for a in soup.find_all('a', href=True)])
+
         # Extract all links for PageRank
         links = [a.get('href') for a in soup.find_all('a', href=True)]
 
-        return (soup.get_text(), important_words, url, links)
+        return (soup.get_text(), important_words, url, links, anchor_texts)
 
 # Tokenize text using NLTK
 def tokenize(text: str) -> list[str]:
@@ -233,6 +243,16 @@ def output_important_words_index_to_file(path: str):
             important_words_inverted_index[stem].sort()
         
         for stem, postings in sorted(important_words_inverted_index.items()):
+            line = json.dumps({stem: postings})
+            file.write(line + "\n")
+
+def output_inverted_index_to_file(path: str, index: dict):
+    ensure_dir(path)
+    with open(path, "w") as file:
+        for stem in index:
+            index[stem].sort()
+        
+        for stem, postings in sorted(index.items()):
             line = json.dumps({stem: postings})
             file.write(line + "\n")
 
