@@ -12,6 +12,11 @@ import pickle
 from merged_index_splitter import SECONDARY_BODY_INDEX_PATH, SECONDARY_IMPORTANT_INDEX_PATH, SPLIT_OUTPUT_BODY_DIR as BODY_INDEX_DIR, SPLIT_OUTPUT_IMPORTANT_DIR as IMPORTANT_INDEX_DIR
 import time
 
+CORPUS = "DEV_TEST_PROD"
+SECONDARY_BODY_INDEX_PATH = f"{CORPUS}/secondary_index/body.pkl"
+SECONDARY_IMPORTANT_INDEX_PATH = f"{CORPUS}/secondary_index/important_words.pkl"
+BODY_INDEX_DIR = f"{CORPUS}/split_index_weighted/body/"
+IMPORTANT_INDEX_DIR = f"{CORPUS}/split_index_weighted/important_words/"
 
 CORPUS_SIZE = 44845
 SECONDARY_INDEX_BODY = list()
@@ -88,7 +93,8 @@ def get_postings(stemmed_query: list[str], secondary_index: list[tuple[str, str,
         term_postings = search_partial_index_for_term(SECONDARY_INDEX_BODY, BODY_INDEX_DIR, term)
         if not term_postings:
             all_terms_found = False
-        postings.append((term, term_postings))
+        if term_postings:
+            postings.append((term, term_postings))
 
     sorted_postings = sorted(postings, key=lambda x: len(x[1]))
     return sorted_postings, all_terms_found
