@@ -9,7 +9,6 @@ from collections import defaultdict
 from indexer import CORPUS, tokenize
 import os
 import pickle
-from merged_index_splitter import SECONDARY_BODY_INDEX_PATH, SECONDARY_IMPORTANT_INDEX_PATH, SPLIT_OUTPUT_BODY_DIR as BODY_INDEX_DIR, SPLIT_OUTPUT_IMPORTANT_DIR as IMPORTANT_INDEX_DIR
 import time
 
 CORPUS = "DEV_TEST_PROD"
