@@ -12,15 +12,18 @@ import pickle
 
 MERGED_INDEX_BODY_DIR = OUTPUT_DIR + "merged_index.jsonl"
 MERGED_INDEX_IMPORTANT_DIR = OUTPUT_DIR + "merged_index_important_words.jsonl"
+MERGED_INDEX_ANCHOR_DIR = OUTPUT_DIR + "merged_index_anchor_words.jsonl"
 SPLIT_OUTPUT_DIR = f"{CORPUS}_TEST/split_index_weighted/"
 SPLIT_OUTPUT_BODY_DIR = SPLIT_OUTPUT_DIR + "body/"
 SPLIT_OUTPUT_IMPORTANT_DIR = SPLIT_OUTPUT_DIR + "important_words/"
+SPLIT_OUTPUT_ANCHOR_DIR = SPLIT_OUTPUT_DIR + "anchor_words/"
 NUM_TOKENS_PER_FILE = 1000
 CORPUS_SIZE = 44845
 
 SECONDARY_INDEX_DIR = f"{CORPUS}_TEST/secondary_index/"
 SECONDARY_BODY_INDEX_PATH = SECONDARY_INDEX_DIR + "body.pkl"
 SECONDARY_IMPORTANT_INDEX_PATH = SECONDARY_INDEX_DIR + "important_words.pkl"
+SECONDARY_ANCHOR_INDEX_PATH = SECONDARY_INDEX_DIR + "anchor_words.pkl"
 
 def split_to_partial_indexes_with_tf_idf_embedding(input_dir: str, output_dir: str):
     curr_file_index = 0
@@ -78,14 +81,17 @@ def create_secondary_index_on_split_dir(input_dir: str, output_path: str):
 def create_split_indexes():
     ensure_dir(SPLIT_OUTPUT_BODY_DIR)
     ensure_dir(SPLIT_OUTPUT_IMPORTANT_DIR)
+    ensure_dir(SPLIT_OUTPUT_ANCHOR_DIR)
     split_to_partial_indexes_with_tf_idf_embedding(MERGED_INDEX_BODY_DIR, SPLIT_OUTPUT_BODY_DIR)
     split_to_partial_indexes_with_tf_idf_embedding(MERGED_INDEX_IMPORTANT_DIR, SPLIT_OUTPUT_IMPORTANT_DIR)
+    split_to_partial_indexes_with_tf_idf_embedding(MERGED_INDEX_ANCHOR_DIR, SPLIT_OUTPUT_ANCHOR_DIR)
 
 def create_secondary_index_on_split():
     ensure_dir(SECONDARY_INDEX_DIR)
     create_secondary_index_on_split_dir(SPLIT_OUTPUT_BODY_DIR, SECONDARY_BODY_INDEX_PATH)
     create_secondary_index_on_split_dir(SPLIT_OUTPUT_IMPORTANT_DIR, SECONDARY_IMPORTANT_INDEX_PATH)
-
+    create_secondary_index_on_split_dir(SPLIT_OUTPUT_ANCHOR_DIR, SECONDARY_ANCHOR_INDEX_PATH)
+    
 if __name__ == '__main__':
     create_split_indexes()
     create_secondary_index_on_split()

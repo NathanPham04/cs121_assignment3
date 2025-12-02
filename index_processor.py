@@ -5,19 +5,22 @@ This module contains functions to merge partial index files generated during the
 import os
 import json
 
-from indexer import PARTIAL_INDEX_BODY_DIR, PARTIAL_INDEX_IMPORTANT_DIR, CORPUS
+from indexer import PARTIAL_INDEX_BODY_DIR, PARTIAL_INDEX_IMPORTANT_DIR, PARTIAL_INDEX_ANCHOR_DIR,CORPUS
 
 
 OUTPUT_DIR = f"{CORPUS}_TEST/merged_index/"
 INPUT_DIR_BODY = PARTIAL_INDEX_BODY_DIR
 INPUT_DIR_IMPORTANT = PARTIAL_INDEX_IMPORTANT_DIR
+INPUT_DIR_ANCHOR = PARTIAL_INDEX_ANCHOR_DIR
 
 def merge_partial_indexes():
     body_files_list = get_files_in_directory_os(INPUT_DIR_BODY)
     important_files_list = get_files_in_directory_os(INPUT_DIR_IMPORTANT)
+    anchor_files_list = get_files_in_directory_os(INPUT_DIR_ANCHOR)
     create_merged_index_directory(OUTPUT_DIR)
     merge_partial_index_files(body_files_list, INPUT_DIR_BODY, OUTPUT_DIR + "merged_index.jsonl")
     merge_partial_index_files(important_files_list, INPUT_DIR_IMPORTANT, OUTPUT_DIR + "merged_index_important_words.jsonl")
+    merge_partial_index_files(anchor_files_list, INPUT_DIR_ANCHOR, OUTPUT_DIR + "merged_index_anchor_words.jsonl")
 
 # Retrieves a list of all files in the specified directory
 def get_files_in_directory_os(directory_path):

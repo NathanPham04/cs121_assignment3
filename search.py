@@ -4,7 +4,6 @@ This module contains functions to perform search queries on the indexed document
 
 from nltk.stem import PorterStemmer
 import json
-import math
 from collections import defaultdict
 from indexer import CORPUS, tokenize
 import os
@@ -12,10 +11,15 @@ import pickle
 import time
 
 CORPUS = "DEV_TEST_PROD"
+
 SECONDARY_BODY_INDEX_PATH = f"{CORPUS}/secondary_index/body.pkl"
 SECONDARY_IMPORTANT_INDEX_PATH = f"{CORPUS}/secondary_index/important_words.pkl"
+SECONDARY_ANCHOR_INDEX_PATH = f"{CORPUS}/secondary_index/anchor_words.pkl"
+
 BODY_INDEX_DIR = f"{CORPUS}/split_index_weighted/body/"
 IMPORTANT_INDEX_DIR = f"{CORPUS}/split_index_weighted/important_words/"
+ANCHOR_INDEX_DIR = f"{CORPUS}/split_index_weighted/anchor_words/"
+
 PAGE_RANK_PATH = f"{CORPUS}/page_rank.json"
 AUTHORITY_SCORES_PATH = f"{CORPUS}/authority_scores.json"
 HUB_SCORES_PATH = f"{CORPUS}/hub_scores.json"
@@ -24,6 +28,7 @@ HUB_SCORES_PATH = f"{CORPUS}/hub_scores.json"
 CORPUS_SIZE = 44845
 SECONDARY_INDEX_BODY = list()
 SECONDARY_INDEX_IMPORTANT = list()
+SECONDARY_INDEX_ANCHOR = list()
 DOC_MAP = dict()
 PAGE_RANK_MAP = dict()
 AUTHORITY_SCORES_MAP = dict()
@@ -71,7 +76,11 @@ def search(query_text, top_k=5):
     sorted_postings_important, all_terms_found = get_postings(stemmed_query, SECONDARY_INDEX_IMPORTANT, IMPORTANT_INDEX_DIR)
     found_important_postings = filter_postings(sorted_postings_important, documents)
 
-    sorted_doc_scores = sorted(score_query(intersected_postings, found_important_postings).items(), key=lambda x: x[1], reverse=True)
+    # Get postings for the anchor text (anchor) - DOESN'T REQUIRE ALL TERMS TO BE PRESENT
+    sorted_postings_anchor, all_terms_found = get_postings(stemmed_query, SECONDARY_INDEX_ANCHOR, ANCHOR_INDEX_DIR)
+    found_anchor_postings = filter_postings(sorted_postings_anchor, documents)
+
+    sorted_doc_scores = sorted(score_query(intersected_postings, found_important_postings, found_anchor_postings).items(), key=lambda x: x[1], reverse=True)
     return [(DOC_MAP[str(doc_id)], score) for doc_id, score in sorted_doc_scores[:top_k]]
 
 def remove_stop_words_from_query(query_string: str) -> str:
@@ -141,7 +150,7 @@ def filter_postings(sorted_postings: list[tuple[str, list[tuple[int, int]]]], va
     return filtered_postings
     
 
-def score_query(sorted_postings_body, sorted_postings_important) -> dict[int, float]:
+def score_query(sorted_postings_body, sorted_postings_important, sorted_postings_anchor) -> dict[int, float]:
     doc_scores = defaultdict(float)
 
     for term, posting_list in sorted_postings_body:
@@ -153,6 +162,11 @@ def score_query(sorted_postings_body, sorted_postings_important) -> dict[int, fl
         for doc_id, tf_idf_score in posting_list:
             # accumulate doc score with a higher weight for important sections
             doc_scores[doc_id] += tf_idf_score * 1.5  # Weight factor for important sections
+
+    for term, posting_list in sorted_postings_anchor:
+        for doc_id, tf_idf_score in posting_list:
+            # accumulate doc score with a higher weight for anchor text
+            doc_scores[doc_id] += tf_idf_score * 1.5  # Weight factor for anchor text
 
     for doc_id in doc_scores:
         # Incorporate PageRank and Authority/Hub scores into the final score
