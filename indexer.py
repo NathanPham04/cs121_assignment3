@@ -11,6 +11,7 @@ from collections import defaultdict
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+import sys
 
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
@@ -280,3 +281,9 @@ def ensure_dir(path: str):
 
 if __name__ == "__main__":
     main()
+    
+    if "-p" in sys.argv:
+        print("Running PageRank calculation...")
+        from page_rank import calculate_page_rank
+        calculate_page_rank()
+        print("PageRank complete!")
