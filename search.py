@@ -45,7 +45,10 @@ def search(query_text, top_k=5):
     removed_stop_words_query = remove_stop_words_from_query(query_text)
     tokenized_query = tokenize(removed_stop_words_query)
     stemmer = PorterStemmer()
-    stemmed_query = [stemmer.stem(token) for token in tokenized_query]
+    stemmed_query = []
+    for token in tokenized_query:
+        stem = stemmer.stem(token)
+        stemmed_query.append(stem if stem else token)
 
     # Get postings for the content body (THIS STILL REQUIRES ALL TERMS TO BE PRESENT IN THE CONTENT)
     sorted_postings_body, all_terms_found = get_postings(stemmed_query, SECONDARY_INDEX_BODY, BODY_INDEX_DIR)
@@ -200,7 +203,7 @@ def setup_search_environment():
         DOC_MAP = json.load(file)
 
 def benchmark_search():
-    queries = [
+    good_queries = [
         "machine learning",
         "computer science",
         "artificial intelligence",
@@ -222,10 +225,34 @@ def benchmark_search():
         "big data analytics",
         "natural language processing"
     ]
+
+    bad_queries = [
+        "kendrick lamar",
+        "this is a really long query that is supposed to take much longer than the good queries",
+        "asdfghjkl qwertyuiop zxcvbnm",
+        "lorem ipsum dolor sit amet consectetur adipiscing elit",
+        "the quick brown fox jumps over the lazy dog",
+        "to be or not to be that is the question",
+        "macklemore",
+        "random words that do not make sense together",
+        "thom yorke",
+        "janice joplin",
+        "the foo fighters",
+        "leo fender",
+        "david goggins",
+        "elon musk",
+        "jeff bezos",
+        "the meaning of life the universe and everything",
+        "leo tolstory",
+        "zack efron",
+        "chris hemsworth",
+        "scarlett johansson",
+        "walt disney"
+    ]
     
     setup_search_environment()
     search_times = []
-    for query in queries:
+    for query in good_queries:
         start = time.perf_counter()
         results = search(query, top_k=5)
         elapsed = time.perf_counter() - start
@@ -238,9 +265,27 @@ def benchmark_search():
             print(f"  {score:.4f} - {url}")
 
     print("=====================================================")
-    print(f"Average search time for {len(queries)} queries: {sum(search_times)/len(queries)*1000 :.2f}ms")
+    print(f"Average search time for {len(good_queries)} queries: {sum(search_times)/len(good_queries)*1000 :.2f}ms")
+    print("=====================================================")
+
+
+    search_times = []
+    for query in bad_queries:
+        start = time.perf_counter()
+        results = search(query, top_k=5)
+        elapsed = time.perf_counter() - start
+
+        search_times.append(elapsed)
+        print(f"\nQuery: '{query}'")
+        print(f"Time: {elapsed*1000:.2f}ms")
+        print(f"Results: {len(results)}")
+        for url, score in results[:3]:
+            print(f"  {score:.4f} - {url}")
+
+    print("=====================================================")
+    print(f"Average search time for {len(bad_queries)} queries: {sum(search_times)/len(bad_queries)*1000 :.2f}ms")
     print("=====================================================")
 
 if __name__ == '__main__':
-    search_query()
-    # benchmark_search()
+    # search_query()
+    benchmark_search()
