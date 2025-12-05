@@ -1,0 +1,551 @@
+
+Query: 'machine learning'
+Time: 1889.19ms
+Results: 5
+  27.5204 - https://cml.ics.uci.edu/category/aiml/page/2/#content
+  27.0750 - https://cml.ics.uci.edu/category/aiml/#content
+  26.5818 - https://www.ics.uci.edu/~pazzani/Publications/OldPublications.html#1989
+
+Query: 'computer science'
+Time: 1553.78ms
+Results: 5
+  16.8924 - https://www.ics.uci.edu/~eppstein/bibs/eppstein.html
+  16.3480 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  15.4615 - https://www.ics.uci.edu/~eppstein/bibs/kpath.bib
+
+Query: 'artificial intelligence'
+Time: 1578.82ms
+Results: 5
+  38.7275 - https://www.ics.uci.edu/~dechter/publications.html
+  38.3981 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  37.9540 - https://www.ics.uci.edu/~dechter/courses/ics-295/fall-2019/
+
+Query: 'course offerings'
+Time: 2888.49ms
+Results: 5
+  25.0610 - https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+  21.3416 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  18.6516 - https://www.ics.uci.edu/~jacobson/ics45J/LabManual/03-LabGrading.html
+
+Query: 'professorships'
+Time: 2188.53ms
+Results: 5
+  21.1489 - https://www.cs.uci.edu/tsudik-awarded-visiting-professorship-at-tu-dresden/
+  21.1489 - https://www.ics.uci.edu/community/news/view_news?id=1271
+  19.7677 - https://www.cs.uci.edu/news/page/13/
+
+Query: 'graduate students'
+Time: 1637.72ms
+Results: 5
+  22.0088 - https://www.ics.uci.edu/~redmiles/ics125-FQ01/adp.html
+  21.6178 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  20.0975 - https://www.ics.uci.edu/community/scholarships/index.php
+
+Query: 'research labs'
+Time: 1594.38ms
+Results: 5
+  17.2716 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  16.9826 - https://www.ics.uci.edu/community/news/notes/notes_2011.php
+  16.6576 - https://www.ics.uci.edu/community/news/notes/notes_2013.php
+
+Query: 'data science'
+Time: 2318.46ms
+Results: 5
+  18.7767 - https://cml.ics.uci.edu/category/aiml/page/2/#content
+  18.3142 - https://cml.ics.uci.edu/category/aiml/#content
+  17.9981 - http://archive.ics.uci.edu/ml/support/Breast+Cancer#3e78257004181e6dbbdfa3ec12399520412e9c5c
+
+Query: 'undergraduate programs'
+Time: 1533.70ms
+Results: 5
+  18.8198 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  18.2293 - https://www.ics.uci.edu/~pattis/ICS-21/handouts/syllabus/syllabus.html
+  18.0390 - https://www.ics.uci.edu/~redmiles/ics125-FQ01/adp.html
+
+Query: 'faculty publications'
+Time: 1679.78ms
+Results: 5
+  17.7411 - https://www.ics.uci.edu/~redmiles/ics125-FQ01/adp.html
+  16.4886 - https://www.ics.uci.edu/community/news/notes/notes_2009.php
+  16.0493 - https://www.ics.uci.edu/community/news/notes/notes_2013.php
+
+Query: 'data structures'
+Time: 2079.85ms
+Results: 5
+  25.1417 - https://www.ics.uci.edu/~eppstein/pubs/pubs.ff
+  25.0496 - https://www.ics.uci.edu/~eppstein/pubs/all.html
+  22.5140 - https://www.ics.uci.edu/~eppstein/pubs/geom-all.html
+
+Query: 'operating systems'
+Time: 2457.30ms
+Results: 5
+  27.7178 - https://www.ics.uci.edu/~wscacchi/Papers/VISTA/VISTA.html
+  26.3430 - https://www.ics.uci.edu/~eppstein/bibs/kpath.bib
+  25.3880 - https://www.ics.uci.edu/~thornton/ics46/ProjectGuide/Project0/
+
+Query: 'network security'
+Time: 2069.77ms
+Results: 5
+  36.0398 - https://www.ics.uci.edu/~gts/pubs.html
+  28.7347 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  28.6676 - https://www.ics.uci.edu/community/news/notes/notes_2009.php
+
+Query: 'database management'
+Time: 2091.11ms
+Results: 5
+  27.9233 - https://www.ics.uci.edu/~mjcarey/MJCarey_Publications.html
+  23.5836 - https://www.ics.uci.edu/~wscacchi/Papers/Internet-Procurement/Internet_Procurement.html
+  22.2022 - https://www.ics.uci.edu/~mjcarey/MJCarey_Invited_Lectures.html
+
+Query: 'software engineering'
+Time: 1685.68ms
+Results: 5
+  23.4276 - https://www.ics.uci.edu/~taylor/Publications.htm
+  23.3066 - https://www.ics.uci.edu/~andre/publications.html
+  23.2977 - https://redmiles.ics.uci.edu/publication/
+
+Query: 'human-computer interaction'
+Time: 2522.81ms
+Results: 5
+  13.4805 - https://www.informatics.uci.edu/explore/books-we-have-written/
+  13.2697 - https://transformativeplay.ics.uci.edu/research/publications/
+  13.2697 - https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+
+Query: 'cloud computing'
+Time: 3005.32ms
+Results: 5
+  22.7008 - https://www.ics.uci.edu/~dsm/publications.html
+  22.1497 - https://www.ics.uci.edu/~cs237/materials2019.html
+  21.4696 - http://graphics.ics.uci.edu/publication.html
+
+Query: 'cybersecurity'
+Time: 1894.26ms
+Results: 5
+  20.5567 - https://www.cs.uci.edu/irvine-newport-beach-rated-among-top-cybersecurity-hubs-in-u-s/
+  20.5567 - https://www.ics.uci.edu/community/news/view_news.php?id=1144
+  20.5567 - https://www.ics.uci.edu/community/news/view_news.php?id=1419
+
+Query: 'big data analytics'
+Time: 2248.92ms
+Results: 5
+  39.4455 - https://www.ics.uci.edu/~mjcarey/MJCarey_Publications.html
+  36.3719 - https://isg.ics.uci.edu/publications/
+  36.0181 - https://www.ics.uci.edu/~mjcarey/MJCarey_Invited_Lectures.html
+
+Query: 'natural language processing'
+Time: 2184.53ms
+Results: 5
+  43.5186 - https://www.ics.uci.edu/~gbowker/classification/
+  40.6340 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  39.2294 - https://cml.ics.uci.edu/category/aiml/#content
+
+=====================================================
+Average search time for 20 good queries: 2055.12ms
+=====================================================
+
+Query: 'kendrick lamar'
+Time: 2403.41ms
+Results: 2
+  33.8047 - https://www.ics.uci.edu/~kay/wordlist.txt
+  17.8666 - https://www.ics.uci.edu/~kay/malenames.txt
+
+Query: 'this is a really long query that is supposed to take much longer than the good queries'
+Time: 1800.86ms
+Results: 5
+  189.1448 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  150.2862 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+  113.8836 - https://www.ics.uci.edu/~jacobson/ics10A/LabManual/08-Assignment5.html
+
+Query: 'asdfghjkl qwertyuiop zxcvbnm'
+Time: 1556.11ms
+Results: 0
+
+Query: 'lorem ipsum dolor sit amet consectetur adipiscing elit'
+Time: 1545.06ms
+Results: 0
+
+Query: 'the quick brown fox jumps over the lazy dog'
+Time: 2488.55ms
+Results: 4
+  112.4508 - https://www.ics.uci.edu/~ics1c/doc/html_crash.html
+  105.0482 - https://www.ics.uci.edu/~kay/wordlist.txt
+  94.8281 - http://flamingo.ics.uci.edu/releases/4.1/src/lbaktree/data/data.txt
+
+Query: 'to be or not to be that is the question'
+Time: 1729.93ms
+Results: 5
+  80.3580 - https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+  77.6319 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  70.2461 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+
+Query: 'macklemore'
+Time: 2167.10ms
+Results: 0
+
+Query: 'random words that do not make sense together'
+Time: 1622.85ms
+Results: 5
+  108.3850 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  85.0962 - https://www.ics.uci.edu/~gbowker/classification/
+  83.3662 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+
+Query: 'thom yorke'
+Time: 1811.60ms
+Results: 1
+  31.7559 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'janice joplin'
+Time: 1554.16ms
+Results: 1
+  26.9084 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'the foo fighters'
+Time: 1578.42ms
+Results: 4
+  47.6133 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  47.6133 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  32.9196 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+
+Query: 'leo fender'
+Time: 1549.30ms
+Results: 4
+  42.2025 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  42.2025 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  30.6695 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'david goggins'
+Time: 1535.99ms
+Results: 5
+  21.3885 - https://www.ics.uci.edu/~redmiles/ics125-WQ00/projects/visualization.html
+  21.1241 - https://www.ics.uci.edu/~kay/wordlist.txt
+  16.2631 - https://www.ics.uci.edu/~theory/269/s00.html
+
+Query: 'elon musk'
+Time: 1603.92ms
+Results: 5
+  34.1827 - https://www.ics.uci.edu/~kay/wordlist.txt
+  30.3130 - https://www.cs.uci.edu/the-wrap-elon-musk-and-mark-zuckerbergs-artificial-intelligence-divide-experts-weigh-in-singh-quoted/
+  24.4117 - https://www.ics.uci.edu/community/news/view_news.php?id=1197
+
+Query: 'jeff bezos'
+Time: 1655.37ms
+Results: 1
+  16.1802 - https://www.ics.uci.edu/~feldman/LEC11.htm
+
+Query: 'the meaning of life the universe and everything'
+Time: 1576.36ms
+Results: 5
+  68.6534 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  68.6534 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  67.3325 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+
+Query: 'leo tolstory'
+Time: 1735.94ms
+Results: 0
+
+Query: 'zack efron'
+Time: 1776.99ms
+Results: 1
+  33.7663 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'chris hemsworth'
+Time: 2515.64ms
+Results: 0
+
+Query: 'scarlett johansson'
+Time: 1642.91ms
+Results: 0
+
+Query: 'walt disney'
+Time: 1781.94ms
+Results: 5
+  47.5478 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  47.5478 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  25.1210 - https://www.ics.uci.edu/community/news/view_news.php?id=659
+
+=====================================================
+Average search time for 21 bad queries: 1792.02ms
+=====================================================
+
+
+
+=====================================================================================================================================================================
+
+
+
+Query: 'machine learning'
+Time: 21.18ms
+Results: 5
+  110.0816 - https://cml.ics.uci.edu/category/aiml/page/2/#content
+  108.3005 - https://cml.ics.uci.edu/category/aiml/#content
+  106.3275 - https://www.ics.uci.edu/~pazzani/Publications/OldPublications.html#1989
+
+Query: 'computer science'
+Time: 32.87ms
+Results: 5
+  67.5701 - https://www.ics.uci.edu/~eppstein/bibs/eppstein.html
+  65.3922 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  63.8923 - https://www.informatics.uci.edu/undergrad/bs-computer-game-science/
+
+Query: 'artificial intelligence'
+Time: 7.64ms
+Results: 5
+  154.9104 - https://www.ics.uci.edu/~dechter/publications.html
+  153.5927 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  151.8165 - https://www.ics.uci.edu/~dechter/courses/ics-295/fall-2019/
+
+Query: 'course offerings'
+Time: 27.49ms
+Results: 5
+  100.2443 - https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+  85.3667 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  74.6066 - https://www.ics.uci.edu/~jacobson/ics45J/LabManual/03-LabGrading.html
+
+Query: 'professorships'
+Time: 5.11ms
+Results: 5
+  84.6073 - https://www.ics.uci.edu/community/news/view_news?id=1271
+  84.5960 - https://www.cs.uci.edu/tsudik-awarded-visiting-professorship-at-tu-dresden/
+  79.0714 - https://www.cs.uci.edu/news/page/13/
+
+Query: 'graduate students'
+Time: 16.71ms
+Results: 5
+  88.0354 - https://www.ics.uci.edu/~redmiles/ics125-FQ01/adp.html
+  86.4717 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  84.9299 - https://www.informatics.uci.edu/grad/student-groups/
+
+Query: 'research labs'
+Time: 16.99ms
+Results: 5
+  77.9474 - https://www.informatics.uci.edu/grad/phd-software-engineering/
+  73.1356 - https://www.informatics.uci.edu/grad/ms-informatics/
+  72.5205 - https://www.informatics.uci.edu/grad/ms-software-engineering/
+
+Query: 'data science'
+Time: 18.41ms
+Results: 5
+  75.1069 - https://cml.ics.uci.edu/category/aiml/page/2/#content
+  73.2573 - https://cml.ics.uci.edu/category/aiml/#content
+  71.9928 - http://archive.ics.uci.edu/ml/support/Breast+Cancer#3e78257004181e6dbbdfa3ec12399520412e9c5c
+
+Query: 'undergraduate programs'
+Time: 13.94ms
+Results: 5
+  81.1902 - https://www.informatics.uci.edu/undergrad/bs-computer-game-science/
+  81.1064 - https://www.informatics.uci.edu/grad/ms-informatics/
+  79.7101 - https://www.informatics.uci.edu/grad/ms-software-engineering/
+
+Query: 'faculty publications'
+Time: 11.90ms
+Results: 5
+  70.9646 - https://www.ics.uci.edu/~redmiles/ics125-FQ01/adp.html
+  65.9548 - https://www.ics.uci.edu/community/news/notes/notes_2009.php
+  64.1977 - https://www.ics.uci.edu/community/news/notes/notes_2013.php
+
+Query: 'data structures'
+Time: 13.06ms
+Results: 5
+  100.5672 - https://www.ics.uci.edu/~eppstein/pubs/pubs.ff
+  100.1986 - https://www.ics.uci.edu/~eppstein/pubs/all.html
+  90.0563 - https://www.ics.uci.edu/~eppstein/pubs/geom-all.html
+
+Query: 'operating systems'
+Time: 12.98ms
+Results: 5
+  110.8715 - https://www.ics.uci.edu/~wscacchi/Papers/VISTA/VISTA.html
+  105.3725 - https://www.ics.uci.edu/~eppstein/bibs/kpath.bib
+  101.5525 - https://www.ics.uci.edu/~thornton/ics46/ProjectGuide/Project0/
+
+Query: 'network security'
+Time: 11.87ms
+Results: 5
+  144.1597 - https://www.ics.uci.edu/~gts/pubs.html
+  114.9391 - https://www.ics.uci.edu/community/news/notes/notes_2007.php
+  114.6707 - https://www.ics.uci.edu/community/news/notes/notes_2009.php
+
+Query: 'database management'
+Time: 9.59ms
+Results: 5
+  111.6935 - https://www.ics.uci.edu/~mjcarey/MJCarey_Publications.html
+  94.3347 - https://www.ics.uci.edu/~wscacchi/Papers/Internet-Procurement/Internet_Procurement.html
+  88.8091 - https://www.ics.uci.edu/~mjcarey/MJCarey_Invited_Lectures.html
+
+Query: 'software engineering'
+Time: 16.29ms
+Results: 5
+  93.7106 - https://www.ics.uci.edu/~taylor/Publications.htm
+  93.2267 - https://www.ics.uci.edu/~andre/publications.html
+  93.1906 - https://redmiles.ics.uci.edu/publication/
+
+Query: 'human-computer interaction'
+Time: 5.82ms
+Results: 5
+  55.9652 - https://www.informatics.uci.edu/undergrad/upcoming-course-schedule/
+  53.9222 - https://www.informatics.uci.edu/explore/books-we-have-written/
+  53.0801 - https://transformativeplay.ics.uci.edu/research/publications/
+
+Query: 'cloud computing'
+Time: 14.54ms
+Results: 5
+  90.8034 - https://www.ics.uci.edu/~dsm/publications.html
+  88.5993 - https://www.ics.uci.edu/~cs237/materials2019.html
+  85.8786 - http://graphics.ics.uci.edu/publication.html
+
+Query: 'cybersecurity'
+Time: 1.42ms
+Results: 5
+  86.0783 - https://www.informatics.uci.edu/educating-the-next-generation-about-cybersecurity/
+  82.2613 - https://www.ics.uci.edu/community/news/view_news?id=1159
+  82.2272 - https://www.ics.uci.edu/community/news/view_news.php?id=1144
+
+Query: 'big data analytics'
+Time: 11.75ms
+Results: 5
+  157.7824 - https://www.ics.uci.edu/~mjcarey/MJCarey_Publications.html
+  145.4925 - https://isg.ics.uci.edu/publications/
+  144.0729 - https://www.ics.uci.edu/~mjcarey/MJCarey_Invited_Lectures.html
+
+Query: 'natural language processing'
+Time: 12.69ms
+Results: 5
+  174.0747 - https://www.ics.uci.edu/~gbowker/classification/
+  162.5362 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/bib
+  156.9178 - https://cml.ics.uci.edu/category/aiml/#content
+=====================================================
+Average search time for 20 good queries: 14.11ms
+=====================================================
+
+Query: 'kendrick lamar'
+Time: 1.84ms
+Results: 2
+  135.2191 - https://www.ics.uci.edu/~kay/wordlist.txt
+  71.4667 - https://www.ics.uci.edu/~kay/malenames.txt
+
+Query: 'this is a really long query that is supposed to take much longer than the good queries'
+Time: 26.47ms
+Results: 5
+  495.7152 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  378.8628 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+  296.0047 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'asdfghjkl qwertyuiop zxcvbnm'
+Time: 1.34ms
+Results: 0
+
+Query: 'lorem ipsum dolor sit amet consectetur adipiscing elit'
+Time: 9.45ms
+Results: 0
+
+Query: 'the quick brown fox jumps over the lazy dog'
+Time: 8.74ms
+Results: 4
+  396.1665 - https://www.ics.uci.edu/~ics1c/doc/html_crash.html
+  388.0438 - https://www.ics.uci.edu/~kay/wordlist.txt
+  354.7789 - http://flamingo.ics.uci.edu/releases/4.1/src/lbaktree/data/data.txt
+
+Query: 'to be or not to be that is the question'
+Time: 7.66ms
+Results: 5
+  50.3567 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+  49.4080 - https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+  49.4080 - https://www.ics.uci.edu/~gbowker/classification/
+
+Query: 'macklemore'
+Time: 0.42ms
+Results: 0
+
+Query: 'random words that do not make sense together'
+Time: 27.54ms
+Results: 5
+  278.2829 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+  230.9563 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  230.9563 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+
+Query: 'thom yorke'
+Time: 5.13ms
+Results: 1
+  127.0241 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'janice joplin'
+Time: 2.15ms
+Results: 1
+  107.6337 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'the foo fighters'
+Time: 6.04ms
+Results: 4
+  163.9724 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  163.9724 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  107.7665 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/news
+
+Query: 'leo fender'
+Time: 2.60ms
+Results: 4
+  168.8103 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  168.8103 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  122.6785 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'david goggins'
+Time: 3.77ms
+Results: 5
+  85.5542 - https://www.ics.uci.edu/~redmiles/ics125-WQ00/projects/visualization.html
+  84.4966 - https://www.ics.uci.edu/~kay/wordlist.txt
+  65.0527 - https://www.ics.uci.edu/~theory/269/s00.html
+
+Query: 'elon musk'
+Time: 3.86ms
+Results: 5
+  136.7313 - https://www.ics.uci.edu/~kay/wordlist.txt
+  121.2524 - https://www.cs.uci.edu/the-wrap-elon-musk-and-mark-zuckerbergs-artificial-intelligence-divide-experts-weigh-in-singh-quoted/
+  97.6472 - https://www.ics.uci.edu/community/news/view_news.php?id=1197
+
+Query: 'jeff bezos'
+Time: 1.61ms
+Results: 1
+  64.7211 - https://www.ics.uci.edu/~feldman/LEC11.htm
+
+Query: 'the meaning of life the universe and everything'
+Time: 18.51ms
+Results: 5
+  210.7474 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  210.7474 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  201.8304 - https://www.ics.uci.edu/~dan/class/267P/datasets/calgary/book1
+
+Query: 'leo tolstory'
+Time: 0.66ms
+Results: 0
+
+Query: 'zack efron'
+Time: 2.49ms
+Results: 1
+  135.0654 - https://www.ics.uci.edu/~kay/wordlist.txt
+
+Query: 'chris hemsworth'
+Time: 2.48ms
+Results: 0
+
+Query: 'scarlett johansson'
+Time: 2.12ms
+Results: 0
+
+Query: 'walt disney'
+Time: 3.15ms
+Results: 5
+  190.1916 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD.txt
+  190.1916 - https://www.ics.uci.edu/~kay/courses/h22/hw/DVD-random.txt
+  100.4844 - https://www.ics.uci.edu/community/news/view_news.php?id=659
+=====================================================
+Average search time for 21 bad queries: 6.57ms
+=====================================================
+
+
+
+=====================================================================================================================================================================
+
+We created two sets of queries: the good ones are all in distribution and should all be in the posting lists, while the bad quereis are all out of dsitrubtion and therefore are
+not in the posting lists. In old_search.py, the reason that the bad queries are so much faster is because if the tokens in the query are not in the posting lists, then they are 
+just skipped, which deletes a look up operation from the algorithm. 
+
+In search.py, we switched to using partial indexes rather than the full one. This dramatically increased the lookup time for both good and bad queries. The "bad" queries are still 
+faster, but not there is less of a gap now between the mean of the good and bad because it doesn't have to search through the entire index at once.
