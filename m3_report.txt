@@ -543,9 +543,11 @@ Average search time for 21 bad queries: 6.57ms
 
 =====================================================================================================================================================================
 
-We created two sets of queries: the good ones are all in distribution and should all be in the posting lists, while the bad quereis are all out of dsitrubtion and therefore are
+We created two sets of queries: the good ones are all in distribution and should all be in the posting lists, while the bad quereis are all out of dsitribution and therefore are
 not in the posting lists. In old_search.py, the reason that the bad queries are so much faster is because if the tokens in the query are not in the posting lists, then they are 
 just skipped, which deletes a look up operation from the algorithm. 
 
-In search.py, we switched to using partial indexes rather than the full one. This dramatically increased the lookup time for both good and bad queries. The "bad" queries are still 
-faster, but not there is less of a gap now between the mean of the good and bad because it doesn't have to search through the entire index at once.
+In search.py, we switched to using partial indexes rather than the full one and using a secondary index for quick lookup. This dramatically increased the lookup time for both good 
+and bad queries. The "bad" queries are still faster, but not there is less of a gap now between the mean of the good and bad because it doesn't have to search through the entire index 
+at once. We also implemeneted some other general heuristics like including Page Rank, HITS, and indexing anchor/important words. These heuristics combined with the original scoring
+mechanism allowed us to add more importance to some specific features that were parsed instead of just looking at pure content.
